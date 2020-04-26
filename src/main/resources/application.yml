@@ -1,0 +1,11 @@
+server:
+  port: 8099
+  servlet:
+    context-path: /
+logging:
+  config: classpath:logback.xml
+  file:
+    name: word_conversion
+spring:
+  mvc:
+    static-path-pattern: /**
