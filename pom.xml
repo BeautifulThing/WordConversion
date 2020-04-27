@@ -100,7 +100,7 @@
 			<artifactId>aspose-words</artifactId>
 			<scope>system</scope>
 			<version>14.11</version>
-			<systemPath>${project.basedir}/lib/Aspose-word-14.11.0-jdk16.jar</systemPath>
+			<systemPath>${project.basedir}/lib/aspose-words-18.5.0718-jdk16.jar</systemPath>
 		</dependency>
 	</dependencies>
 

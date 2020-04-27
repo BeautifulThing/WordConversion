@@ -55,39 +55,29 @@ public class WordServiceImpl implements IWordService {
 
     @Override
     public boolean changeHtmlToWord(String sourcePath, String targetPath) {
-        /*
         File file = new File(sourcePath);
-        // 2.判断是不是文件夹
         if (file.isDirectory()) {
-            log.info("##############------ 文件夹名称为: {}",sourcePath);
-            // 3.遍历文件夹
             String [] fileList = file.list();
             Stream<String> stream = Arrays.stream(fileList);
-            // 4. 注意: 2 篇以上法规不进行转换
             if(2 > fileList.length){
-                stream.forEach(fileName ->{
+                for (String fileName : fileList) {
                     if(fileName.length() > 5){
-                        // 5.判断文件名称后缀是否是.html
-                        if(".html" == (fileName.subSequence(fileName.length() - 4, fileName.length()))){
+                        if(".doc" == (fileName.subSequence(fileName.length() - 4, fileName.length()))){
                             try {
-                                // 6.执行转换逻辑
-                                AsposeUtils.changeSimpleFile(sourcePath, targetPath);
+                                return AsposeUtils.htmlToDoc(sourcePath, targetPath);
                             } catch (Exception e) {
                                 e.printStackTrace();
                                 log.error("conversion error "+ e.getMessage(),e);
                             }
                         }
                     }
-                });
+                }
             }else{
                 log.info("more than {} files",fileList.length);
             }
         }else{
-            AsposeUtils.changeSimpleFile(sourcePath,targetPath);
+            return AsposeUtils.htmlToDoc(sourcePath,targetPath);
         }
         return false;
-        */
-        AsposeUtils.changeSimpleFile(sourcePath,targetPath);
-        return true;
     }
 }

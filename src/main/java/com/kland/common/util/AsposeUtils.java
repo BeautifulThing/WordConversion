@@ -2,12 +2,10 @@ package com.kland.common.util;
 
 
 import com.aspose.words.*;
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.io.*;
 import java.util.Date;
 
 public class AsposeUtils {
@@ -18,7 +16,7 @@ public class AsposeUtils {
     public static boolean getLicense() {
         boolean flag = false;
         License asposeLicense = null;
-        InputStream is =  Thread.currentThread().getContextClassLoader().getResourceAsStream("license.xml");
+        InputStream is =  Thread.currentThread().getContextClassLoader().getResourceAsStream("license-word.xml");
         try {
             asposeLicense = new License();
             asposeLicense.setLicense(is);
@@ -29,64 +27,76 @@ public class AsposeUtils {
         return flag;
     }
 
-    public static boolean changeSimpleFile(String srcFilePath, String outFilePath){
+    public static boolean htmlToDoc(String srcFilePath, String outFilePath){
 
-        // File fileIn = new File(srcFilePath);
-        // System.out.println("file Exist :" + fileIn.exists());
-        // 1.判断文件是否存在
-        // if(!fileIn.exists()){
-        //    return false;
-        // }
-        // 2.判断outFilePath 是否为Null
+        File fileIn = new File(srcFilePath);
+        if(!fileIn.exists()){
+            return false;
+        }
         if(StringUtils.isNoneBlank(outFilePath)){
             return executeChange(srcFilePath,outFilePath);
         }else{
-            // 3.如果 outFilePath 为Null,程序自动生成输出路径地址
             outFilePath = resultOutFilePath();
             return executeChange(srcFilePath,outFilePath);
         }
-
-
     }
 
     private static boolean executeChange(String srcFilePath, String outFilePath) {
         if(!getLicense()){
             return false;
         }
-        // File file = new File(srcFilePath);
         OutputStream os = null;
         Document document = null;
-
         DocumentBuilder builder = null;
+        boolean isEnglish = false;
         try {
-            long old = System.currentTimeMillis();
-            document = new Document(srcFilePath);
+            String content = FileUtils.readFileToString(new File(srcFilePath), "UTF-8");
+            if(content.contains("logo1_en")){
+                isEnglish = true;
+            }
+            content = content.replaceAll("<xml><w:WordDocument><w:View>Normal</w:View></w:WordDocument></xml>", "");
+            content = content.replaceAll("<img[^<]*?logo1[^<]*?/>", "");
+            System.out.println(content);
+            document = new Document();
             builder = new DocumentBuilder(document);
-
-            Font font = builder.getFont();
-            font.setSize(22);
-            font.setNameFarEast("宋体");
-
-            ParagraphFormat paragraphFormat = builder.getParagraphFormat();
-            paragraphFormat.setLineSpacing(12);
-
-            PageSetup pageSetup = builder.getPageSetup();
-            pageSetup.setPaperSize(PaperSize.A4);
-            pageSetup.setVerticalAlignment(PageVerticalAlignment.TOP);
+            builder.insertHtml(content);
+            /* 设置页眉**/
+            builder.moveToHeaderFooter(HeaderFooterType.HEADER_PRIMARY);
+            builder.getParagraphFormat().getTabStops().add(410,TabAlignment.RIGHT,TabLeader.NONE);
+            File file = new File("src/main/resources/static/img/logo1_zh_taa.png");
+            InputStream is=new FileInputStream(file);
+            builder.insertImage(is,148,15);
+            builder.write(ControlChar.TAB);
+            /* 设置页脚-页码**/
             builder.moveToHeaderFooter(HeaderFooterType.FOOTER_PRIMARY);
+            builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+            builder.insertField("PAGE", "");
+            builder.write("/");
+            builder.insertField("NUMPAGES", "");
 
-
-            os = new FileOutputStream(outFilePath);
+            File targetFile = new File(outFilePath);
+            if(targetFile.exists()) {
+                // 如果存在就执行删除操作
+                targetFile.delete();
+            }
+            // 删除完毕后执行创建
+            targetFile.createNewFile();
+            // IO封装输出流
+            os = new FileOutputStream(targetFile);
             document.save(os, SaveFormat.DOC);
-
-            long now = System.currentTimeMillis();
-            System.out.println("共耗时：" + ((now - old) / 1000.0) + "秒");  //转化用时
-            os.close();
             return true;
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (Exception e) {
             e.printStackTrace();
+        }finally {
+            if(null != os) {
+                try {
+                    os.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         }
         return false;
     }
