@@ -1,7 +1,7 @@
 package com.kland.entrance.controller;
 
 import com.kland.common.config.ServerConfig;
-import com.kland.entrance.service.IWordService;
+import com.kland.entrance.service.IWordChangeService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
@@ -19,15 +19,7 @@ public class WordChangeController {
     @Autowired
     private ServerConfig serverConfig;
     @Autowired
-    private  IWordService wordService;
-
-
-    @RequestMapping(value ="/test", method= RequestMethod.GET)
-    @ApiOperation(value = "Swagger-UI 测试")
-    public String test(){
-        return  serverConfig.getUrl();
-    }
-
+    private IWordChangeService wordChangeService;
 
     /**
      * Docx4j html转换word
@@ -50,13 +42,14 @@ public class WordChangeController {
     }
     */
 
+
     /**
      * Aspose Word html转换word
      * @param inputFilePath
      * @param outFilePath
      */
     @RequestMapping(value ="/changeHtmlToWord", method= RequestMethod.GET)
-    @ApiOperation(value = "使用: Aspose Word  Html转化成Word")
+    @ApiOperation(value = "使用: Aspose Word  Html转化成 Word")
     @ApiImplicitParams({
             @ApiImplicitParam(name="inputFilePath",value = "文件输入路径",paramType = "query",required = true),
             @ApiImplicitParam(name="outFilePath",value = "文件输出位置",paramType = "query")
@@ -65,6 +58,6 @@ public class WordChangeController {
         log.info("获取服务器路径: " + serverConfig.getUrl());
         log.info("文件输入路径" + inputFilePath);
         log.info("文件输出路径:" + outFilePath);
-        wordService.changeHtmlToWord(inputFilePath,outFilePath);
+        wordChangeService.changeHtmlToWord(inputFilePath,outFilePath);
     }
 }

@@ -1,0 +1,2078 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:w="urn:schemas-microsoft-com:office:word"
+      xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+      xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 12">
+<meta name=Originator content="Microsoft Word 12">
+<style>
+    /* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,img,div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin: 0 auto;
+}
+
+body {
+    font-size: 10.5pt;
+    font-family: "微软雅黑";
+    background: #fff;
+	
+	
+}
+
+ul,ol {
+    list-style-type: none;
+}
+
+select,input,img,select {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    /*color: #474747;*/
+}
+
+a:hover,a:active,a:focus {
+    color: #103472;
+    text-decoration: underline;
+}
+
+.clear {
+    clear: both;
+	
+}
+
+.body-bga {
+    background: url(../images/body-bg.gif) no-repeat center top;
+}
+
+.body-bgb {
+    background: url(../images/body-bg-a.gif) no-repeat center top;
+}
+
+.language {
+    width: 990px;
+    margin: 0 auto;
+    height: 120px;
+    position: relative;
+}
+
+.language a {
+    display: block;
+    width: 100px;
+    height: 31px;
+    background: url(../images/language-bg.gif) no-repeat;
+    text-align: center;
+    line-height: 25px;
+    position: absolute;
+    top: 34px;
+    right: 15px;
+}
+
+#box {
+    width: 445px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    margin-top: 138px;
+    background: url(../images/load-bg-01.gif) no-repeat left bottom;
+}
+
+.loadul {
+    float: right;
+    width: 385px;
+    position: relative;
+}
+
+.loadul li {
+    font-size: 18px;
+    color: #6a9a36;
+    margin-bottom: 10px;
+    height: 38px;
+    line-height: 30px;
+}
+
+.loadul li.login01 {
+    float: left;
+    width: 107px;
+    text-align: right;
+}
+
+.loadul li.login02 {
+    float: right;
+    width: 278px;
+    text-align: left;
+    background: url(../images/input-textbg01.gif) no-repeat;
+}
+
+.loadul li.login03 {
+    float: right;
+    width: 278px;
+    text-align: left;
+    background: url(../images/input-textbg02.gif) no-repeat;
+}
+
+.loadul li span {
+    margin-left: 18px;
+}
+
+.inputstyle01 {
+    border: none;
+    width: 218px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0px 6px;
+    padding-left: 38px;
+    background: none;
+}
+
+.loadul li p {
+    color: #666;
+    margin-left: 108px;
+}
+
+.loadul li p a.forget {
+    color: #6a9a36;
+    font-size: 13px;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    background: url(../images/light.gif) no-repeat center right;
+    padding-right: 20px;
+    margin-right: 5px;
+}
+
+.loadul li p.yanzheng {
+    font-size: 12px;
+    margin-left: 90px;
+}
+
+.loadul li p span .yanzhengma {
+    padding: 2px;
+    width: 80px;
+}
+
+.loadul li p span .inputbutt {
+    margin-left: -17px;
+}
+
+.inputbutt {
+    background: url(../images/butt.gif) no-repeat;
+    cursor: pointer;
+    width: 106px;
+    height: 32px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.top {
+    width: 990px;
+    height: 121px;
+    margin: 0 auto;
+    background: url(../images/top-bg.gif) no-repeat right bottom;
+    position: relative;
+}
+
+.top img {
+    margin-top: 28px;
+}
+
+.top p.gerenmess {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.top p.gerenmess span {
+    margin-right: 15px;
+    margin-left: 8px;
+}
+
+.top p.gerenmess a {
+    margin: 0px 2px;
+}
+
+.top p.gerenmess a.namecloor {
+    color: #cb0b5e;
+}
+
+.menu {
+    width: 100%;
+    margin: 0 auto;
+    height: 113px;
+    background: url(../images/menu-bg.gif) repeat-x top;
+}
+
+.menu1 {
+    width: 100%;
+    height: 53px;
+    background: url(../images/menu-bg1.gif) repeat-x;
+}
+
+.menu2 {
+    width: 100%;
+    height: 60px;
+    background: url(../images/menu-bg2.gif) repeat-x;
+}
+
+.menu01 {
+    width: 970px;
+    padding: 0px 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.menu01 p a {
+    color: #c00d55;
+    text-decoration: underline;
+}
+
+.menu01 p span {
+    margin-right: 10px;
+}
+
+.menu02 {
+    position: absolute;
+    left: 0px;
+    top: 0px !important;
+    top: -1px;
+}
+
+p.ceng {
+    width: 168px;
+    height: 26px;
+    line-height: 25px;
+    text-align: center;
+    background: url(../images/ceng-bg.gif) no-repeat;
+    position: absolute;
+    right: 18px;
+    bottom: 0px;
+}
+
+p.ceng a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu02 li {
+    width: 93px;
+    height: 53px;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.sou {
+    width: 448px;
+    padding: 7px 8px;
+    *padding: 0px 8px;
+    height: 28px;
+    line-height: 28px;
+    background: url(../images/sousuo-bg.gif) no-repeat;
+}
+
+.soubutt {
+    width: 59px;
+    height: 26px;
+    border: none;
+    background: url(../images/button-bg02.gif) no-repeat;
+    cursor: pointer;
+    color: #fff;
+}
+
+.content {
+    width: 996px;
+    margin: 0 auto;
+    background: url(../images/content-bg.gif) repeat-y;
+    position: relative;
+    bottom: 11px;
+}
+
+td.leftside {
+    padding: 15px 0px;
+}
+
+td.leftside h1 {
+    background: url(../images/left-sidebg01.gif) no-repeat 10px;
+    width: 183px;
+    height: 30px;
+    line-height: 24px;
+    font-size: 14px;
+    padding-left: 40px;
+}
+
+#leftside {
+    width: 220px;
+    float: left;
+    border-top: 4px solid #74ac3f;
+    border-right: 1px solid #c9c8c8;
+    border-left: 1px solid #c9c8c8;
+    padding: 15px 0px;
+}
+
+#leftside h1 {
+    background: url(../images/left-sidebg01.gif) no-repeat 4px;
+    width: 183px;
+    height: 30px;
+    line-height: 24px;
+    font-size: 14px;
+    padding-left: 40px;
+}
+
+#leftside .biaoqianyun {
+    width: 185px;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 5px;
+    text-indent: -4px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+#leftside .biaoqianyun a {
+    margin: 6px 4px;
+}
+
+.colorstyle0 {
+    color: #da0e63;
+}
+
+.colorstyle1 {
+    color: #007fbd;
+}
+
+.colorstyle2 {
+    color: #007fbd;
+}
+
+.colorstyle3 {
+    color: black;
+}
+
+.colorstyle4 {
+    color: black;
+}
+
+.colorstyle5 {
+
+}
+
+.colorstyle6 {
+
+}
+
+.colorstyle7 {
+    color: #656668;
+    font-size: 12px;
+}
+
+.colorstyle8 {
+    color: #656668;
+    font-size: 12px;
+}
+
+.colorstyle9 {
+    color: #656668;
+    font-size: 12px;
+}
+
+#rightside {
+    float: right;
+    width: 740px;
+    padding-right: 14px;
+}
+
+.souend {
+    background: url(../images/sousuo.png) no-repeat left;
+    padding-left: 35px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.souend span {
+    color: #da0e63;
+}
+
+.daohang {
+    background: url(../images/rightside-bg.gif) no-repeat;
+    width: 720px;
+    margin: 0 auto;
+    height: 35px;
+    position: relative;
+    padding-left: 12px;
+    margin-top: 5px;
+}
+
+.daohang span {
+    margin: 0px 8px;
+}
+
+.daohang span a {
+    margin: 0px 5px;
+}
+
+.rightcon {
+    width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+    padding: 5px 0px;
+}
+
+.rightcon p {
+    margin: 5px 0px;
+    color: #58595b;
+    text-align: justify;
+}
+
+.rightcon p span {
+    color: #da0e63;
+    font-weight: bold;
+}
+
+.rightcon b {
+    color: #da0e63;
+    font-weight: bold;
+}
+
+.rightcon h1 {
+    font-size: 14px;
+    color: #58595b;
+}
+
+.rightcon-a {
+    width: 50px;
+    float: left;
+    white-space: nowrap;
+}
+
+.rightcon-a span {
+    color: #006bb1;
+    position: relative;
+    top: 1px;
+    font-size: 14px;
+}
+
+.rightcon-b {
+    width: 640px;
+    float: right;
+}
+
+.rightcon-b h1 a {
+    color: #006bb1;
+}
+
+.rightcon-b p.blue {
+    color: #598f1f;
+}
+
+.downbg {
+    background: url(../images/content-bgbottom.gif) no-repeat bottom left;
+    height: 15px;
+    width: 990px;
+}
+
+.page {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.page a {
+    color: #006bb1;
+    margin: 0 3px;
+}
+
+    /*shuji*/
+.banner {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    right: 6px;
+    width: 982px;
+    height: 134px;
+    margin-bottom: 20px;
+}
+
+.shujiul {
+    width: 720px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.shujiul li {
+    padding-bottom: 15px;
+}
+
+.shujiul li.shujili01 {
+    width: 155px;
+    float: left;
+    _height: 197px;
+    min-height: 197px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.shujiul li.shujili01 img {
+    width: 150px;
+    border: 1px solid #71a83f;
+}
+
+.shujiul li.shujili02 {
+    width: 550px;
+    float: right;
+    position: relative;
+    text-align: left;
+}
+
+.shujiul li p.shubiao {
+    width: 450px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.shujiul li.shujili02 p {
+    line-height: 1.8;
+    margin: 4px 0px;
+}
+
+a.EC {
+    white-space: nowrap;
+    width: 125px;
+    height: 31px;
+    line-height: 26px;
+    background: url(../images/book-qiebg.gif) no-repeat center;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 0px;
+}
+
+a.view {
+    white-space: nowrap;
+    width: 125px;
+    height: 31px;
+    line-height: 26px;
+    background: url(../images/book-qiebg.gif) no-repeat center;
+    text-align: center;
+    display: block;
+    float: right;
+}
+
+.bookscon {
+    width: 990px;
+    margin: 0 auto;
+    border: 0px solid #7bb643;
+    border-top: 0px solid #7bb643;
+    background: url(../images/bookbiaoti-bg.gif) repeat-x top;
+    _height: 300px;
+    min-height: 400px;
+}
+
+.bookscon h1.biao {
+    font-family: "微软雅黑";
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 1.5;
+    padding: 10px 0px;
+}
+
+.books-ce {
+    display: block;
+    margin-left: 20px;
+    background: url(../images/books-cea.png) no-repeat;
+    width: 145px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    position: absolute;
+    right: 370px;
+    top: 5px;
+}
+
+.bought {
+    display: block;
+    margin-left: 20px;
+    background: url(../images/lang.png) no-repeat;
+    width: 250px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+
+    /*zydz*/
+.zydzmenu {
+    width: 100%;
+    height: 44px;
+    background: url(../images/zydzmenu-bg.gif) repeat-x;
+}
+
+.zydzmenua {
+    width: 990px;
+    margin: 0 auto;
+    line-height: 35px;
+    position: relative;
+}
+
+.zydzmenu p {
+    margin-left: 20px;
+}
+
+.zydzmenu p.print {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.zydzmenu p span img {
+    padding: 10px 0px;
+}
+
+.zydzmenu p span {
+    margin: 0px 8px;
+}
+
+.zydz-cn {
+    width: 970px;
+    margin: 0 auto;
+    height: 31px;
+    line-height: 31px;
+    margin-left: -30px;
+}
+
+.zydz-cn a {
+    display: block;
+    width: 100px;
+    height: 31px;
+    text-align: center;
+    line-height: 25px;
+    background: url(../images/books-CE.png) no-repeat;
+    float: right;
+    margin: 0px 8px;
+}
+
+.zydz-cn a.ench {
+    display: block;
+    width: 145px;
+    height: 31px;
+    text-align: center;
+    line-height: 25px;
+    background: url(../images/books-cea.png) no-repeat;
+    float: right;
+    margin: 0px 8px;
+}
+
+* /
+
+.zydzul {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.zydzul li {
+    font-size: 14px;
+    font-family: "微软雅黑"
+}
+
+.zydzul li p {
+    line-height: 1.8;
+}
+
+.zydzul li span {
+    margin-right: 15px;
+}
+
+.zydzul li.zydzlia {
+    width: 300px;
+    float: left;
+    padding: 20px;
+    font-family: "微软雅黑"
+}
+
+.zydzul li.zydzlib {
+    width: 610px;
+    float: right;
+    padding: 20px;
+    font-family: "微软雅黑"
+}
+
+.zhengwen {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 50px;
+    width: 938px;
+    margin: 0 auto; url (../images/zhengwen-bg.png) repeat-x;
+    border: 1px solid #7bb643;
+    font-size: 16px;
+    position: relative;
+}
+
+.yincang {
+    font-size: 12px;
+    font-weight: 200;
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    padding-left: 25px;
+    background: url(../images/yincang.png) no-repeat center left;
+}
+
+.zydzula {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.STYLE1,.news-title,.news-body,A
+.bluebold
+:link,td
+.bluebold,.treven,.trodd,a
+.contentlink
+:link,a
+.contentlink
+:hover,a.contentlink:visited,a.contentlink:active,#displaycontent .t1,#displaycontent .t2,p.doc-A,.doc-B,.commentarytitle,a.referencelink:link,a.referencelink:hover,a.link
+{
+    font-family: "微软雅黑";
+}
+
+.docLinked {
+    margin-left: 30px;
+    font-size: 13px;
+    font-family: "微软雅黑";
+}
+
+.reflink {
+    margin-left: 20px;
+}
+
+.textLink {
+    padding-right: 50px;
+    font-size: 16px;
+}
+
+.news-title {
+    font-family: "微软雅黑";
+    font-size: 20px;
+    font-weight: bold;
+    color: #16679c;
+}
+
+.news-body {
+    font-size: 14px;
+}
+
+.news-body-zh {
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+
+.news-body-en {
+    font-family: "微软雅黑";
+    font-size: 20px;
+}
+
+textarea {
+    resize: none;
+}
+
+.linkDoc {
+    color: #990000;
+    font-size: 13px;
+    font-family: "微软雅黑";
+}
+
+A.link:link {
+    color: blue;
+    font-size: 13px;
+}
+
+A.link:visited {
+    color: blue;
+    font-size: 13px;
+}
+
+A.link:active {
+    color: blue;
+    font-size: 13px;
+}
+
+A.link:hover {
+    color: blue;
+    font-size: 13px;
+}
+
+    /**中英文切换样式
+    */
+A.languageswitch:link {
+    font-family: "微软雅黑";
+    text-decoration: none;
+    color: #2200C1;
+    font-weight: bold
+}
+
+A.languageswitch:visited {
+    font-family: "微软雅黑";
+    text-decoration: none;
+    color: #2200C1;
+    font-weight: bold
+}
+
+A.languageswitch:active {
+    font-family: "微软雅黑";
+    text-decoration: none;
+    color: #2200C1;
+    font-weight: bold
+}
+
+A.languageswitch:hover {
+    font-family: "微软雅黑";
+    text-decoration: none;
+    color: #2200C1;
+    font-weight: bold
+}
+
+a.contentlink:link {
+    font-family: "微软雅黑";
+    font-size: 12pt;
+    color: blue;
+    text-decoration: underline;
+}
+
+a.contentlink:visited {
+    font-family: "微软雅黑";
+    font-size: 12pt;
+    color: blue;
+    text-decoration: underline;
+}
+
+a.contentlink:active {
+    font-family: "微软雅黑";
+    font-size: 12pt;
+    color: blue;
+    text-decoration: underline;
+}
+
+a.contentlink:hover {
+    font-family: "微软雅黑";
+    text-decoration: none;
+    font-size: 12pt;
+    background-color: #FFCCCC;
+    text-decoration: none;
+}
+
+a.referencelink:link {
+    font-family: "微软雅黑";
+    font-size: 12pt;
+    text-decoration: none;
+}
+
+a.referencelink:visited {
+    font-family: "微软雅黑";
+    font-size: 12pt;
+    text-decoration: none;
+}
+
+a.referencelink:active {
+    font-family: "微软雅黑";
+    font-size: 12pt;
+    text-decoration: none;
+}
+
+a.referencelink:hover {
+    font-family: "微软雅黑";
+    font-size: 12pt;
+    text-decoration: none;
+}
+
+    /*标题链接
+    */
+a.titlelink:link {
+    color: blue;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "微软雅黑";
+}
+
+a.titlelink:hover {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "微软雅黑";
+}
+
+.STYLE1 {
+    color: #FFFFff;
+    font-weight: bold;
+}
+
+.STYLE3 {
+    font-size: 14px
+}
+
+    /*文档标题
+    */
+.doc-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #16679c;
+    font-family: "微软雅黑";
+}
+
+    /* 文档标题(新)*/
+.doctitle {
+    background-image: url(../images/doc-bg.jpg);
+    font-size: 20px;
+    font-weight: bold;
+    color: #16679c;
+    font-family: "微软雅黑";
+    text-align: center;
+    padding: 20px;
+    background-repeat: repeat;
+}
+
+    /*标题链接*/
+a.titlelink {
+    font-family: "微软雅黑";
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+a.titlelink:hover {
+    font-size: 20px;
+    color: #16679c;
+    font-family: "微软雅黑";
+}
+
+a.titlelink:visited {
+    font-size: 20px;
+    color: #16679c;
+    font-family: "微软雅黑";
+}
+
+a.titlelink:active {
+    font-size: 20px;
+    color: #16679c;
+    font-family: "微软雅黑";
+    text-decoration: underline;
+}
+
+.sect-title {
+    font-size: 13px;
+    font-family: "微软雅黑";
+}
+
+    /*文档缩进
+    */
+p.doc-A {
+    font-size: 12pt;
+    font-family: "微软雅黑";
+    text-indent: 2em;
+}
+
+    /*英文文档*/
+p.doc-A-en {
+    font-size: 12pt;
+    font-family: "微软雅黑";
+    text-indent: 0em;
+}
+
+    /*文档加粗
+    */
+.doc-B {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+    /*show text
+    */
+#displaycontent {
+    height: 15px;
+    line-height: 15px;
+}
+
+#displaycontent .t1 {
+    text-align: left;
+}
+
+#promulgate .t1 p {
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+
+#displaycontent .t2 {
+    text-align: right;
+}
+
+    /*相关链接
+    */
+p iframe {
+    margin: 0;
+    padding: 0;
+    height: 30px;
+}
+
+.doclinked iframe {
+    text-align: center;
+    line-height: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    height: 20px;
+}
+
+#doclink iframe {
+    margin: 0;
+    padding: 0;
+    height: 20px;
+}
+
+    /*评述---块---标题
+    */
+.commentarytitle {
+    font-family: "微软雅黑";
+    color: black;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+    /*层级路径*/
+.bookname {
+    vertical-align: top;
+    height: 50px;
+    font-size: 12px;
+    width: 100%;
+}
+
+    /*篇---标题
+    */
+.article-title {
+    font-size: 19px;
+    font-family: "微软雅黑";
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+    /*章---标题
+    */
+.chapter-title {
+    font-size: 18px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+}
+
+    /*节---标题
+    */
+.sect1-title {
+    text-indent: 0;
+    font-family: "微软雅黑";
+    font-size: 17px;
+    font-weight: bold;
+}
+
+    /*条---标题
+    */
+.sect2-title {
+    text-indent: 0;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+    /*条
+    */
+.sect2title {
+    font-family: "微软雅黑";
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+
+    /*款---标题
+    */
+.sect3-title {
+    text-indent: 0;
+    font-family: "微软雅黑";
+    font-size: 13px;
+    font-weight: bold;
+}
+
+    /*项---标题
+    */
+.sect4-title {
+    text-indent: 0;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    font-weight: bold;
+}
+
+    /*目---标题
+    */
+.sect5-title {
+    text-indent: 0;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    font-weight: bold;
+}
+
+    /*隐藏
+    */
+.dochiddenfield {
+    display: none;
+}
+
+    /*case*/
+#casemeta {
+    width: 100%;
+}
+
+#casemeta .t1 {
+    width: 100px;
+}
+
+#casemetaprint .t1 {
+    width: 100px;
+}
+
+    /*标题*/
+.cncasetitle {
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cncasesubtitle {
+    font-family: "微软雅黑";
+    font-size: 15px;
+    text-align: center;
+}
+
+    /*法律法规元数据
+    */
+    /*元数据名称
+    */
+#legislationmeta {
+    width: 100%;
+}
+
+#legislationmeta .t1 {
+    text-align: left;
+    font-size: 14px;
+    width: 400px;
+    font-size: 14px;
+}
+
+#legislationmeta .t2 {
+    text-align: left;
+    font-size: 14px;
+    width: 400px;
+    font-size: 14px;
+}
+
+#legislationmeta td {
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+
+    /*标题*/
+.cntitle {
+    display:none;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+
+.cnsubtitle {
+    text-align: left;
+    margin: 10px;
+    font-family: "微软雅黑";
+    font-size: 10.5pt;
+    line-height:15.0pt;
+    mso-line-height-rule:exactly;
+    margin-top: 22.5pt;
+    margin-bottom: 22.5pt;
+
+}
+
+    /*法律法规----颁布标题
+    */
+.promulgatetitle {
+	display:none;
+    text-align: center;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+
+    /*颁布标题链接*/
+.promulgatetitle a:link {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.promulgatetitle a:visited {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.promulgatetitle a:active {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.promulgatetitle a:hover {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.promulgatesubtitle {
+    text-align: center;
+    margin: 10px;
+    font-family: "微软雅黑";
+    font-size: 12pt;
+}
+
+    /*	text-align: center;
+     font-size: 17px;
+     font-weight: bold;*/
+    /*法律法规---颁布对象
+    */
+.promulgatepopulation {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    text-indent: 0;
+}
+
+    /*颁布日期和主体
+    */
+.promulgatedate,.promulgatesignatory {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-size: 12pt;
+}
+
+    /*奇数行样式
+    */
+.trodd {
+    background-color: #ffffff;
+}
+
+    /*偶数行样式
+    */
+.treven {
+    background-color: #ffffff;
+}
+
+#legislationdoublelanguagecontent {
+    margin-left: 35px;
+    width: 94%;
+}
+
+#legislationdoublelanguagecontent .t1 {
+    width: 34%;
+    table-layout: fixed;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+#legislationdoublelanguagecontent .t2 {
+
+}
+
+#legislationdoublelanguagecontent td,#legislationdoublemeta td {
+    padding: 3px;
+}
+
+#legislationdoublemeta {
+    width: 100%;
+}
+
+    /*法规双语元数据*/
+#legislationdoublemeta .t1 {
+    width: 34%;
+    table-layout: fixed;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+#legislationdoublemeta .t2 {
+
+}
+
+sup {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+    /*双语分割线
+    */
+.sepreatorline {
+    width: 1%;
+    padding: 0;
+    margin: 0;
+    background: white;
+}
+
+    /*评述iframe容器*/
+#contentcontainer {
+    padding: 0;
+    margin-right: 0;
+    float: right;
+}
+
+    /*评述正文内容*/
+#commentarycontent {
+    padding: 5px;
+    height: 600px;
+}
+
+    /*左侧树*/
+#lefttree {
+    height: 600px;
+}
+
+    /*评述iframe border*/
+#commentarycontainer iframe {
+    border: #8f8f8f 1px solid;
+}
+
+    /*国际条约*/
+#doubletreatycontent .t1 {
+    width: 34%;
+}
+
+    /*国际条约对照内容 */
+#doubletreatycontent .t2 {
+
+}
+
+    /*国际条约元数据*/
+#treatydoublemeta .t1 {
+    width: 34%;
+    table-layout: fixed;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+#treatydoublemeta .t2 {
+
+}
+
+    /*签署信息*/
+#cchcntreatysignset {
+    font-family: "微软雅黑";
+    width: 100%;
+    font-size: 13px;
+}
+
+#treatydoublemeta td,#doubletreatycontent td {
+    padding: 3px;
+}
+
+    /* 检索关键字高亮样式 */
+.RedWord {
+    background: #CFB6FA;
+}
+
+    /*块层级路径浏览页*/
+#showblockpath {
+    font-size: 12px;
+    font-family: "微软雅黑";
+    font-weight: normal;
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+    /*块层级路径打印页*/
+#showblockpathp {
+    font-size: 12px;
+    font-family: "微软雅黑";
+    font-weight: normal;
+    width: 649px;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+    /*国际条约*/
+.treatytitle {
+    font-size: 16px;
+    font-family: "微软雅黑";
+    text-align: center;
+    font-weight: bold;
+}
+
+    /*条*/
+.title {
+    text-indent: 2em;
+    font-size: 12pt;
+    font-family: "微软雅黑";
+    line-height:1;
+}
+
+
+
+    /*正文*/
+#showarticle p {
+    text-indent: 2em;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+
+    /* butom 字体大小
+     */
+.copycon p {
+    font-size: 20px;
+}
+
+.docLinked {
+    margin-left: 30px;
+    font-size: 13px;
+}
+
+.metaname{
+    text-indent: 2em;
+    font-size: 12pt;
+    font-family: "微软雅黑";
+    font-weight:bold;
+	
+	
+}
+span.chaptertitle,.sect1Title{
+	text-align:center;
+	font-size: 12pt;
+    font-family: "微软雅黑";
+	font-weight:bold;
+}
+
+p.cnsubtitle{
+	line-height:1.5;
+	font-family:"微软雅黑";
+	font-size: 12pt;
+	margin-top:15.75pt;
+	margin-right:0pt;
+	margin-bottom:15.75pt;
+	margin-left:0pt;
+	text-align:left;
+	
+}
+.metabl{
+    
+   mso-line-height-rule:exactly;
+   font-size:12pt;
+   font-family:"微软雅黑";
+  
+}
+.alignJustify{
+	font-weight:bold;
+	line-height:22.0pt;
+	vertical-align:top;
+	text-align-last:justify;
+    text-align: justify;
+    text-justify:distribute-all-lines;
+	width:50pt;
+}
+.alignJustify_note{
+	font-weight:bold;
+	line-height:22.0pt;
+	vertical-align:top;
+	text-align-last:justify;
+    text-align: justify;
+    text-justify:distribute-all-lines;
+	width:78pt;
+}
+.faguicon p {
+	text-indent: 2em;
+	font-family:"微软雅黑";
+}
+.aligntop{
+	font-size:12pt;
+	line-height:22.0pt;
+	vertical-align:top;
+}
+.space1{
+	line-height:22.0pt;
+	vertical-align:top;
+}
+.articlePrompt{
+    color: #666666;
+    border: 1px solid #aaa;
+    padding: 5px;
+    margin: 5px 10px 5px 8px;
+}
+.reflink-first-span{
+	font-size:12pt;
+	font-family:"微软雅黑";
+}
+@page
+    {mso-page-border-surround-header:no;
+    mso-page-border-surround-footer:no;}
+@page Section1
+    {
+    margin:72.0pt 54.0pt 72.0pt 54.0pt ;
+    mso-header-margin:42.55pt;
+    mso-footer-margin:49.6pt;
+    mso-paper-source:0;}
+div.clear
+    {page:Section1;}
+-->
+</style>
+</head>
+
+<body lang=ZH-CN
+      style='tab-interval: 21.0pt; text-justify-trim: punctuation;font-size:12pt;'>
+<img src="https://law.wkinfo.com.cn/images/logo1_zh.png"/>
+<div style="margin-top:10pt">
+<table class="metabl">
+	<tr><td class="alignJustify_note"><span class="metaname">发文机关</span></td><td class="aligntop">：</td><td class="aligntop"><span>全国人民代表大会常务委员会</span></td></tr>
+
+	<tr><td class="alignJustify_note"><span class="metaname">发布日期</span></td><td class="aligntop">：</td><td class="aligntop"><span>1995.06.30</span></td></tr>
+
+	<tr><td class="alignJustify_note"><span class="metaname">生效日期</span></td><td class="aligntop">：</td><td class="aligntop"><span>1995.10.01</span></td></tr>
+
+	<tr><td class="alignJustify_note"><span class="metaname">时效性</span></td><td class="aligntop">：</td><td class="aligntop"><span>现行有效</span></td></tr>
+
+	<tr><td class="alignJustify_note"><span class="metaname">文号</span></td><td class="aligntop">：</td><td class="aligntop"><span>主席令第五十号</span></td></tr>
+	<!-- 修订注释-->
+	
+	<!-- 编辑提示 -->
+	<tr><td class="alignJustify_note"><span class="metaname">编辑提示</span></td><td class="aligntop">：</td><td class="space1"><span><strong><span style="font-family_: &quot;Arial&quot;, &quot;sans-serif&quot;; font-size_: 9pt;"><span style="color: rgb(34, 34, 34);">*</span><u><a href="https://law.wkinfo.com.cn/document/showarticle?showType=&tokens=&language=1&collection=article&aid=NjAwMDAwMTQxMTA%3D&bid=&format=&sysLang=zh_CN&searchKeys=" target="_blank"><span style="background: lightyellow; color: rgb(0, 0, 255); font-family_: 宋体;">专家解读</span></a></u><span style="color: rgb(34, 34, 34);">*</span></span></strong></span></td></tr>
+	<!-- 历史纪录-->
+	<tr><td class="alignJustify_note"><span class="metaname">历史修订记录</span></td><td class="aligntop">：</td><td class="space1"><span><a class='contentlink' href='https://law.wkinfo.com.cn/legislation/detail/MTAxMDAxMDY5NTY='>关于《中华人民共和国担保法（草案）》的说明[1995.02.21]</a><br/></span></td></tr>
+	
+</table>
+</div>
+<br></br>
+<h1 class="biao" align="center"><a class="contentlink" style="font-size:14pt;line-height: 1.5;" href="https://law.wkinfo.com.cn/document/show?collection=legislation&aid=MTAwMDAxNDE5MTY%3D&showType=0">中华人民共和国担保法 </a></h1>
+<div class="clear">
+    <div class="faguicon">
+        <p class="cntitle">中华人民共和国<a class="contentlink" href="https://law.wkinfo.com.cn/document/show?collection=legislation&aid=MTAxMDAxMDY5NTY%3D&language=中文">担保法</a></p>
+<p class="cnsubtitle">主席令第五十号</p>
+<p><p class="doc-A"><a name="No3"></a>1995年6月30日第八届全国人民代表大会常务委员会第十四次会议通过，1995年6月30日中华人民共和国主席令第50号公布</p><!--topTitleStart--><p class="catalog-A">目 录</p><p class="doc-A">　　第一章 总 则</p><p class="doc-A">　　第二章 保 证</p><p class="doc-A">　　　　第一节 保证和保证人</p><p class="doc-A">　　　　第二节 保证合同和保证方式</p><p class="doc-A">　　　　第三节 保证责任</p><p class="doc-A">　　第三章 抵 押</p><p class="doc-A">　　　　第一节 抵押和抵押物</p><p class="doc-A">　　　　第二节 抵押合同和抵押物登记</p><p class="doc-A">　　　　第三节 抵押的效力</p><p class="doc-A">　　　　第四节 抵押权的实现</p><p class="doc-A">　　　　第五节 最高额抵押</p><p class="doc-A">　　第四章 质 押</p><p class="doc-A">　　　　第一节 动产质押</p><p class="doc-A">　　　　第二节 权利质押</p><p class="doc-A">　　第五章 留 置</p><p class="doc-A">　　第六章 定 金</p><p class="doc-A">　　第七章 附 则</p><!--topTitleEnd--><p class="title"><a name="No22_Z1"></a><span class="chapterTitle">第一章 总 则</span></p><p><a name="No23_Z1T1"></a><span class="sect2Title">第一条&nbsp;&nbsp;&nbsp;</span><a name="No24_Z1T1K1"></a><span class="title">为促进资金融通和商品流通，保障债权的实现，发展社会主义市场经济，制定本法。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjFUMQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E7%AB%8B%E6%B3%95%E5%AE%97%E6%97%A8&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">立法宗旨</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No25_Z1T2"></a><span class="sect2Title">第二条&nbsp;&nbsp;&nbsp;</span><a name="No26_Z1T2K1"></a><span class="title">在借贷、买卖、货物运输、加工承揽等经济活动中，债权人需要以担保方式保障其债权实现的，可以依照本法规定设定担保。</span></p><p class="title"><a name="No27_Z1T2K2"></a>本法规定的担保方式为保证、抵押、质押、留置和定金。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjFUMg%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%9C%AC%E6%B3%95%E9%80%82%E7%94%A8%E8%8C%83%E5%9B%B4%E4%B8%8E%E6%8B%85%E4%BF%9D%E6%96%B9%E5%BC%8F&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">本法适用范围与担保方式</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	<div>
+		◆司法解释</div>
+	<div>
+		<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a><br />
+		<div>
+			第六条&nbsp; 有下列情形之一的，对外担保合同无效：</div>
+		<div>
+			（一）未经国家有关主管部门批准或者登记对外担保的；</div>
+		<div>
+			（二）未经国家有关主管部门批准或者登记，为境外机构向境内债权人提供担保的；</div>
+		<div>
+			（三）为外商投资企业注册资本、外商投资企业中的外方投资部分的对外债务提供担保的；</div>
+		<div>
+			（四）无权经营外汇担保业务的金融机构、无外汇收入的非金融性质的企业法人提供外汇担保的；</div>
+		<div>
+			（五）主合同变更或者债权人将对外担保合同项下的权利转让，未经担保人同意和国家有关主管部门批准的，担保人不再承担担保责任。但法律、法规另有规定的除外。</div>
+	</div>
+	◆典型案例</div>
+<div>
+	1.<a href="/case-analysis/detail/MkExMDAwMTA1NzI%3D?searchId=6fd89e4afaa4411883916ddd1dbf3340&index=1&q=中国工商银行哈尔滨市和平支行诉高延民担保合同纠纷案">中国工商银行哈尔滨市和平支行诉高延民担保合同纠纷案</a>（《中华人民共和国最高人民法院公报》2001年第5期）<br />
+	2.<a href="/judgment-documents/detail/MjAwMDAxNzExNTY%3D?searchId=c1ffdf971060443689bc4cc516b564c3&index=1&q=二中民终字第21955号">罗来胜与张永利保证合同纠纷上诉案</a>（北京市第二中级人民法院民事判决书〔2009〕<span class="highlight highlight-selected">二中民终字第21955号</span>）</div></div></span><br></br></div><p><a name="No28_Z1T3"></a><span class="sect2Title">第三条&nbsp;&nbsp;&nbsp;</span><a name="No29_Z1T3K1"></a><span class="title">担保活动应当遵循平等、自愿、公平、诚实信用的原则。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjFUMw%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8B%85%E4%BF%9D%E5%9F%BA%E6%9C%AC%E5%8E%9F%E5%88%99&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">担保基本原则</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆典型案例</div>
+<div>
+	<a href="/judgment-documents/detail/MjAwMDA0NzU5MTM%3D">佛山市人民政府与交通银行香港分行担保纠纷案</a>（《中华人民共和国最高人民法院公报》2005年第11期）</div></div></span><br></br></div><p><a name="No30_Z1T4"></a><span class="sect2Title">第四条&nbsp;&nbsp;&nbsp;</span><a name="No31_Z1T4K1"></a><span class="title">第三人为债务人向债权人提供担保时，可以要求债务人提供反担保。</span></p><p class="title"><a name="No32_Z1T4K2"></a>反担保适用本法担保的规定。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjFUNA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E5%8F%8D%E6%8B%85%E4%BF%9D&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">反担保</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	<div>
+		◆司法解释</div>
+	<div>
+		<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a><br />
+		<div>
+			第二条&nbsp; 反担保人可以是债务人，也可以是债务人之外的其他人。</div>
+		<div>
+			反担保方式可以是债务人提供的抵押或者质押，也可以是其他人提供的保证、抵押或者质押。</div>
+	</div>
+	◆典型案例</div>
+<div>
+	<a href="/judgment-documents/detail/MjAxMDAwMDE5ODU%3D?searchId=c76703bf9afe4966b94994823bb3356d&index=1&q=粤高法民二终字第509号">广州市南方大厦集团股份有限公司与南海市平洲海天贸易有限公司反担保债务纠纷上诉案</a>（广东省高级人民法院民事判决书〔2002〕粤高法民二终字第509号）</div></div></span><br></br></div><p><a name="No33_Z1T5"></a><span class="sect2Title">第五条&nbsp;&nbsp;&nbsp;</span><a name="No34_Z1T5K1"></a><span class="title">担保合同是主合同的从合同，主合同无效，担保合同无效。担保合同另有约定的，按照约定。</span></p><p class="title"><a name="No35_Z1T5K2"></a>担保合同被确认无效后，债务人、担保人、债权人有过错的，应当根据其过错各自承担相应的民事责任。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjFUNQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8B%85%E4%BF%9D%E5%90%88%E5%90%8C%E6%97%A0%E6%95%88%E5%8F%8A%E5%85%B6%E6%B3%95%E5%BE%8B%E5%90%8E%E6%9E%9C&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">担保合同无效及其法律后果</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="http:// /document/show?aid=MTAwMDAyNjAzNTg%3D&bid=&collection=legislation&language=中文&tokens=571579bfb94e41474ca0602f85536f23&modules=&showType=0">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a></div>
+<div>
+	第三条 &nbsp;国家机关和以公益为目的的事业单位、社会团体违反法律规定提供担保的，担保合同无效。因此给债权人造成损失的，应当根据担保法第五条第二款的规定处理。<br />
+	<div>
+		第四条&nbsp; 董事、经理违反《中华人民共和国公司法》第六十条的规定，以公司资产为本公司的股东或者其他个人债务提供担保的，担保合同无效。除债权人知道或者应当知道的外，债务人、担保人应当对债权人的损失承担连带赔偿责任。</div>
+	<div>
+		第五条&nbsp; 以法律、法规禁止流通的财产或者不可转让的财产设定担保的，担保合同无效。</div>
+	<div>
+		以法律、法规限制流通的财产设定担保的，在实现债权时，人民法院应当按照有关法律、法规的规定对该财产进行处理。</div>
+	<div>
+		第六条&nbsp; 有下列情形之一的，对外担保合同无效：</div>
+	<div>
+		（一）未经国家有关主管部门批准或者登记对外担保的；</div>
+	<div>
+		（二）未经国家有关主管部门批准或者登记，为境外机构向境内债权人提供担保的；</div>
+	<div>
+		（三）为外商投资企业注册资本、外商投资企业中的外方投资部分的对外债务提供担保的；</div>
+	<div>
+		（四）无权经营外汇担保业务的金融机构、无外汇收入的非金融性质的企业法人提供外汇担保的；</div>
+	<div>
+		（五）主合同变更或者债权人将对外担保合同项下的权利转让，未经担保人同意和国家有关主管部门批准的，担保人不再承担担保责任。但法律、法规另有规定的除外。</div>
+	<div>
+		第十七条 &nbsp;企业法人的分支机构未经法人书面授权提供保证的，保证合同无效。因此给债权人造成损失的，应当根据担保法第五条第二款的规定处理。</div>
+	<div>
+		企业法人的分支机构经法人书面授权提供保证的，如果法人的书面授权范围不明，法人的分支机构应当对保证合同约定的全部债务承担保证责任。</div>
+	<div>
+		企业法人的分支机构经营管理的财产不足以承担保证责任的，由企业法人承担民事责任。</div>
+	<div>
+		企业法人的分支机构提供的保证无效后应当承担赔偿责任的，由分支机构经营管理的财产承担。企业法人有过错的，按照担保法第二十九条的规定处理。<br />
+		<div>
+			第十八条 &nbsp;企业法人的职能部门提供保证的，保证合同无效。债权人知道或者应当知道保证人为企业法人的职能部门的，因此造成的损失由债权人自行承担。</div>
+		<div>
+			债权人不知保证人为企业法人的职能部门，因此造成的损失，可以参照担保法第五条第二款的规定和第二十九条的规定处理。<br />
+			◆典型案例<br />
+			1.<a href="/case-analysis/detail/MkExMDAwMDQ2OTE%3D?searchId=2c0fedf193d1402280110ea090b5425e&index=1&q=农银财务有限公司与广东三星企业（集团）公司车桥股份有限公司担保合同纠纷案">农银财务有限公司与广东三星企业（集团）公司车桥股份有限公司担保合同纠纷案</a>（《中华人民共和国最高人民法院公报》2007年第2期）<br />
+			2.<a href="/judgment-documents/detail/MjAxMDAwMDAxNDM%3D">中银香港公司诉宏业公司等担保合同纠纷案</a>（《中华人民共和国最高人民法院公报》2005年第7期）<br />
+			3.<a href="/judgment-documents/detail/MjAwMDAwMzE1NzI%3D?searchId=e14c82fb929544fcb5fee621b130716d&index=5&q=豫法民二终字第51号">许昌县农村信用合作社联合社与许昌县明义物资有限公司、张明军合同纠纷上诉案</a>（河南省高级人民法院民事判决书〔2008〕<span class="highlight highlight-selected">豫法民二终字第51号</span>）<br />
+			4.<a href="/judgment-documents/detail/MjAxMDAwMDAwOTM%3D">江北中行与樊东农行等信用证垫款纠纷案</a>（《中华人民共和国最高人民法院公报》2006年第3期）<br />
+			5.<a href="/judgment-documents/detail/MjAxMDAwMDAxMzk%3D">中行北京分行诉利达海洋馆信用证垫款纠纷案</a>（《中华人民共和国最高人民法院公报》2005年第5期）</div>
+	</div>
+</div></div></span><br></br></div><p class="title"><a name="No36_Z2"></a><span class="chapterTitle">第二章 保 证</span></p><p class="title"><a name="No37_Z2J1"></a><span class="sect1Title">第一节 保证和保证人</span></p><p><a name="No38_Z2J1T6"></a><span class="sect2Title">第六条&nbsp;&nbsp;&nbsp;</span><a name="No39_Z2J1T6K1"></a><span class="title">本法所称保证，是指保证人和债权人约定，当债务人不履行债务时，保证人按照约定履行债务或者承担责任的行为。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKMVQ2"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E4%BF%9D%E8%AF%81%E7%9A%84%E5%AE%9A%E4%B9%89&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">保证的定义</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="/legislation/detail/MTAwMDAyNDQ3NDQ%3D?searchId=3d32d36e980c4c75a7e5559ccc4f63fd&index=1&q=最高人民法院关于沈阳市信托投资公司是否应当承担责任问题的答复">最高人民法院关于沈阳市信托投资公司是否应当承担保证责任问题的答复</a></div>
+<div>
+	◆典型案例</div>
+<div>
+	<a href="/judgment-documents/detail/MjAwMDAxNTQ3MDU%3D?searchId=b9e6f334098f42708321a782dc24f677&index=1&q=沈民（2）房终字第680号">陈丽、王艳与尹省山、马骏合同纠纷上诉案</a>（辽宁省沈阳市中级人民法院民事判决书〔2005〕沈民(2)房终字第680号）</div></div></span><br></br></div><p><a name="No40_Z2J1T7"></a><span class="sect2Title">第七条&nbsp;&nbsp;&nbsp;</span><a name="No41_Z2J1T7K1"></a><span class="title">具有代为清偿债务能力的法人、其他组织或者公民，可以作保证人。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKMVQ3"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E4%BF%9D%E8%AF%81%E4%BA%BA%E8%B5%84%E6%A0%BC&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">保证人资格</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="https://law.wkinfo.com.cn/document/show?aid=MTAwMDAyNjAzNTg%3D&bid=&collection=legislation&language=中文&tokens=571579bfb94e41474ca0602f85536f23&modules=&showType=0">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a></div>
+<div>
+	第十五条 &nbsp;担保法第七条规定的其他组织主要包括：</div>
+<div>
+	（一）依法登记领取营业执照的独资企业、合伙企业；</div>
+<div>
+	（二）依法登记领取营业执照的联营企业；</div>
+<div>
+	（三）依法登记领取营业执照的中外合作经营企业；</div>
+<div>
+	（四）经民政部门核准登记的社会团体；</div>
+<div>
+	（五）经核准登记领取营业执照的乡镇、街道、村办企业。</div></div></span><br></br></div><p><a name="No42_Z2J1T8"></a><span class="sect2Title">第八条&nbsp;&nbsp;&nbsp;</span><a name="No43_Z2J1T8K1"></a><span class="title">国家机关不得为保证人，但经国务院批准为使用外国政府或者国际经济组织贷款进行转贷的除外。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKMVQ4"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E5%9B%BD%E5%AE%B6%E6%9C%BA%E5%85%B3%E4%BD%9C%E4%B8%BA%E4%BF%9D%E8%AF%81%E4%BA%BA%E7%9A%84%E9%99%90%E5%88%B6&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">国家机关作为保证人的限制</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆典型案例</div>
+<div>
+	<a href="/judgment-documents/detail/MjAxMDAwMDYyNTI%3D">某银行（香港）有限公司与某市人民政府等担保合同纠纷上诉案</a>（广东省高级人民法院民事判决书〔2004〕粤高法民四终字第55号）</div></div></span><br></br></div><p><a name="No44_Z2J1T9"></a><span class="sect2Title">第九条&nbsp;&nbsp;&nbsp;</span><a name="No45_Z2J1T9K1"></a><span class="title">学校、幼儿园、医院等以公益为目的的事业单位、社会团体不得为保证人。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKMVQ5"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E5%85%AC%E7%9B%8A%E6%B3%95%E4%BA%BA%E4%BD%9C%E4%B8%BA%E4%BF%9D%E8%AF%81%E4%BA%BA%E7%9A%84%E7%A6%81%E6%AD%A2&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">公益法人作为保证人的禁止</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a><br />
+	第十六条&nbsp; 从事经营活动的事业单位、社会团体为保证人的，如无其他导致保证合同无效的情况，其所签定的保证合同应当认定为有效。<br />
+	◆典型案例</div>
+<a href="/judgment-documents/detail/MjAxMDAwMDAxNDc%3D?searchId=ff491ee357404656b2c3f8538081614d&index=1&q=长乐自来水公司与工行五四支行借款担保纠纷案">长乐自来水公司与工行五四支行借款担保纠纷案</a>（《中华人民共和国最高人民法院公报》2005年第9期）</div></span><br></br></div><p><a name="No46_Z2J1T10"></a><span class="sect2Title">第十条&nbsp;&nbsp;&nbsp;</span><a name="No47_Z2J1T10K1"></a><span class="title">企业法人的分支机构、职能部门不得为保证人。</span></p><p class="title"><a name="No48_Z2J1T10K2"></a>企业法人的分支机构有法人书面授权的，可以在授权范围内提供保证。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKMVQxMA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E4%BC%81%E4%B8%9A%E6%B3%95%E4%BA%BA%E5%88%86%E6%94%AF%E6%9C%BA%E6%9E%84%E3%80%81%E8%81%8C%E8%83%BD%E9%83%A8%E9%97%A8%E4%BD%9C%E4%B8%BA%E4%BF%9D%E8%AF%81%E4%BA%BA%E7%9A%84%E7%A6%81%E6%AD%A2%E4%B8%8E%E4%BE%8B%E5%A4%96&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">企业法人分支机构、职能部门作为保证人的禁止与例外</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	<div>
+		◆司法解释</div>
+	<div>
+		<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a><br />
+		<div>
+			第十八条&nbsp; 企业法人的职能部门提供保证的，保证合同无效。债权人知道或者应当知道保证人为企业法人的职能部门的，因此造成的损失由债权人自行承担。</div>
+		<div>
+			债权人不知保证人为企业法人的职能部门，因此造成的损失，可以参照担保法第五条第二款的规定和第二十九条的规定处理。<br />
+			第一百二十四条&nbsp; 企业法人的分支机构为他人提供保证的，人民法院在审理保证纠纷案件中可以将该企业法人作为共同被告参加诉讼。但是商业银行、保险公司的分支机构提供保证的除外。<br />
+			&nbsp;</div>
+	</div>
+	◆典型案例</div>
+<div>
+	1.<a href="/judgment-documents/detail/MjAxMDAwMDQzNTk%3D">某资产管理公司北京办事处与某供电公司借款担保合同纠纷上诉案</a>（中华人民共和国最高人民法院民事判决书〔2004〕民二终字第31号）<br />
+	2.<a href="/judgment-documents/detail/MjAwMDAwOTQ4Njk%3D?searchId=a7eee76116244b779685e9411f96607e&index=4&q=郑民二终字第1219号">中国农业银行郑州市商都支行与王燕霞、河南路桥建设股份有限公司民间借贷纠纷上诉案</a>（河南省郑州市中级人民法院民事判决书〔2009〕<span class="highlight highlight-selected">郑民二终字第1219号</span>）<br />
+	3.<a href="/judgment-documents/detail/MjAwMDA1MjkwMjg%3D?searchId=3873c9a6f6914e39a427e364b39c87f0&index=2&q=琼民再终字第7号">海南肯瑞船务公司与广州保税区港航工程有限公司、中港四航局第四工程公司定期租船合同纠纷上诉案</a>（海南省高级人民法院民事判决书〔2006〕<span class="highlight highlight-selected">琼民再终字第7号</span>）</div></div></span><br></br></div><p><a name="No49_Z2J1T11"></a><span class="sect2Title">第十一条&nbsp;&nbsp;&nbsp;</span><a name="No50_Z2J1T11K1"></a><span class="title">任何单位和个人不得强令银行等金融机构或者企业为他人提供保证；银行等金融机构或者企业对强令其为他人提供保证的行为，有权拒绝。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKMVQxMQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E5%BC%BA%E4%BB%A4%E6%8F%90%E4%BE%9B%E6%8B%85%E4%BF%9D%E7%9A%84%E7%A6%81%E6%AD%A2&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">强令提供担保的禁止</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No51_Z2J1T12"></a><span class="sect2Title">第十二条&nbsp;&nbsp;&nbsp;</span><a name="No52_Z2J1T12K1"></a><span class="title">同一债务有两个以上保证人的，保证人应当按照保证合同约定的保证份额，承担保证责任。没有约定保证份额的，保证人承担连带责任，债权人可以要求任何一个保证人承担全部保证责任，保证人都负有担保全部债权实现的义务。已经承担保证责任的保证人，有权向债务人追偿，或者要求承担连带责任的其他保证人清偿其应当承担的份额。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKMVQxMg%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E5%85%B1%E5%90%8C%E4%BF%9D%E8%AF%81&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">共同保证</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a><br />
+<div>
+	第十九条&nbsp; 两个以上保证人对同一债务同时或者分别提供保证时，各保证人与债权人没有约定保证份额的，应当认定为连带共同保证。</div>
+<div>
+	连带共同保证的保证人以其相互之间约定各自承担的份额对抗债权人的，人民法院不予支持。</div>
+<div>
+	第二十条&nbsp; 连带共同保证的债务人在主合同规定的债务履行期届满没有履行债务的，债权人可以要求债务人履行债务，也可以要求任何一个保证人承担全部保证责任。</div>
+<div>
+	连带共同保证的保证人承担保证责任后，向债务人不能追偿的部分，由各连带保证人按其内部约定的比例分担。没有约定的，平均分担。</div>
+<div>
+	第二十一条&nbsp; 按份共同保证的保证人按照保证合同约定的保证份额承担保证责任后，在其履行保证责任的范围内对债务人行使追偿权。</div>
+◆典型案例<br />
+<a href="/judgment-documents/detail/MjAxMDAwMDAwNjU%3D">瑞华投资控股公司与山东鲁祥铜业集团有限公司、山东省嘉祥景韦铜业有限公司、陈中融、高学敏等借款担保合同纠纷案</a>（《中华人民共和国最高人民法院公报》2008年第12期）</div></span><br></br></div><p class="title"><a name="No53_Z2J2"></a><span class="sect1Title">第二节 保证合同和保证方式</span></p><p><a name="No54_Z2J2T13"></a><span class="sect2Title">第十三条&nbsp;&nbsp;&nbsp;</span><a name="No55_Z2J2T13K1"></a><span class="title">保证人与债权人应当以书面形式订立保证合同。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKMlQxMw%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E4%BF%9D%E8%AF%81%E5%90%88%E5%90%8C%E7%9A%84%E5%BD%A2%E5%BC%8F&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">保证合同的形式</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	<div>
+		◆司法解释</div>
+	<div>
+		<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a><br />
+		<div>
+			第二十二条&nbsp; 第三人单方以书面形式向债权人出具担保书，债权人接受且未提出异议的，保证合同成立。</div>
+		<div>
+			主合同中虽然没有保证条款，但是，保证人在主合同上以保证人的身份签字或者盖章的，保证合同成立。</div>
+	</div>
+	◆典型案例</div>
+<div>
+	<a href="/judgment-documents/detail/MjAxMDAwMDYyNTM%3D">福建某包装材料有限公司与广西某林业造纸有限责任公司等买卖担保合同纠纷上诉案</a>（广西壮族自治区高级人民法院民事判决书〔2002〕桂民二终字第20号）</div></div></span><br></br></div><p><a name="No56_Z2J2T14"></a><span class="sect2Title">第十四条&nbsp;&nbsp;&nbsp;</span><a name="No57_Z2J2T14K1"></a><span class="title">保证人与债权人可以就单个主合同分别订立保证合同，也可以协议在最高债权额限度内就一定期间连续发生的借款合同或者某项商品交易合同订立一个保证合同。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKMlQxNA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%9C%80%E9%AB%98%E9%A2%9D%E4%BF%9D%E8%AF%81%E5%90%88%E5%90%8C&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">最高额保证合同</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a><br />
+	<div>
+		第二十三条最高额保证合同的不特定债权确定后，保证人应当对在最高债权额限度内就一定期间连续发生的债权余额承担保证责任。</div>
+	<div>
+		第三十七条最高额保证合同对保证期间没有约定或者约定不明的，如最高额保证合同约定有保证人清偿债务期限的，保证期间为清偿期限届满之日起六个月。没有约定债务清偿期限的，保证期间自最高额保证终止之日或自债权人收到保证人终止保证合同的书面通知到达之日起六个月。</div>
+</div>
+◆典型案例<br />
+<a href="/case-analysis/detail/MkExMDAwMDY0MjE%3D?searchId=a0d6e65fe1194f40bab5696d73dc6a1e&index=2&q=风神轮胎股份有限公司与中信银行股份有限公司天津分行、河北宝硕股份有限公司借款担保合同纠纷案"><span class="highlight highlight-selected">风神轮胎股份有限公司与中信银行股份有限公司天津分行、河北宝硕股份有限公司借款担保合同纠纷案</span></a>（《中华人民共和国最高人民法院公报》2008年第2期）</div></span><br></br></div><p><a name="No58_Z2J2T15"></a><span class="sect2Title">第十五条&nbsp;&nbsp;&nbsp;</span><a name="No59_Z2J2T15K1"></a><span class="title">保证合同应当包括以下内容：</span></p><p class="title"><a name="No60_T15K1X1"></a>（一）被保证的主债权种类、数额；</p><p class="title"><a name="No61_T15K1X2"></a>（二）债务人履行债务的期限；</p><p class="title"><a name="No62_T15K1X3"></a>（三）保证的方式；</p><p class="title"><a name="No63_T15K1X4"></a>（四）保证担保的范围；</p><p class="title"><a name="No64_T15K1X5"></a>（五）保证的期间；</p><p class="title"><a name="No65_T15K1X6"></a>（六）双方认为需要约定的其他事项。</p><p class="title"><a name="No66_Z2J2T15K2"></a>保证合同不完全具备前款规定内容的，可以补正。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKMlQxNQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E4%BF%9D%E8%AF%81%E5%90%88%E5%90%8C%E7%9A%84%E5%86%85%E5%AE%B9&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">保证合同的内容</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No67_Z2J2T16"></a><span class="sect2Title">第十六条&nbsp;&nbsp;&nbsp;</span><a name="No68_Z2J2T16K1"></a><span class="title">保证的方式有：</span></p><p class="title"><a name="No69_T16K1X1"></a>（一）一般保证；</p><p class="title"><a name="No70_T16K1X2"></a>（二）连带责任保证。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKMlQxNg%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E4%BF%9D%E8%AF%81%E7%9A%84%E6%96%B9%E5%BC%8F&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">保证的方式</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆典型案例</div>
+<div>
+	1.<a href="/judgment-documents/detail/MjAwMDA1Mjg2MzM%3D?searchId=56e11ba8b63f48089ec08d9c656bc88e&index=4&q=琼民二终字第28号">天津某船务有限公司与连云港某船务有限公司定期租船合同纠纷上诉案</a>（海南省高级人民法院民事判决书〔2007〕<span class="highlight highlight-selected">琼民二终字第28号</span>）<br />
+	2.<a href="/judgment-documents/detail/MjAwMDA0NzI4NzA%3D?searchId=3b2c3785d6934c5792a38e8362259a4a&index=3&q=鲁民四终字第66号">深圳市某海运有限公司与青岛某集装箱船务代理有限公司船舶代理合同纠纷上诉案</a>（山东省高级人民法院民事判决书〔2008〕<span class="highlight highlight-selected">鲁民四终字第66号</span>）</div></div></span><br></br></div><p><a name="No71_Z2J2T17"></a><span class="sect2Title">第十七条&nbsp;&nbsp;&nbsp;</span><a name="No72_Z2J2T17K1"></a><span class="title">当事人在保证合同中约定，债务人不能履行债务时，由保证人承担保证责任的，为一般保证。</span></p><p class="title"><a name="No73_Z2J2T17K2"></a>一般保证的保证人在主合同纠纷未经审判或者仲裁，并就债务人财产依法强制执行仍不能履行债务前，对债权人可以拒绝承担保证责任。</p><p class="title"><a name="No74_Z2J2T17K3"></a>有下列情形之一的，保证人不得行使前款规定的权利：</p><p class="title"><a name="No75_T17K3X1"></a>（一）债务人住所变更，致使债权人要求其履行债务发生重大困难的；</p><p class="title"><a name="No76_T17K3X2"></a>（二）人民法院受理债务人破产案件，中止执行程序的；</p><p class="title"><a name="No77_T17K3X3"></a>（三）保证人以书面形式放弃前款规定的权利的。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKMlQxNw%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E4%B8%80%E8%88%AC%E4%BF%9D%E8%AF%81%E5%8F%8A%E5%85%88%E8%AF%89%E6%8A%97%E8%BE%A9%E6%9D%83&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">一般保证及先诉抗辩权</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="https://law.wkinfo.com.cn/document/show?aid=MTAwMDAyNjAzNTg%3D&bid=&collection=legislation&language=中文&tokens=571579bfb94e41474ca0602f85536f23&modules=&showType=0">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a></div>
+<div>
+	第二十五条 &nbsp;担保法第十七条第三款第（一）项规定的债权人要求债务人履行债务发生的重大困难情形，包括债务人下落不明、移居境外，且无财产可供执行。<br />
+	<div>
+		◆典型案例</div>
+	<div>
+		<a href="/judgment-documents/detail/MjAwMDAwMjU1NjA%3D?searchId=4df4146f2971461ba5b87e0b78deb752&index=3&q=昆民四终字第24号">姜代荣与蔡伦、昆明怡然居木业有限公司保证合同纠纷上诉案</a>（云南省昆明市中级人民法院民事判决书〔2008〕<span class="highlight highlight-selected">昆民四终字第24号</span>）</div>
+</div></div></span><br></br></div><p><a name="No78_Z2J2T18"></a><span class="sect2Title">第十八条&nbsp;&nbsp;&nbsp;</span><a name="No79_Z2J2T18K1"></a><span class="title">当事人在保证合同中约定保证人与债务人对债务承担连带责任的，为连带责任保证。</span></p><p class="title"><a name="No80_Z2J2T18K2"></a>连带责任保证的债务人在主合同规定的债务履行期届满没有履行债务的，债权人可以要求债务人履行债务，也可以要求保证人在其保证范围内承担保证责任。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKMlQxOA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E8%BF%9E%E5%B8%A6%E8%B4%A3%E4%BB%BB%E4%BF%9D%E8%AF%81&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">连带责任保证</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆典型案例</div>
+<div>
+	<a href="/judgment-documents/detail/MjAxMDAwMDYyNTQ%3D">谭某与某农村信用合作社联合社借款担保合同纠纷上诉案</a>（陕西省汉中市中级人民法院民事判决书〔2008〕汉中民终字第30号）</div></div></span><br></br></div><p><a name="No81_Z2J2T19"></a><span class="sect2Title">第十九条&nbsp;&nbsp;&nbsp;</span><a name="No82_Z2J2T19K1"></a><span class="title">当事人对保证方式没有约定或者约定不明确的，按照连带责任保证承担保证责任。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKMlQxOQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E4%BF%9D%E8%AF%81%E6%96%B9%E5%BC%8F%E7%9A%84%E6%8E%A8%E5%AE%9A&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">保证方式的推定</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释<br />
+	<a href="/legislation/detail/MTAwMDAwOTU4OTg%3D?searchId=9e19e5d72176417b8c39786f3e45ab31&index=1&q=最高人民法院关于涉及担保纠纷案件的司法解释的适用和保证责任方式认定问题的批复">最高人民法院关于涉及担保纠纷案件的司法解释的适用和保证责任方式认定问题的批复</a><br />
+	◆典型案例</div>
+<div>
+	<a href="/judgment-documents/detail/MjAwMDA0NzQ2NjU%3D?searchId=29c82b7ba5444053adc59c541b4f748b&index=4&q=桂民四终字第29号">瑞泰国际航运有限责任公司、西英船东互保协会大连铭源船务代理有限公司与谢梓林、余扬威伤亡损害赔偿纠纷上诉案</a>（广西壮族自治区高级人民法院民事判决书〔2007〕<span class="highlight highlight-selected">桂民四终字第29号</span>）</div></div></span><br></br></div><p><a name="No83_Z2J2T20"></a><span class="sect2Title">第二十条&nbsp;&nbsp;&nbsp;</span><a name="No84_Z2J2T20K1"></a><span class="title">一般保证和连带责任保证的保证人享有债务人的抗辩权。债务人放弃对债务的抗辩权的，保证人仍有权抗辩。</span></p><p class="title"><a name="No85_Z2J2T20K2"></a>抗辩权是指债权人行使债权时，债务人根据法定事由，对抗债权人行使请求权的权利。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKMlQyMA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E4%BF%9D%E8%AF%81%E4%BA%BA%E7%9A%84%E6%8A%97%E8%BE%A9%E6%9D%83&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">保证人的抗辩权</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'>◆典型案例<br />
+<a href="/judgment-documents/detail/MjAxMDAwMDAxNTg%3D">中国东方资产管理公司大连办事处诉辽宁华曦集团公司等借款担保纠纷上诉案</a>（《中华人民共和国最高人民法院公报》2003年第6期）</div></span><br></br></div><p class="title"><a name="No86_Z2J3"></a><span class="sect1Title">第三节 保证责任</span></p><p><a name="No87_Z2J3T21"></a><span class="sect2Title">第二十一条&nbsp;&nbsp;&nbsp;</span><a name="No88_Z2J3T21K1"></a><span class="title">保证担保的范围包括主债权及利息、违约金、损害赔偿金和实现债权的费用。保证合同另有约定的，按照约定。</span></p><p class="title"><a name="No89_Z2J3T21K2"></a>当事人对保证担保的范围没有约定或者约定不明确的，保证人应当对全部债务承担责任。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKM1QyMQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E4%BF%9D%E8%AF%81%E8%8C%83%E5%9B%B4&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">保证范围</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释<br />
+	<a href="/legislation/detail/MTAwMDAwOTM3NjU%3D?searchId=48dc81639f094a129539bd355ea3c894&index=1&q=最高人民法院关于因法院错判导致债权利息损失扩大保证人应否承担责任问题的批复">最高人民法院关于因法院错判导致债权利息损失扩大保证人应否承担责任问题的批复</a><br />
+	◆典型案例</div>
+<div>
+	<a href="/judgment-documents/detail/MjAxMDAwMDYyNTU%3D">湖南某农业发展有限公司等与某银行买卖合同纠纷上诉案</a>（广东省广州市中级人民法院民事判决书〔2005〕穗中法民二终字第1721号）</div></div></span><br></br></div><p><a name="No90_Z2J3T22"></a><span class="sect2Title">第二十二条&nbsp;&nbsp;&nbsp;</span><a name="No91_Z2J3T22K1"></a><span class="title">保证期间，债权人依法将主债权转让给第三人的，保证人在原保证担保的范围内继续承担保证责任。保证合同另有约定的，按照约定。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKM1QyMg%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E5%80%BA%E6%9D%83%E8%AE%A9%E4%B8%8E%E5%AF%B9%E4%BF%9D%E8%AF%81%E8%B4%A3%E4%BB%BB%E7%9A%84%E5%BD%B1%E5%93%8D&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">债权让与对保证责任的影响</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'>◆典型案例<br />
+<a href="/judgment-documents/detail/MjAxMDAwMDAwNTk%3D">上海国际信托投资有限公司与上海市综合信息交易所、上海三和房地产公司委托贷款合同纠纷案</a>（《中华人民共和国最高人民法院公报》2008年第10期）</div></span><br></br></div><p><a name="No92_Z2J3T23"></a><span class="sect2Title">第二十三条&nbsp;&nbsp;&nbsp;</span><a name="No93_Z2J3T23K1"></a><span class="title">保证期间，债权人许可债务人转让债务的，应当取得保证人书面同意，保证人对未经其同意转让的债务，不再承担保证责任。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKM1QyMw%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E5%80%BA%E5%8A%A1%E6%89%BF%E6%8B%85%E5%AF%B9%E4%BF%9D%E8%AF%81%E8%B4%A3%E4%BB%BB%E7%9A%84%E5%BD%B1%E5%93%8D&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">债务承担对保证责任的影响</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No94_Z2J3T24"></a><span class="sect2Title">第二十四条&nbsp;&nbsp;&nbsp;</span><a name="No95_Z2J3T24K1"></a><span class="title">债权人与债务人协议变更主合同的，应当取得保证人书面同意，未经保证人书面同意的，保证人不再承担保证责任。保证合同另有约定的，按照约定。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKM1QyNA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E5%80%BA%E7%9A%84%E5%8F%98%E6%9B%B4%E5%AF%B9%E4%BF%9D%E8%AF%81%E8%B4%A3%E4%BB%BB%E7%9A%84%E5%BD%B1%E5%93%8D&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">债的变更对保证责任的影响</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'>◆典型案例<br />
+<a href="/judgment-documents/detail/MjAxMDAwMDAwODI%3D">抚宁县新兴包装材料厂、抚宁公有资产经营有限公司与抚宁县农村信用合作联社、秦皇岛远东石油炼化有限公司、秦皇岛骊骅淀粉股份有限公司借款担保合同纠纷案</a>（《中华人民共和国最高人民法院公报》2007年第9期）</div></span><br></br></div><p><a name="No96_Z2J3T25"></a><span class="sect2Title">第二十五条&nbsp;&nbsp;&nbsp;</span><a name="No97_Z2J3T25K1"></a><span class="title">一般保证的保证人与债权人未约定保证期间的，保证期间为主债务履行期届满之日起六个月。</span></p><p class="title"><a name="No98_Z2J3T25K2"></a>在合同约定的保证期间和前款规定的保证期间，债权人未对债务人提起诉讼或者申请仲裁的，保证人免除保证责任；债权人已提起诉讼或者申请仲裁的，保证期间适用诉讼时效中断的规定。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKM1QyNQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E4%B8%80%E8%88%AC%E4%BF%9D%E8%AF%81%E7%9A%84%E4%BF%9D%E8%AF%81%E6%9C%9F%E9%97%B4&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">一般保证的保证期间</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a><br />
+	<div>
+		第三十一条&nbsp; 保证期间不因任何事由发生中断、中止、延长的法律后果。</div>
+	<div>
+		第三十二条&nbsp; 保证合同约定的保证期间早于或者等于主债务履行期限的，视为没有约定，保证期间为主债务履行期届满之日起六个月。</div>
+	<div>
+		保证合同约定保证人承担保证责任直至主债务本息还清时为止等类似内容的，视为约定不明，保证期间为主债务履行期届满之日起二年。</div>
+	<div>
+		第三十三条&nbsp; 主合同对主债务履行期限没有约定或者约定不明的，保证期间自债权人要求债务人履行义务的宽限期届满之日起计算。</div>
+	◆典型案例&nbsp;&nbsp;</div>
+<div>
+	<a href="/judgment-documents/detail/MjAwMDA1MjkzNDI%3D?searchId=e245d2e080204613acbe4e0cfa28e10f&index=9&q=琼民二终字第11号">中国信达资产管理公司海口办事处与三亚京华出租汽车公司、安徽宿州市第一农药厂合同纠纷上诉案</a>（海南省高级人民法院民事判决书〔2005〕<span class="highlight highlight-selected">琼民二终字第11号</span>）</div></div></span><br></br></div><p><a name="No99_Z2J3T26"></a><span class="sect2Title">第二十六条&nbsp;&nbsp;&nbsp;</span><a name="No100_Z2J3T26K1"></a><span class="title">连带责任保证的保证人与债权人未约定保证期间的，债权人有权自主债务履行期届满之日起六个月内要求保证人承担保证责任。</span></p><p class="title"><a name="No101_Z2J3T26K2"></a>在合同约定的保证期间和前款规定的保证期间，债权人未要求保证人承担保证责任的，保证人免除保证责任。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKM1QyNg%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E8%BF%9E%E5%B8%A6%E8%B4%A3%E4%BB%BB%E4%BF%9D%E8%AF%81%E7%9A%84%E4%BF%9D%E8%AF%81%E6%9C%9F%E9%97%B4&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">连带责任保证的保证期间</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆典型案例<br />
+	1.<a href="/judgment-documents/detail/MjAwMDAwNzc5MTg%3D?searchId=fc1ab5df902f455e8535a57b8d30c407&index=1&q=渝高法民终字第24号">某生物工程有限公司等与某投资控股公司借款合同纠纷上诉案</a>（重庆市高级人民法院民事判决书〔2009〕<span class="highlight highlight-selected">渝高法民终字第24号</span>）<br />
+	2.陈某与李某等民间借贷纠纷上诉案（<span class="meta">江西省萍乡市中级人民法院</span>民事判决书〔2005〕萍民一终字第128号）</div></div></span><br></br></div><p><a name="No102_Z2J3T27"></a><span class="sect2Title">第二十七条&nbsp;&nbsp;&nbsp;</span><a name="No103_Z2J3T27K1"></a><span class="title">保证人依照本法第十四条规定就连续发生的债权作保证，未约定保证期间的，保证人可以随时书面通知债权人终止保证合同，但保证人对于通知到债权人前所发生的债权，承担保证责任。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKM1QyNw%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%9C%80%E9%AB%98%E9%A2%9D%E4%BF%9D%E8%AF%81%E7%9A%84%E4%BF%9D%E8%AF%81%E6%9C%9F%E9%97%B4&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">最高额保证的保证期间</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No104_Z2J3T28"></a><span class="sect2Title">第二十八条&nbsp;&nbsp;&nbsp;</span><a name="No105_Z2J3T28K1"></a><span class="title">同一债权既有保证又有物的担保的，保证人对物的担保以外的债权承担保证责任。</span></p><p class="title"><a name="No106_Z2J3T28K2"></a>债权人放弃物的担保的，保证人在债权人放弃权利的范围内免除保证责任。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKM1QyOA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E4%BF%9D%E8%AF%81%E6%8B%85%E4%BF%9D%E4%B8%8E%E7%89%A9%E7%9A%84%E6%8B%85%E4%BF%9D%E7%AB%9E%E5%90%88%E7%9A%84%E5%A4%84%E7%90%86&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">保证担保与物的担保竞合的处理</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	最高人民法院关于适用《中华人民共和国担保法》若干问题的解释<br />
+	<div>
+		第三十八条&nbsp; 同一债权既有保证又有第三人提供物的担保的，债权人可以请求保证人或者物的担保人承担担保责任。当事人对保证担保的范围或者物的担保的范围没有约定或者约定不明的，承担了担保责任的担保人，可以向债务人追偿，也可以要求其他担保人清偿其应当分担的份额。</div>
+	<div>
+		同一债权既有保证又有物的担保的，物的担保合同被确认无效或者被撤销，或者担保物因不可抗力的原因灭失而没有代位物的，保证人仍应当按合同的约定或者法律的规定承担保证责任。</div>
+	<div>
+		债权人在主合同履行期届满后怠于行使担保物权，致使担保物的价值减少或者毁损、灭失的，视为债权人放弃部分或者全部物的担保。保证人在债权人放弃权利的范围内减轻或者免除保证责任。</div>
+	◆典型案例</div>
+<div>
+	<a href="https://law.wkinfo.com.cn/document/show?aid=MjAxMDAwMDA1MDI%3D&bid=&collection=case&language=&tokens=949dd938a166f216431ca96dfa4d02b3&modules=&showType=0">中国农业银行乌鲁木齐市青年路支行与新疆大湾房产（集团）有限公司、乌鲁木齐高频钢管厂借款担保合同纠纷案</a>（中华人民共和国最高人民法院民事判决书〔2009〕民提字第97号）</div></div></span><br></br></div><p><a name="No107_Z2J3T29"></a><span class="sect2Title">第二十九条&nbsp;&nbsp;&nbsp;</span><a name="No108_Z2J3T29K1"></a><span class="title">企业法人的分支机构未经法人书面授权或者超出授权范围与债权人订立保证合同的，该合同无效或者超出授权范围的部分无效，债权人和企业法人有过错的，应当根据其过错各自承担相应的民事责任；债权人无过错的，由企业法人承担民事责任。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKM1QyOQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E5%88%86%E6%94%AF%E6%9C%BA%E6%9E%84%E8%AE%A2%E7%AB%8B%E7%9A%84%E6%97%A0%E6%95%88%E4%BF%9D%E8%AF%81%E5%90%88%E5%90%8C%E7%9A%84%E5%A4%84%E7%90%86&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">分支机构订立的无效保证合同的处理</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	<div>
+		◆司法解释</div>
+	<div>
+		<a href="http:// /document/show?aid=MTAwMDAyNjAzNTg%3D&bid=&collection=legislation&language=中文&tokens=571579bfb94e41474ca0602f85536f23&modules=&showType=0">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a></div>
+	第十七条 &nbsp;企业法人的分支机构未经法人书面授权提供保证的，保证合同无效。因此给债权人造成损失的，应当根据担保法第五条第二款的规定处理。</div>
+<div>
+	企业法人的分支机构经法人书面授权提供保证的，如果法人的书面授权范围不明，法人的分支机构应当对保证合同约定的全部债务承担保证责任。</div>
+<div>
+	企业法人的分支机构经营管理的财产不足以承担保证责任的，由企业法人承担民事责任。</div>
+<div>
+	企业法人的分支机构提供的保证无效后应当承担赔偿责任的，由分支机构经营管理的财产承担。企业法人有过错的，按照担保法第二十九条的规定处理。<br />
+	<div>
+		第十八条 &nbsp;企业法人的职能部门提供保证的，保证合同无效。债权人知道或者应当知道保证人为企业法人的职能部门的，因此造成的损失由债权人自行承担。</div>
+	<div>
+		债权人不知保证人为企业法人的职能部门，因此造成的损失，可以参照担保法第五条第二款的规定和第二十九条的规定处理。</div>
+</div></div></span><br></br></div><p><a name="No109_Z2J3T30"></a><span class="sect2Title">第三十条&nbsp;&nbsp;&nbsp;</span><a name="No110_Z2J3T30K1"></a><span class="title">有下列情形之一的，保证人不承担民事责任：</span></p><p class="title"><a name="No111_T30K1X1"></a>（一）主合同当事人双方串通，骗取保证人提供保证的；</p><p class="title"><a name="No112_T30K1X2"></a>（二）主合同债权人采取欺诈、胁迫等手段，使保证人在违背真实意思的情况下提供保证的。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKM1QzMA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E4%BF%9D%E8%AF%81%E8%B4%A3%E4%BB%BB%E7%9A%84%E5%85%8D%E9%99%A4&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">保证责任的免除</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="https://law.wkinfo.com.cn/document/show?aid=MTAwMDAyNjAzNTg%3D&bid=&collection=legislation&language=中文&tokens=571579bfb94e41474ca0602f85536f23&modules=&showType=0">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a></div>
+<div>
+	第四十条 &nbsp;主合同债务人采取欺诈、胁迫等手段，使保证人在违背真实意思的情况下提供保证的，债权人知道或者应当知道欺诈、胁迫事实的，按照担保法第三十条的规定处理。<br />
+	<div>
+		◆典型案例<br />
+		1.<a href="/judgment-documents/detail/MjAxMDAwMDAwOTI%3D">信达公司石家庄办事处与中阿公司等借款担保合同纠纷案</a>（《中华人民共和国最高人民法院公报》2006年第3期）</div>
+	<div>
+		2.<a href="/judgment-documents/detail/MjAwMDAwMjQ2MDQ%3D?searchId=3cc7dea49de649beaca939c29c6dd2a2&index=4&q=豫法民二终字第122号">中国建设银行股份有限公司郑州金元支行与信阳万富油脂有限责任公司合同纠纷上诉案</a>（河南省高级人民法院民事判决书〔2008〕<span class="highlight highlight-selected">豫法民二终字第122号</span>）</div>
+</div></div></span><br></br></div><p><a name="No113_Z2J3T31"></a><span class="sect2Title">第三十一条&nbsp;&nbsp;&nbsp;</span><a name="No114_Z2J3T31K1"></a><span class="title">保证人承担保证责任后，有权向债务人追偿。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKM1QzMQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E4%BF%9D%E8%AF%81%E4%BA%BA%E7%9A%84%E8%BF%BD%E5%81%BF%E6%9D%83&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">保证人的追偿权</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="https://law.wkinfo.com.cn/document/show?aid=MTAwMDAyNjAzNTg%3D&bid=&collection=legislation&language=中文&tokens=571579bfb94e41474ca0602f85536f23&modules=&showType=0">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a></div>
+<div>
+	第四十二条 &nbsp;人民法院判决保证人承担保证责任或者赔偿责任的，应当在判决书主文中明确保证人享有担保法第三十一条规定的权利。判决书中未予明确追偿权的，保证人只能按照承担责任的事实，另行提起诉讼。</div>
+<div>
+	保证人对债务人行使追偿权的诉讼时效，自保证人向债权人承担责任之日起开始计算。<br />
+	<div>
+		◆典型案例</div>
+	<div>
+		1.<a href="/judgment-documents/detail/MjAwMDAwNjgzMjQ%3D?searchId=0e6d253b8ae14ff2bf08e9189669384d&index=1&q=赣中民二终字第68号">信丰县粮食收储公司、李桂平与陈礼彬、李相银、卢文承、江西省第三建筑有限责任公司担保追偿权纠纷上诉案</a>（江西省赣州市中级人民法院民事判决书〔2009〕赣中民二终字第68号）</div>
+	<div>
+		2.<a href="/judgment-documents/detail/MjAwMDA1NTkwNDY%3D?searchId=7b0f497799a94336b4c49482b36d3ef0&index=4&q=穗中法民二终字第1841号">广东恒峰融资担保有限公司与莫凤琼合同纠纷上诉案</a>（广东省广州市中级人民法院民事判决书〔2006〕穗中法民二终字第1841号）</div>
+</div></div></span><br></br></div><p><a name="No115_Z2J3T32"></a><span class="sect2Title">第三十二条&nbsp;&nbsp;&nbsp;</span><a name="No116_Z2J3T32K1"></a><span class="title">人民法院受理债务人破产案件后，债权人未申报债权的，保证人可以参加破产财产分配，预先行使追偿权。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjJKM1QzMg%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E4%BF%9D%E8%AF%81%E4%BA%BA%E8%BF%BD%E5%81%BF%E6%9D%83%E7%9A%84%E9%A2%84%E5%85%88%E8%A1%8C%E4%BD%BF&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">保证人追偿权的预先行使</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a><br />
+<div>
+	第四十三条&nbsp; 保证人自行履行保证责任时，其实际清偿额大于主债权范围的，保证人只能在主债权范围内对债务人行使追偿权。</div>
+<div>
+	第四十四条&nbsp; 保证期间，人民法院受理债务人破产案件的，债权人既可以向人民法院申报债权，也可以向保证人主张权利。</div>
+<div>
+	债权人申报债权后在破产程序中未受清偿的部分，保证人仍应当承担保证责任。债权人要求保证人承担保证责任的，应当在破产程序终结后六个月内提出。</div>
+<div>
+	第四十五条&nbsp; 债权人知道或者应当知道债务人破产，既未申报债权也未通知保证人，致使保证人不能预先行使追偿权的，保证人在该债权在破产程序中可能受偿的范围内免除保证责任。</div>
+<div>
+	第四十六条&nbsp; 人民法院受理债务人破产案件后，债权人未申报债权的，各连带共同保证的保证人应当作为一个主体申报债权，预先行使追偿权。</div>
+◆典型案例<br />
+<a href="/judgment-documents/detail/MjAxMDAwMDAzNDc%3D">农业发展银行青海分行营业部诉青海农牧总公司担保合同纠纷案</a>（《中华人民共和国最高人民法院公报》2004年第8期）</div></span><br></br></div><p class="title"><a name="No117_Z3"></a><span class="chapterTitle">第三章 抵 押</span></p><p class="title"><a name="No118_Z3J1"></a><span class="sect1Title">第一节 抵押和抵押物</span></p><p><a name="No119_Z3J1T33"></a><span class="sect2Title">第三十三条&nbsp;&nbsp;&nbsp;</span><a name="No120_Z3J1T33K1"></a><span class="title">本法所称抵押，是指债务人或者第三人不转移对本法第三十四条所列财产的占有，将该财产作为债权的担保。债务人不履行债务时，债权人有权依照本法规定以该财产折价或者以拍卖、变卖该财产的价款优先受偿。</span></p><p class="title"><a name="No121_Z3J1T33K2"></a>前款规定的债务人或者第三人为抵押人，债权人为抵押权人，提供担保的财产为抵押物。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKMVQzMw%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8A%B5%E6%8A%BC%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">抵押相关概念</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No122_Z3J1T34"></a><span class="sect2Title">第三十四条&nbsp;&nbsp;&nbsp;</span><a name="No123_Z3J1T34K1"></a><span class="title">下列财产可以抵押：</span></p><p class="title"><a name="No124_T34K1X1"></a>（一）抵押人所有的房屋和其他地上定着物；</p><p class="title"><a name="No125_T34K1X2"></a>（二）抵押人所有的机器、交通运输工具和其他财产；</p><p class="title"><a name="No126_T34K1X3"></a>（三）抵押人依法有权处分的国有的土地使用权、房屋和其他地上定着物；</p><p class="title"><a name="No127_T34K1X4"></a>（四）抵押人依法有权处分的国有的机器、交通运输工具和其他财产；</p><p class="title"><a name="No128_T34K1X5"></a>（五）抵押人依法承包并经发包方同意抵押的荒山、荒沟、荒丘、荒滩等荒地的土地使用权；</p><p class="title"><a name="No129_T34K1X6"></a>（六）依法可以抵押的其他财产。</p><p class="title"><a name="No130_Z3J1T34K2"></a>抵押人可以将前款所列财产一并抵押。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKMVQzNA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8A%B5%E6%8A%BC%E8%B4%A2%E4%BA%A7%E7%9A%84%E8%8C%83%E5%9B%B4&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">抵押财产的范围</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="https://law.wkinfo.com.cn/document/show?aid=MTAwMDAyNjAzNTg%3D&bid=&collection=legislation&language=中文&tokens=571579bfb94e41474ca0602f85536f23&modules=&showType=0">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a></div>
+<div>
+	第五十条 &nbsp;以担保法第三十四条第一款所列财产一并抵押的，抵押财产的范围应当以登记的财产为准。抵押财产的价值在抵押权实现时予以确定。<br />
+	<div>
+		◆典型案例</div>
+	<div>
+		<a href="/judgment-documents/detail/MjAwMDA1MzUzMzM%3D?searchId=2402a539b1614a68bab8b6c2590abb7c&index=1&q=海南民再终字第32号">海南岭南农业开发有限公司诉海口新华典当有限责任公司借款合同纠纷一案</a>（海南省海南中级人民法院民事判决书〔2005〕<span class="highlight highlight-selected">海南民再终字第32号</span>）</div>
+</div></div></span><br></br></div><p><a name="No131_Z3J1T35"></a><span class="sect2Title">第三十五条&nbsp;&nbsp;&nbsp;</span><a name="No132_Z3J1T35K1"></a><span class="title">抵押人所担保的债权不得超出其抵押物的价值。</span></p><p class="title"><a name="No133_Z3J1T35K2"></a>财产抵押后，该财产的价值大于所担保债权的余额部分，可以再次抵押，但不得超出其余额部分。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKMVQzNQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E8%B6%85%E9%A2%9D%E6%8A%B5%E6%8A%BC%E7%9A%84%E7%A6%81%E6%AD%A2&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">超额抵押的禁止</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No134_Z3J1T36"></a><span class="sect2Title">第三十六条&nbsp;&nbsp;&nbsp;</span><a name="No135_Z3J1T36K1"></a><span class="title">以依法取得的国有土地上的房屋抵押的，该房屋占用范围内的国有土地使用权同时抵押。</span></p><p class="title"><a name="No136_Z3J1T36K2"></a>以出让方式取得的国有土地使用权抵押的，应当将抵押时该国有土地上的房屋同时抵押。</p><p class="title"><a name="No137_Z3J1T36K3"></a>乡（镇）、村企业的土地使用权不得单独抵押。以乡（镇）、村企业的厂房等建筑物抵押的，其占用范围内的土地使用权同时抵押。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKMVQzNg%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%88%BF%E5%B1%8B%E4%B8%8E%E5%9C%9F%E5%9C%B0%E4%BD%BF%E7%94%A8%E6%9D%83%E6%8A%B5%E6%8A%BC&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">房屋与土地使用权抵押</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆典型案例</div>
+<div>
+	<a href="/judgment-documents/detail/MjAwMDA1Mzk4ODM%3D?searchId=d6029fe0001048f69fe4920dbb384763&index=1&q=皖民二终字第0140号">安庆市城郊农村信用合作联社十里铺信用社与苏先宏合同纠纷上诉案</a>（安徽省高级人民法院民事判决书〔2008〕<span class="highlight highlight-selected">皖民二终字第0140号</span>）</div></div></span><br></br></div><p><a name="No138_Z3J1T37"></a><span class="sect2Title">第三十七条&nbsp;&nbsp;&nbsp;</span><a name="No139_Z3J1T37K1"></a><span class="title">下列财产不得抵押：</span></p><p class="title"><a name="No140_T37K1X1"></a>（一）土地所有权；</p><p class="title"><a name="No141_T37K1X2"></a>（二）耕地、宅基地、自留地、自留山等集体所有的土地使用权，但本法第三十四条第（五）项、第三十六条第三款规定的除外；</p><p class="title"><a name="No142_T37K1X3"></a>（三）学校、幼儿园、医院等以公益为目的的事业单位、社会团体的教育设施、医疗卫生设施和其他社会公益设施；</p><p class="title"><a name="No143_T37K1X4"></a>（四）所有权、使用权不明或者有争议的财产；</p><p class="title"><a name="No144_T37K1X5"></a>（五）依法被查封、扣押、监管的财产；</p><p class="title"><a name="No145_T37K1X6"></a>（六）依法不得抵押的其他财产。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKMVQzNw%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E4%B8%8D%E5%BE%97%E6%8A%B5%E6%8A%BC%E7%9A%84%E8%B4%A2%E4%BA%A7&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">不得抵押的财产</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'>◆典型案例<br />
+重庆某典当行诉重庆某物业发展有限公司等借款合同纠纷案（《中华人民共和国最高人民检察院公报》2004年第3期）</div></span><br></br></div><p class="title"><a name="No146_Z3J2"></a><span class="sect1Title">第二节 抵押合同和抵押物登记</span></p><p><a name="No147_Z3J2T38"></a><span class="sect2Title">第三十八条&nbsp;&nbsp;&nbsp;</span><a name="No148_Z3J2T38K1"></a><span class="title">抵押人和抵押权人应当以书面形式订立抵押合同。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKMlQzOA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8A%B5%E6%8A%BC%E5%90%88%E5%90%8C%E7%9A%84%E5%BD%A2%E5%BC%8F&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">抵押合同的形式</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No149_Z3J2T39"></a><span class="sect2Title">第三十九条&nbsp;&nbsp;&nbsp;</span><a name="No150_Z3J2T39K1"></a><span class="title">抵押合同应当包括以下内容：</span></p><p class="title"><a name="No151_T39K1X1"></a>（一）被担保的主债权种类、数额；</p><p class="title"><a name="No152_T39K1X2"></a>（二）债务人履行债务的期限；</p><p class="title"><a name="No153_T39K1X3"></a>（三）抵押物的名称、数量、质量、状况、所在地、所有权权属或者使用权权属；</p><p class="title"><a name="No154_T39K1X4"></a>（四）抵押担保的范围；</p><p class="title"><a name="No155_T39K1X5"></a>（五）当事人认为需要约定的其他事项。</p><p class="title"><a name="No156_Z3J2T39K2"></a>抵押合同不完全具备前款规定内容的，可以补正。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKMlQzOQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8A%B5%E6%8A%BC%E5%90%88%E5%90%8C%E7%9A%84%E5%86%85%E5%AE%B9&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">抵押合同的内容</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No157_Z3J2T40"></a><span class="sect2Title">第四十条&nbsp;&nbsp;&nbsp;</span><a name="No158_Z3J2T40K1"></a><span class="title">订立抵押合同时，抵押权人和抵押人在合同中不得约定在债务履行期届满抵押权人未受清偿时，抵押物的所有权转移为债权人所有。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKMlQ0MA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%B5%81%E6%8A%BC%E7%9A%84%E7%A6%81%E6%AD%A2&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">流押的禁止</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆典型案例</div>
+<div>
+	<a href="/judgment-documents/detail/MjAwMDAxOTYzMzk%3D?searchId=c59e1fde9a6e4d0eacfc2e9db18c5050&index=3&q=二中民终字第02672号">北京精达房地产开发有限公司与北京泰利天和房地产开发有限公司合同纠纷上诉案</a>（北京市第二中级人民法院民事判决书〔2010〕<span class="highlight highlight-selected">二中民终字第02672号</span>）</div></div></span><br></br></div><p><a name="No159_Z3J2T41"></a><span class="sect2Title">第四十一条&nbsp;&nbsp;&nbsp;</span><a name="No160_Z3J2T41K1"></a><span class="title">当事人以本法第四十二条规定的财产抵押的，应当办理抵押物登记，抵押合同自登记之日起生效。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKMlQ0MQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8A%B5%E6%8A%BC%E7%89%A9%E7%99%BB%E8%AE%B0&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">抵押物登记</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆典型案例</div>
+<div>
+	<a href="/judgment-documents/detail/MjAxMDAwMDQyMDk%3D?searchId=88531372b70a447e857c4e9e6630d7ae&index=1&q=2001民四终字第33号">广州某房地产开发有限公司与某商业银行广州分行借款合同纠纷上诉案</a>（中华人民共和国最高人民法院民事判决书〔2001〕民四终字第33号）</div></div></span><br></br></div><p><a name="No161_Z3J2T42"></a><span class="sect2Title">第四十二条&nbsp;&nbsp;&nbsp;</span><a name="No162_Z3J2T42K1"></a><span class="title">办理抵押物登记的部门如下：</span></p><p class="title"><a name="No163_T42K1X1"></a>（一）以无地上定着物的土地使用权抵押的，为核发土地使用权证书的土地管理部门；</p><p class="title"><a name="No164_T42K1X2"></a>（二）以城市房地产或者乡（镇）、村企业的厂房等建筑物抵押的，为县级以上地方人民政府规定的部门；</p><p class="title"><a name="No165_T42K1X3"></a>（三）以林木抵押的，为县级以上林木主管部门；</p><p class="title"><a name="No166_T42K1X4"></a>（四）以航空器、船舶、车辆抵押的，为运输工具的登记部门；</p><p class="title"><a name="No167_T42K1X5"></a>（五）以企业的设备和其他动产抵押的，为财产所在地的工商行政管理部门。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKMlQ0Mg%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8A%B5%E6%8A%BC%E7%89%A9%E7%99%BB%E8%AE%B0%E6%9C%BA%E5%85%B3&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">抵押物登记机关</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="https://law.wkinfo.com.cn/document/show?aid=MTAwMDAyNjAzNTg%3D&bid=&collection=legislation&language=中文&tokens=571579bfb94e41474ca0602f85536f23&modules=&showType=0">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a></div>
+<div>
+	第六十条 &nbsp;以担保法第四十二条第（二）项规定的不动产抵押的，县级以上地方人民政府对登记部门未作规定，当事人在土地管理部门或者房产管理部门办理了抵押物登记手续，人民法院可以确认其登记的效力。</div></div></span><br></br></div><p><a name="No168_Z3J2T43"></a><span class="sect2Title">第四十三条&nbsp;&nbsp;&nbsp;</span><a name="No169_Z3J2T43K1"></a><span class="title">当事人以其他财产抵押的，可以自愿办理抵押物登记，抵押合同自签订之日起生效。</span></p><p class="title"><a name="No170_Z3J2T43K2"></a>当事人未办理抵押物登记的，不得对抗第三人。当事人办理抵押物登记的，登记部门为抵押人所在地的公证部门。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKMlQ0Mw%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8A%B5%E6%8A%BC%E7%89%A9%E7%9A%84%E8%87%AA%E6%84%BF%E7%99%BB%E8%AE%B0&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">抵押物的自愿登记</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No171_Z3J2T44"></a><span class="sect2Title">第四十四条&nbsp;&nbsp;&nbsp;</span><a name="No172_Z3J2T44K1"></a><span class="title">办理抵押物登记，应当向登记部门提供下列文件或者其复印件：</span></p><p class="title"><a name="No173_T44K1X1"></a>（一）主合同和抵押合同；</p><p class="title"><a name="No174_T44K1X2"></a>（二）抵押物的所有权或者使用权证书。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKMlQ0NA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8A%B5%E6%8A%BC%E7%89%A9%E7%99%BB%E8%AE%B0%E5%BA%94%E6%8F%90%E4%BA%A4%E7%9A%84%E6%96%87%E4%BB%B6&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">抵押物登记应提交的文件</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a><br />
+	<span class="sect2Title">第六十一条&nbsp;&nbsp;</span><span class="title">抵押物登记记载的内容与抵押合同约定的内容不一致的，以登记记载的内容为准。</span></div></div></span><br></br></div><p><a name="No175_Z3J2T45"></a><span class="sect2Title">第四十五条&nbsp;&nbsp;&nbsp;</span><a name="No176_Z3J2T45K1"></a><span class="title">登记部门登记的资料，应当允许查阅、抄录或者复印。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKMlQ0NQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8A%B5%E6%8A%BC%E7%99%BB%E8%AE%B0%E8%B5%84%E6%96%99%E7%9A%84%E5%85%AC%E5%BC%80&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">抵押登记资料的公开</a><span style='color:#666666'></span>】</span><br></br></div><p class="title"><a name="No177_Z3J3"></a><span class="sect1Title">第三节 抵押的效力</span></p><p><a name="No178_Z3J3T46"></a><span class="sect2Title">第四十六条&nbsp;&nbsp;&nbsp;</span><a name="No179_Z3J3T46K1"></a><span class="title">抵押担保的范围包括主债权及利息、违约金、损害赔偿金和实现抵押权的费用。抵押合同另有约定的，按照约定。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKM1Q0Ng%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8A%B5%E6%8A%BC%E6%8B%85%E4%BF%9D%E7%9A%84%E8%8C%83%E5%9B%B4&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">抵押担保的范围</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a><br />
+	<div>
+		第五十六条&nbsp; 抵押合同对被担保的主债权种类、抵押财产没有约定或者约定不明，根据主合同和抵押合同不能补正或者无法推定的，抵押不成立。</div>
+	<div>
+		法律规定登记生效的抵押合同签订后，抵押人违背诚实信用原则拒绝办理抵押登记致使债权人受到损失的，抵押人应当承担赔偿责任。<br />
+		<div>
+			第六十一条&nbsp; 抵押物登记记载的内容与抵押合同约定的内容不一致的，以登记记载的内容为准。</div>
+		<div>
+			第六十二条&nbsp; 抵押物因附合、混合或者加工使抵押物的所有权为第三人所有的，抵押权的效力及于补偿金；抵押物所有人为附合物、混合物或者加工物的所有人的，抵押权的效力及于附合物、混合物或者加工物；第三人与抵押物所有人为附合物、混合物或者加工物的共有人的，抵押权的效力及于抵押人对共有物享有的份额。</div>
+	</div>
+</div></div></span><br></br></div><p><a name="No180_Z3J3T47"></a><span class="sect2Title">第四十七条&nbsp;&nbsp;&nbsp;</span><a name="No181_Z3J3T47K1"></a><span class="title">债务履行期届满，债务人不履行债务致使抵押物被人民法院依法扣押的，自扣押之日起抵押权人有权收取由抵押物分离的天然孳息以及抵押人就抵押物可以收取的法定孳息。抵押权人未将扣押抵押物的事实通知应当清偿法定孳息的义务人的，抵押权的效力不及于该孳息。</span></p><p class="title"><a name="No182_Z3J3T47K2"></a>前款孳息应当先充抵收取孳息的费用。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKM1Q0Nw%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8A%B5%E6%8A%BC%E6%9D%83%E5%AF%B9%E6%8A%B5%E6%8A%BC%E7%89%A9%E5%AD%B3%E6%81%AF%E7%9A%84%E6%95%88%E5%8A%9B&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">抵押权对抵押物孳息的效力</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a><br />
+	<div>
+		第六十四条&nbsp; 债务履行期届满，债务人不履行债务致使抵押物被人民法院依法扣押的，自扣押之日起抵押权人收取的由抵押物分离的天然孳息和法定孳息，按照下列顺序清偿：</div>
+	<div>
+		（一）收取孳息的费用；</div>
+	<div>
+		（二）主债权的利息；</div>
+	<div>
+		（三）主债权。</div>
+</div></div></span><br></br></div><p><a name="No183_Z3J3T48"></a><span class="sect2Title">第四十八条&nbsp;&nbsp;&nbsp;</span><a name="No184_Z3J3T48K1"></a><span class="title">抵押人将已出租的财产抵押的，应当书面告知承租人，原租赁合同继续有效。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKM1Q0OA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8A%B5%E6%8A%BC%E4%B8%8D%E7%A0%B4%E7%A7%9F%E8%B5%81&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">抵押不破租赁</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No185_Z3J3T49"></a><span class="sect2Title">第四十九条&nbsp;&nbsp;&nbsp;</span><a name="No186_Z3J3T49K1"></a><span class="title">抵押期间，抵押人转让已办理登记的抵押物的，应当通知抵押权人并告知受让人转让物已经抵押的情况；抵押人未通知抵押权人或者未告知受让人的，转让行为无效。</span></p><p class="title"><a name="No187_Z3J3T49K2"></a>转让抵押物的价款明显低于其价值的，抵押权人可以要求抵押人提供相应的担保；抵押人不提供的，不得转让抵押物。</p><p class="title"><a name="No188_Z3J3T49K3"></a>抵押人转让抵押物所得的价款，应当向抵押权人提前清偿所担保的债权或者向与抵押权人约定的第三人提存。超过债权数额的部分，归抵押人所有，不足部分由债务人清偿。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKM1Q0OQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E5%AF%B9%E6%8A%B5%E6%8A%BC%E7%89%A9%E7%9A%84%E5%A4%84%E5%88%86&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">对抵押物的处分</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆典型案例</div>
+<a href="/judgment-documents/detail/MjAwMDA1NjkzNDQ%3D">重庆索特盐化股份有限公司与重庆新万基房地产开发有限公司土地使用权转让合同纠纷案</a>（《中华人民共和国最高人民法院公报》2009年第4期）</div></span><br></br></div><p><a name="No189_Z3J3T50"></a><span class="sect2Title">第五十条&nbsp;&nbsp;&nbsp;</span><a name="No190_Z3J3T50K1"></a><span class="title">抵押权不得与债权分离而单独转让或者作为其他债权的担保。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKM1Q1MA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8A%B5%E6%8A%BC%E6%9D%83%E8%BD%AC%E7%A7%BB%E7%9A%84%E4%BB%8E%E5%B1%9E%E6%80%A7&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">抵押权转移的从属性</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No191_Z3J3T51"></a><span class="sect2Title">第五十一条&nbsp;&nbsp;&nbsp;</span><a name="No192_Z3J3T51K1"></a><span class="title">抵押人的行为足以使抵押物价值减少的，抵押权人有权要求抵押人停止其行为。抵押物价值减少时，抵押权人有权要求抵押人恢复抵押物的价值，或者提供与减少的价值相当的担保。</span></p><p class="title"><a name="No193_Z3J3T51K2"></a>抵押人对抵押物价值减少无过错的，抵押权人只能在抵押人因损害而得到的赔偿范围内要求提供担保。抵押物价值未减少的部分，仍作为债权的担保。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKM1Q1MQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8A%B5%E6%8A%BC%E6%9D%83%E5%8F%97%E4%BE%B5%E5%AE%B3%E7%9A%84%E6%95%91%E6%B5%8E&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">抵押权受侵害的救济</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a><br />
+	<span class="sect2Title">第七十条&nbsp;&nbsp;</span><span class="title">抵押人的行为足以使抵押物价值减少的，抵押权人请求抵押人恢复原状或提供担保遭到拒绝时，抵押权人可以请求债务人履行债务，也可以请求提前行使抵押权。</span></div></div></span><br></br></div><p><a name="No194_Z3J3T52"></a><span class="sect2Title">第五十二条&nbsp;&nbsp;&nbsp;</span><a name="No195_Z3J3T52K1"></a><span class="title">抵押权与其担保的债权同时存在，债权消灭的，抵押权也消灭。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKM1Q1Mg%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8A%B5%E6%8A%BC%E6%9D%83%E6%B6%88%E7%81%AD%E7%9A%84%E4%BB%8E%E5%B1%9E%E6%80%A7&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">抵押权消灭的从属性</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆典型案例</div>
+<div>
+	<a href="/judgment-documents/detail/MjAxMDAwMDYyNTY%3D">双流县某农村信用合作社与成都市某食用菌有限公司等金融借款合同纠纷上诉案</a>（四川省成都市中级人民法院民事判决书〔2008〕成民终字第2619号）</div></div></span><br></br></div><p class="title"><a name="No196_Z3J4"></a><span class="sect1Title">第四节 抵押权的实现</span></p><p><a name="No197_Z3J4T53"></a><span class="sect2Title">第五十三条&nbsp;&nbsp;&nbsp;</span><a name="No198_Z3J4T53K1"></a><span class="title">债务履行期届满抵押权人未受清偿的，可以与抵押人协议以抵押物折价或者以拍卖、变卖该抵押物所得的价款受偿；协议不成的，抵押权人可以向人民法院提起诉讼。</span></p><p class="title"><a name="No199_Z3J4T53K2"></a>抵押物折价或者拍卖、变卖后，其价款超过债权数额的部分归抵押人所有，不足部分由债务人清偿。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKNFQ1Mw%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8A%B5%E6%8A%BC%E6%9D%83%E5%AE%9E%E7%8E%B0%E7%9A%84%E6%9D%A1%E4%BB%B6%E5%92%8C%E6%96%B9%E5%BC%8F&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">抵押权实现的条件和方式</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a><br />
+	<div>
+		第七十一条&nbsp; 主债权未受全部清偿的，抵押权人可以就抵押物的全部行使其抵押权。</div>
+	<div>
+		抵押物被分割或者部分转让的，抵押权人可以就分割或者转让后的抵押物行使抵权。</div>
+	<div>
+		第七十二条&nbsp; 主债权被分割或者部分转让的，各债权人可以就其享有的债权份额行使抵押权。</div>
+	<div>
+		主债务被分割或者部分转让的，抵押人仍以其抵押物担保数个债务人履行债务。但是，第三人提供抵押的，债权人许可债务人转让债务未经抵押人书面同意的，抵押人对未经其同意转让的债务，不再承担担保责任。</div>
+	<div>
+		第七十三条&nbsp; 抵押物折价或者拍卖、变卖该抵押物的价款低于抵押权设定时约定价值的，应当按照抵押物实现的价值进行清偿。不足清偿的剩余部分，由债务人清偿。</div>
+</div></div></span><br></br></div><p><a name="No200_Z3J4T54"></a><span class="sect2Title">第五十四条&nbsp;&nbsp;&nbsp;</span><a name="No201_Z3J4T54K1"></a><span class="title">同一财产向两个以上债权人抵押的，拍卖、变卖抵押物所得的价款按照以下规定清偿：</span></p><p class="title"><a name="No202_T54K1X1"></a>（一）抵押合同以登记生效的，按照抵押物登记的先后顺序清偿；顺序相同的，按照债权比例清偿；</p><p class="title"><a name="No203_T54K1X2"></a>（二）抵押合同自签订之日起生效的，该抵押物已登记的，按照本条第（一）项规定清偿；未登记的，按照合同生效时间的先后顺序清偿，顺序相同的，按照债权比例清偿。抵押物已登记的先于未登记的受偿。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKNFQ1NA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8A%B5%E6%8A%BC%E6%9D%83%E5%AE%9E%E7%8E%B0%E7%9A%84%E6%B8%85%E5%81%BF%E6%AC%A1%E5%BA%8F&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">抵押权实现的清偿次序</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No204_Z3J4T55"></a><span class="sect2Title">第五十五条&nbsp;&nbsp;&nbsp;</span><a name="No205_Z3J4T55K1"></a><span class="title">城市房地产抵押合同签订后，土地上新增的房屋不属于抵押物。需要拍卖该抵押的房地产时，可以依法将该土地上新增的房屋与抵押物一同拍卖，但对拍卖新增房屋所得，抵押权人无权优先受偿。</span></p><p class="title"><a name="No206_Z3J4T55K2"></a>依照本法规定以承包的荒地的土地使用权抵押的，或者以乡（镇）、村企业的厂房等建筑物占用范围内的土地使用权抵押的，在实现抵押权后，未经法定程序不得改变土地集体所有和土地用途。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKNFQ1NQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%88%BF%E5%9C%B0%E4%BA%A7%E6%8A%B5%E6%8A%BC%E6%9D%83%E7%9A%84%E5%AE%9E%E7%8E%B0&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">房地产抵押权的实现</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No207_Z3J4T56"></a><span class="sect2Title">第五十六条&nbsp;&nbsp;&nbsp;</span><a name="No208_Z3J4T56K1"></a><span class="title">拍卖划拨的国有土地使用权所得的价款，在依法缴纳相当于应缴纳的土地使用权出让金的款额后，抵押权人有优先受偿权。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKNFQ1Ng%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E5%88%92%E6%8B%A8%E5%9B%BD%E6%9C%89%E5%9C%9F%E5%9C%B0%E4%BD%BF%E7%94%A8%E6%9D%83%E4%B8%8A%E6%8A%B5%E6%8A%BC%E6%9D%83%E7%9A%84%E5%AE%9E%E7%8E%B0&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">划拨国有土地使用权上抵押权的实现</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'>◆典型案例<br />
+<a href="/case-analysis/detail/MkExMDAwMDQ2OTU%3D?searchId=332e878c92fa4cffa986629d706f8a88&index=2&q=民二终字第153号">中国长城资产管理公司济南办事处与山东省济南医药采购供应站、山东省医药集团有限公司、山东省医药公司借款担保合同纠纷案</a>（《中华人民共和国最高人民法院公报》2008年第1期）</div></span><br></br></div><p><a name="No209_Z3J4T57"></a><span class="sect2Title">第五十七条&nbsp;&nbsp;&nbsp;</span><a name="No210_Z3J4T57K1"></a><span class="title">为债务人抵押担保的第三人，在抵押权人实现抵押权后，有权向债务人追偿。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKNFQ1Nw%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8A%B5%E6%8A%BC%E4%BA%BA%E7%9A%84%E8%BF%BD%E5%81%BF%E6%9D%83&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">抵押人的追偿权</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No211_Z3J4T58"></a><span class="sect2Title">第五十八条&nbsp;&nbsp;&nbsp;</span><a name="No212_Z3J4T58K1"></a><span class="title">抵押权因抵押物灭失而消灭。因灭失所得的赔偿金，应当作为抵押财产。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKNFQ1OA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8A%B5%E6%8A%BC%E7%89%A9%E7%81%AD%E5%A4%B1%E7%9A%84%E6%B3%95%E5%BE%8B%E5%90%8E%E6%9E%9C&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">抵押物灭失的法律后果</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆典型案例</div>
+<div>
+	<a href="/judgment-documents/detail/MjAwMDA1MzA3OTA%3D?searchId=db1a52d790a64b3b9c06637a0c892586&index=1&q=三亚经终字第14号">中国建设银行三亚市分行与三亚市河西英兴物资公司、符良凤借款合同纠纷上诉案</a>（海南省三亚市中级人民法院民事判决书〔2002〕<span class="highlight highlight-selected">三亚经终字第14号</span>）</div></div></span><br></br></div><p class="title"><a name="No213_Z3J5"></a><span class="sect1Title">第五节 最高额抵押</span></p><p><a name="No214_Z3J5T59"></a><span class="sect2Title">第五十九条&nbsp;&nbsp;&nbsp;</span><a name="No215_Z3J5T59K1"></a><span class="title">本法所称最高额抵押，是指抵押人与抵押权人协议，在最高债权额限度内，以抵押物对一定期间内连续发生的债权作担保。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKNVQ1OQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%9C%80%E9%AB%98%E9%A2%9D%E6%8A%B5%E6%8A%BC%E7%9A%84%E5%AE%9A%E4%B9%89&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">最高额抵押的定义</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="https://law.wkinfo.com.cn/document/show?aid=MTAwMDAyNjAzNTg%3D&bid=&collection=legislation&language=中文&tokens=571579bfb94e41474ca0602f85536f23&modules=&showType=0">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a></div>
+<div>
+	第九十二条 &nbsp;按照担保法第六十九条的规定将质物提存的，质物提存费用由质权人负担；出质人提前清偿债权的，应当扣除未到期部分的利息。<br />
+	<div>
+		◆典型案例</div>
+	<div>
+		<a href="/judgment-documents/detail/MjAxMDAwMDIwMDA%3D?searchId=0a52788a2ee4438d84ebf2cd10c0d805&index=1&q=吉经终字第174号">长春国商超市有限公司与长春国际物业发展有限公司抵押合同纠纷上诉案</a>（吉林省高级人民法院民事判决书〔2000〕<span class="highlight highlight-selected">吉经终字第174号</span>）</div>
+</div></div></span><br></br></div><p><a name="No216_Z3J5T60"></a><span class="sect2Title">第六十条&nbsp;&nbsp;&nbsp;</span><a name="No217_Z3J5T60K1"></a><span class="title">借款合同可以附最高额抵押合同。</span></p><p class="title"><a name="No218_Z3J5T60K2"></a>债权人与债务人就某项商品在一定期间内连续发生交易而签订的合同，可以附最高额抵押合同。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKNVQ2MA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%9C%80%E9%AB%98%E9%A2%9D%E6%8A%B5%E6%8A%BC%E7%9A%84%E9%80%82%E7%94%A8%E8%8C%83%E5%9B%B4&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">最高额抵押的适用范围</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	<div>
+		◆司法解释</div>
+	<div>
+		<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a><br />
+		<div>
+			第八十一条&nbsp; 最高额抵押权所担保的债权范围，不包括抵押物因财产保全或者执行程序被查封后或债务人、抵押人破产后发生的债权。</div>
+		<div>
+			第八十二条&nbsp; 当事人对最高额抵押合同的最高限额、最高额抵押期间进行变更，以其变更对抗顺序在后的抵押权人的，人民法院不予支持。</div>
+	</div>
+	◆典型案例</div>
+<div>
+	<a href="/judgment-documents/detail/MjAxMDAwMDYyNTc%3D">增城市某生产基地公司与某银行增城市支行借款合同纠纷上诉案</a>（广东省广州市中级人民法院民事判决书〔2006〕穗中法民二终字第840号）</div></div></span><br></br></div><p><a name="No219_Z3J5T61"></a><span class="sect2Title">第六十一条&nbsp;&nbsp;&nbsp;</span><a name="No220_Z3J5T61K1"></a><span class="title">最高额抵押的主合同债权不得转让。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKNVQ2MQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%9C%80%E9%AB%98%E9%A2%9D%E6%8A%B5%E6%8A%BC%E7%9A%84%E4%B8%BB%E5%80%BA%E6%9D%83%E8%BD%AC%E8%AE%A9%E7%9A%84%E7%A6%81%E6%AD%A2&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">最高额抵押的主债权转让的禁止</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No221_Z3J5T62"></a><span class="sect2Title">第六十二条&nbsp;&nbsp;&nbsp;</span><a name="No222_Z3J5T62K1"></a><span class="title">最高额抵押除适用本节规定外，适用本章其他规定。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjNKNVQ2Mg%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%9C%80%E9%AB%98%E9%A2%9D%E6%8A%B5%E6%8A%BC%E7%9A%84%E6%B3%95%E5%BE%8B%E9%80%82%E7%94%A8&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">最高额抵押的法律适用</a><span style='color:#666666'></span>】</span><br></br></div><p class="title"><a name="No223_Z4"></a><span class="chapterTitle">第四章 质 押</span></p><p class="title"><a name="No224_Z4J1"></a><span class="sect1Title">第一节 动产质押</span></p><p><a name="No225_Z4J1T63"></a><span class="sect2Title">第六十三条&nbsp;&nbsp;&nbsp;</span><a name="No226_Z4J1T63K1"></a><span class="title">本法所称动产质押，是指债务人或者第三人将其动产移交债权人占有，将该动产作为债权的担保。债务人不履行债务时，债权人有权依照本法规定以该动产折价或者以拍卖、变卖该动产的价款优先受偿。</span></p><p class="title"><a name="No227_Z4J1T63K2"></a>前款规定的债务人或者第三人为出质人，债权人为质权人，移交的动产为质物。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjRKMVQ2Mw%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E5%8A%A8%E4%BA%A7%E8%B4%A8%E6%8A%BC%E7%9A%84%E5%AE%9A%E4%B9%89&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">动产质押的定义</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a><br />
+	<div>
+		第八十五条&nbsp; 债务人或者第三人将其金钱以特户、封金、保证金等形式特定化后，移交债权人占有作为债权的担保，债务人不履行债务时，债权人可以以该金钱优先受偿。</div>
+	<div>
+		&nbsp;</div>
+</div></div></span><br></br></div><p><a name="No228_Z4J1T64"></a><span class="sect2Title">第六十四条&nbsp;&nbsp;&nbsp;</span><a name="No229_Z4J1T64K1"></a><span class="title">出质人和质权人应当以书面形式订立质押合同。</span></p><p class="title"><a name="No230_Z4J1T64K2"></a>质押合同自质物移交于质权人占有时生效。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjRKMVQ2NA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E8%B4%A8%E6%8A%BC%E5%90%88%E5%90%8C%E7%9A%84%E5%BD%A2%E5%BC%8F%E5%8F%8A%E7%94%9F%E6%95%88%E6%97%B6%E9%97%B4&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">质押合同的形式及生效时间</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a><br />
+	第八十四条&nbsp; 出质人以其不具有所有权但合法占有的动产出质的，不知出质人无处分权的质权人行使质权后，因此给动产所有人造成损失的，由出质人承担赔偿责任。</div>
+<div>
+	第八十六条&nbsp; 债务人或者第三人未按质押合同约定的时间移交质物的，因此给质权人造成损失的，出质人应当根据其过错承担赔偿责任。</div>
+<div>
+	第八十七条&nbsp; 出质人代质权人占有质物的，质押合同不生效；质权人将质物返还于出质人后，以其质权对抗第三人的，人民法院不予支持。</div>
+<div>
+	第八十八条&nbsp; 出质人以间接占有的财产出质的，质押合同自书面通知送达占有人时视为移交。占有人收到出质通知后，仍接受出质人的指示处分出质财产的，该行为无效。</div>
+<div>
+	第九十一条&nbsp; 动产质权的效力及于质物的从物。但是，从物未随同质物移交质权人占有的，质权的效力不及于从物。</div>
+<div>
+	&nbsp;</div></div></span><br></br></div><p><a name="No231_Z4J1T65"></a><span class="sect2Title">第六十五条&nbsp;&nbsp;&nbsp;</span><a name="No232_Z4J1T65K1"></a><span class="title">质押合同应当包括以下内容：</span></p><p class="title"><a name="No233_T65K1X1"></a>（一）被担保的主债权种类、数额；</p><p class="title"><a name="No234_T65K1X2"></a>（二）债务人履行债务的期限；</p><p class="title"><a name="No235_T65K1X3"></a>（三）质物的名称、数量、质量、状况；</p><p class="title"><a name="No236_T65K1X4"></a>（四）质押担保的范围；</p><p class="title"><a name="No237_T65K1X5"></a>（五）质物移交的时间；</p><p class="title"><a name="No238_T65K1X6"></a>（六）当事人认为需要约定的其他事项。</p><p class="title"><a name="No239_Z4J1T65K2"></a>质押合同不完全具备前款规定内容的，可以补正。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjRKMVQ2NQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E8%B4%A8%E6%8A%BC%E5%90%88%E5%90%8C%E7%9A%84%E5%86%85%E5%AE%B9&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">质押合同的内容</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a><br />
+	<div>
+		第八十九条&nbsp; 质押合同中对质押的财产约定不明，或者约定的出质财产与实际移交的财产不一致的，以实际交付占有的财产为准。</div>
+	<div>
+		第九十条&nbsp; 质物有隐蔽瑕疵造成质权人其他财产损害的，应由出质人承担赔偿责任。但是，质权人在质物移交时明知质物有瑕疵而予以接受的除外。</div>
+	◆典型案例</div>
+<div>
+	<a href="/judgment-documents/detail/MjAwMDA1Mjc2ODU%3D?searchId=1d3a01da50bf44afa70dafb3aee65b4d&index=1&q=浦中经终字第5号">中国建设银行洋浦分行与海南金泰工贸开发公司、海南舒泰药业有限公司合同纠纷上诉案</a>（海南省洋浦经济开发区中级人民法院民事判决书〔2001〕<span class="highlight highlight-selected">浦中经终字第5号</span>）</div></div></span><br></br></div><p><a name="No240_Z4J1T66"></a><span class="sect2Title">第六十六条&nbsp;&nbsp;&nbsp;</span><a name="No241_Z4J1T66K1"></a><span class="title">出质人和质权人在合同中不得约定在债务履行期届满质权人未受清偿时，质物的所有权转移为质权人所有。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjRKMVQ2Ng%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%B5%81%E8%B4%A8%E5%A5%91%E7%BA%A6%E7%9A%84%E7%A6%81%E6%AD%A2&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">流质契约的禁止</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No242_Z4J1T67"></a><span class="sect2Title">第六十七条&nbsp;&nbsp;&nbsp;</span><a name="No243_Z4J1T67K1"></a><span class="title">质押担保的范围包括主债权及利息、违约金、损害赔偿金、质物保管费用和实现质权的费用。质押合同另有约定的，按照约定。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjRKMVQ2Nw%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E8%B4%A8%E6%8A%BC%E6%8B%85%E4%BF%9D%E7%9A%84%E8%8C%83%E5%9B%B4&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">质押担保的范围</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No244_Z4J1T68"></a><span class="sect2Title">第六十八条&nbsp;&nbsp;&nbsp;</span><a name="No245_Z4J1T68K1"></a><span class="title">质权人有权收取质物所生的孳息。质押合同另有约定的，按照约定。</span></p><p class="title"><a name="No246_Z4J1T68K2"></a>前款孳息应当先充抵收取孳息的费用。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjRKMVQ2OA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E8%B4%A8%E7%89%A9%E5%AD%B3%E6%81%AF%E7%9A%84%E6%94%B6%E5%8F%96&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">质物孳息的收取</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No247_Z4J1T69"></a><span class="sect2Title">第六十九条&nbsp;&nbsp;&nbsp;</span><a name="No248_Z4J1T69K1"></a><span class="title">质权人负有妥善保管质物的义务。因保管不善致使质物灭失或者毁损的，质权人应当承担民事责任。</span></p><p class="title"><a name="No249_Z4J1T69K2"></a>质权人不能妥善保管质物可能致使其灭失或者毁损的，出质人可以要求质权人将质物提存，或者要求提前清偿债权而返还质物。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjRKMVQ2OQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E8%B4%A8%E7%89%A9%E7%9A%84%E4%BF%9D%E7%AE%A1&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">质物的保管</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	<div>
+		◆司法解释</div>
+	<div>
+		<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a><br />
+		第九十二条&nbsp; 按照担保法第六十九条的规定将质物提存的，质物提存费用由质权人负担；出质人提前清偿债权的，应当扣除未到期部分的利息。</div>
+	<div>
+		第九十三条&nbsp; 质权人在质权存续期间，未经出质人同意，擅自使用、出租、处分质物，因此给出质人造成损失的，由质权人承担赔偿责任。</div>
+	◆典型案例</div>
+<div>
+	<a href="/judgment-documents/detail/MjAwMDA1MjA1NjY%3D?searchId=09a2a82ce56d4e2aaa00295528cdee04&index=1&q=佛中法民二终字第367号">中国太平洋财产保险股份有限公司佛山中心支公司与邝镇安所有权纠纷上诉案</a>（广东省佛山市中级人民法院民事判决书〔2006〕佛中法民二终字第367号）</div></div></span><br></br></div><p><a name="No250_Z4J1T70"></a><span class="sect2Title">第七十条&nbsp;&nbsp;&nbsp;</span><a name="No251_Z4J1T70K1"></a><span class="title">质物有损坏或者价值明显减少的可能，足以危害质权人权利的，质权人可以要求出质人提供相应的担保。出质人不提供的，质权人可以拍卖或者变卖质物，并与出质人协议将拍卖或者变卖所得的价款用于提前清偿所担保的债权或者向与出质人约定的第三人提存。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjRKMVQ3MA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E8%B4%A8%E6%9D%83%E4%BA%BA%E7%9A%84%E7%89%A9%E4%B8%8A%E4%BB%A3%E4%BD%8D%E6%9D%83&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">质权人的物上代位权</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No252_Z4J1T71"></a><span class="sect2Title">第七十一条&nbsp;&nbsp;&nbsp;</span><a name="No253_Z4J1T71K1"></a><span class="title">债务履行期届满债务人履行债务的，或者出质人提前清偿所担保的债权的，质权人应当返还质物。</span></p><p class="title"><a name="No254_Z4J1T71K2"></a>债务履行期届满质权人未受清偿的，可以与出质人协议以质物折价，也可以依法拍卖、变卖质物。</p><p class="title"><a name="No255_Z4J1T71K3"></a>质物折价或者拍卖、变卖后，其价款超过债权数额的部分归出质人所有，不足部分由债务人清偿。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjRKMVQ3MQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E8%B4%A8%E6%9D%83%E4%BA%BA%E8%BF%94%E8%BF%98%E8%B4%A8%E7%89%A9%E7%9A%84%E4%B9%89%E5%8A%A1%E5%8F%8A%E8%B4%A8%E6%9D%83%E7%9A%84%E5%AE%9E%E7%8E%B0&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">质权人返还质物的义务及质权的实现</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆典型案例</div>
+<div>
+	<a href="/judgment-documents/detail/MjAxMDAwMDYyNTg%3D">谭某与刘某借款质押合同纠纷上诉案</a>（中国人民解放军成都军区军事法院民事判决书〔2005〕军成民终字第9号）</div></div></span><br></br></div><p><a name="No256_Z4J1T72"></a><span class="sect2Title">第七十二条&nbsp;&nbsp;&nbsp;</span><a name="No257_Z4J1T72K1"></a><span class="title">为债务人质押担保的第三人，在质权人实现质权后，有权向债务人追偿。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjRKMVQ3Mg%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E8%B4%A8%E6%8A%BC%E4%BA%BA%E7%9A%84%E8%BF%BD%E5%81%BF%E6%9D%83&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">质押人的追偿权</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No258_Z4J1T73"></a><span class="sect2Title">第七十三条&nbsp;&nbsp;&nbsp;</span><a name="No259_Z4J1T73K1"></a><span class="title">质权因质物灭失而消灭。因灭失所得的赔偿金，应当作为出质财产。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjRKMVQ3Mw%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E8%B4%A8%E7%89%A9%E7%81%AD%E5%A4%B1%E7%9A%84%E6%B3%95%E5%BE%8B%E5%90%8E%E6%9E%9C&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">质物灭失的法律后果</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	<div>
+		◆司法解释</div>
+	<div>
+		<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a></div>
+	第八十条在抵押物灭失、毁损或者被征用的情况下，抵押权人可以就该抵押物的保险金、赔偿金或者补偿金优先受偿。</div>
+<div>
+	抵押物灭失、毁损或者被征用的情况下，抵押权所担保的债权未届清偿期的，抵押权人可以请求人民法院对保险金、赔偿金或补偿金等采取保全措施。</div></div></span><br></br></div><p><a name="No260_Z4J1T74"></a><span class="sect2Title">第七十四条&nbsp;&nbsp;&nbsp;</span><a name="No261_Z4J1T74K1"></a><span class="title">质权与其担保的债权同时存在，债权消灭的，质权也消灭。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjRKMVQ3NA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E8%B4%A8%E6%9D%83%E6%B6%88%E7%81%AD%E7%9A%84%E4%BB%8E%E5%B1%9E%E6%80%A7&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">质权消灭的从属性</a><span style='color:#666666'></span>】</span><br></br></div><p class="title"><a name="No262_Z4J2"></a><span class="sect1Title">第二节 权利质押</span></p><p><a name="No263_Z4J2T75"></a><span class="sect2Title">第七十五条&nbsp;&nbsp;&nbsp;</span><a name="No264_Z4J2T75K1"></a><span class="title">下列权利可以质押：</span></p><p class="title"><a name="No265_T75K1X1"></a>（一）汇票、支票、本票、债券、存款单、仓单、提单；</p><p class="title"><a name="No266_T75K1X2"></a>（二）依法可以转让的股份、股票；</p><p class="title"><a name="No267_T75K1X3"></a>（三）依法可以转让的商标专用权，专利权、著作权中的财产权；</p><p class="title"><a name="No268_T75K1X4"></a>（四）依法可以质押的其他权利。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjRKMlQ3NQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%9D%83%E5%88%A9%E8%B4%A8%E6%8A%BC%E7%9A%84%E8%8C%83%E5%9B%B4&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">权利质押的范围</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="https://law.wkinfo.com.cn/document/show?aid=MTAwMDAyNjAzNTg%3D&bid=&collection=legislation&language=中文&tokens=571579bfb94e41474ca0602f85536f23&modules=&showType=0">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a></div>
+<div>
+	第九十七条 &nbsp;以公路桥梁、公路隧道或者公路渡口等不动产收益权出质的，按照担保法第七十五条第（四）项的规定处理。<br />
+	◆典型案例<br />
+	<a href="/case-analysis/detail/MkExMDAwMDk1MTc%3D?searchId=2cb4275cf7bf491c8ee33f86e325d321&index=1&q=常州新区工行诉康美公司借款合同纠纷案">常州新区工行诉康美公司借款合同纠纷案</a>（《中华人民共和国最高人民法院公报》2005年第4期）</div></div></span><br></br></div><p><a name="No269_Z4J2T76"></a><span class="sect2Title">第七十六条&nbsp;&nbsp;&nbsp;</span><a name="No270_Z4J2T76K1"></a><span class="title">以汇票、支票、本票、债券、存款单、仓单、提单出质的，应当在合同约定的期限内将权利凭证交付质权人。质押合同自权利凭证交付之日起生效。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjRKMlQ3Ng%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%9D%83%E5%88%A9%E5%87%AD%E8%AF%81%E4%B8%8A%E8%B4%A8%E6%9D%83%E7%9A%84%E8%AE%BE%E5%AE%9A%E5%8F%8A%E7%94%9F%E6%95%88&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">权利凭证上质权的设定及生效</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆典型案例</div>
+<div>
+	1.<a href="/case-analysis/detail/MkExMDAwMTM3NDY%3D?searchId=6267277497fe4618810505d588b329b4&index=1&q=中国投资银行天津分行诉天津市轻工业对外贸易公司票据质押纠纷案">中国投资银行天津分行诉天津市轻工业对外贸易公司票据质押纠纷案</a>（《中华人民共和国最高人民法院公报》1997年第1期）</div>
+<div>
+	2.<a href="/case-analysis/detail/MkExMDAwMDk2NDQ%3D?searchId=a478da4187804fe7b445d349e6639c83&index=1&q=滕州市城郊信用社诉建行枣庄市薛城区支行票据纠纷案">滕州市城郊信用社诉建行枣庄市薛城区支行票据纠纷案</a>（《中华人民共和国最高人民法院公报》2004年第11期）</div></div></span><br></br></div><p><a name="No271_Z4J2T77"></a><span class="sect2Title">第七十七条&nbsp;&nbsp;&nbsp;</span><a name="No272_Z4J2T77K1"></a><span class="title">以载明兑现或者提货日期的汇票、支票、本票、债券、存款单、仓单、提单出质的，汇票、支票、本票、债券、存款单、仓单、提单兑现或者提货日期先于债务履行期的，质权人可以在债务履行期届满前兑现或者提货，并与出质人协议将兑现的价款或者提取的货物用于提前清偿所担保的债权或者向与出质人约定的第三人提存。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjRKMlQ3Nw%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E5%85%91%E7%8E%B0%E6%97%A5%E6%9C%9F%E5%85%88%E4%BA%8E%E5%80%BA%E5%8A%A1%E5%B1%A5%E8%A1%8C%E6%9C%9F%E7%9A%84%E5%A4%84%E7%90%86&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">兑现日期先于债务履行期的处理</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No273_Z4J2T78"></a><span class="sect2Title">第七十八条&nbsp;&nbsp;&nbsp;</span><a name="No274_Z4J2T78K1"></a><span class="title">以依法可以转让的股票出质的，出质人与质权人应当订立书面合同，并向证券登记机构办理出质登记。质押合同自登记之日起生效。</span></p><p class="title"><a name="No275_Z4J2T78K2"></a>股票出质后，不得转让，但经出质人与质权人协商同意的可以转让。出质人转让股票所得的价款应当向质权人提前清偿所担保的债权或者向与质权人约定的第三人提存。</p><p class="title"><a name="No276_Z4J2T78K3"></a>以有限责任公司的股份出质的，适用公司法股份转让的有关规定。质押合同自股份出质记载于股东名册之日起生效。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjRKMlQ3OA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E8%82%A1%E6%9D%83%E8%B4%A8%E6%9D%83%E7%9A%84%E8%AE%BE%E5%AE%9A%E4%B8%8E%E7%94%9F%E6%95%88&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">股权质权的设定与生效</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a><br />
+	第一百零三条&nbsp; 以股份有限公司的股份出质的，适用《中华人民共和国公司法》有关股份转让的规定。</div>
+<div>
+	以上市公司的股份出质的，质押合同自股份出质向证券登记机构办理出质登记之日起生效。</div>
+<div>
+	以非上市公司的股份出质的，质押合同自股份出质记载于股东名册之日起生效。</div>
+<div>
+	第一百零四条&nbsp; 以依法可以转让的股份、股票出质的，质权的效力及于股份、股票的法定孳息。</div></div></span><br></br></div><p><a name="No277_Z4J2T79"></a><span class="sect2Title">第七十九条&nbsp;&nbsp;&nbsp;</span><a name="No278_Z4J2T79K1"></a><span class="title">以依法可以转让的商标专用权，专利权、著作权中的财产权出质的，出质人与质权人应当订立书面合同，并向其管理部门办理出质登记。质押合同自登记之日起生效。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjRKMlQ3OQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E4%B8%AD%E8%B4%A2%E4%BA%A7%E6%9D%83%E8%B4%A8%E6%9D%83%E7%9A%84%E8%AE%BE%E5%AE%9A&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">知识产权中财产权质权的设定</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No279_Z4J2T80"></a><span class="sect2Title">第八十条&nbsp;&nbsp;&nbsp;</span><a name="No280_Z4J2T80K1"></a><span class="title">本法第七十九条规定的权利出质后，出质人不得转让或者许可他人使用，但经出质人与质权人协商同意的可以转让或者许可他人使用。出质人所得的转让费、许可费应当向质权人提前清偿所担保的债权或者向与质权人约定的第三人提存。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjRKMlQ4MA%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E4%B8%AD%E8%B4%A2%E4%BA%A7%E6%9D%83%E8%B4%A8%E6%9D%83%E7%9A%84%E6%95%88%E5%8A%9B&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">知识产权中财产权质权的效力</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a><br />
+第一百零五条&nbsp; 以依法可以转让的商标专用权，专利权、著作权中的财产权出质的，出质人未经质权人同意而转让或者许可他人使用已出质权利的，应当认定为无效。因此给质权人或者第三人造成损失的，由出质人承担民事责任。</div></span><br></br></div><p><a name="No281_Z4J2T81"></a><span class="sect2Title">第八十一条&nbsp;&nbsp;&nbsp;</span><a name="No282_Z4J2T81K1"></a><span class="title">权利质押除适用本节规定外，适用本章第一节的规定。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjRKMlQ4MQ%3D%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%9D%83%E5%88%A9%E8%B4%A8%E6%8A%BC%E7%9A%84%E6%B3%95%E5%BE%8B%E9%80%82%E7%94%A8&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">权利质押的法律适用</a><span style='color:#666666'></span>】</span><br></br></div><p class="title"><a name="No283_Z5"></a><span class="chapterTitle">第五章 留 置</span></p><p><a name="No284_Z5T82"></a><span class="sect2Title">第八十二条&nbsp;&nbsp;&nbsp;</span><a name="No285_Z5T82K1"></a><span class="title">本法所称留置，是指依照本法第八十四条的规定，债权人按照合同约定占有债务人的动产，债务人不按照合同约定的期限履行债务的，债权人有权依照本法规定留置该财产，以该财产折价或者以拍卖、变卖该财产的价款优先受偿。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjVUODI%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E7%95%99%E7%BD%AE%E7%9A%84%E5%AE%9A%E4%B9%89&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">留置的定义</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="https://law.wkinfo.com.cn/document/show?aid=MTAwMDAyNjAzNTg%3D&bid=&collection=legislation&language=中文&tokens=571579bfb94e41474ca0602f85536f23&modules=&showType=0">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a></div>
+<div>
+	第一百零八条 &nbsp;债权人合法占有债务人交付的动产时，不知债务人无处分该动产的权利，债权人可以按照担保法第八十二条的规定行使留置权。<br />
+	<div>
+		◆典型案例</div>
+	<div>
+		<a href="/judgment-documents/detail/MjAwMDAwMzcxOTY%3D?searchId=c25a011cbbd2458e846f70c29ad5b7d5&index=1&q=恩中民终字第62号">巴东县兴东建设总公司与巴东县劳动和社会保障局房屋纠纷上诉案</a>（湖北省恩施土家族苗族自治州中级人民法院民事判决书〔2004〕<span class="highlight highlight-selected">恩中民终字第62号</span>）</div>
+</div></div></span><br></br></div><p><a name="No286_Z5T83"></a><span class="sect2Title">第八十三条&nbsp;&nbsp;&nbsp;</span><a name="No287_Z5T83K1"></a><span class="title">留置担保的范围包括主债权及利息、违约金、损害赔偿金、留置物保管费用和实现留置权的费用。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjVUODM%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E7%95%99%E7%BD%AE%E6%8B%85%E4%BF%9D%E7%9A%84%E8%8C%83%E5%9B%B4&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">留置担保的范围</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No288_Z5T84"></a><span class="sect2Title">第八十四条&nbsp;&nbsp;&nbsp;</span><a name="No289_Z5T84K1"></a><span class="title">因保管合同、运输合同、加工承揽合同发生的债权，债务人不履行债务的，债权人有留置权。</span></p><p class="title"><a name="No290_Z5T84K2"></a>法律规定可以留置的其他合同，适用前款规定。</p><p class="title"><a name="No291_Z5T84K3"></a>当事人可以在合同中约定不得留置的物。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjVUODQ%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E7%95%99%E7%BD%AE%E7%9A%84%E9%80%82%E7%94%A8%E8%8C%83%E5%9B%B4&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">留置的适用范围</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="/legislation/detail/MTAwMDAyNjAzNTg%3D?searchId=7ee34ecd80c64971b8b7c8002b9925b9&index=1&q=最高人民法院关于适用中华人民共和国担保法若干问题的解释">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a><br />
+	第一百零七条&nbsp; 当事人在合同中约定排除留置权，债务履行期届满，债权人行使留置权的，人民法院不予支持。</div>
+<div>
+	第一百零九条&nbsp; 债权人的债权已届清偿期，债权人对动产的占有与其债权的发生有牵连关系，债权人可以留置其所占有的动产。</div>
+<div>
+	第一百一十一条&nbsp; 债权人行使留置权与其承担的义务或者合同的特殊约定相抵触的，人民法院不予支持。</div></div></span><br></br></div><p><a name="No292_Z5T85"></a><span class="sect2Title">第八十五条&nbsp;&nbsp;&nbsp;</span><a name="No293_Z5T85K1"></a><span class="title">留置的财产为可分物的，留置物的价值应当相当于债务的金额。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjVUODU%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E7%95%99%E7%BD%AE%E7%89%A9%E7%9A%84%E4%BB%B7%E5%80%BC&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">留置物的价值</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No294_Z5T86"></a><span class="sect2Title">第八十六条&nbsp;&nbsp;&nbsp;</span><a name="No295_Z5T86K1"></a><span class="title">留置权人负有妥善保管留置物的义务。因保管不善致使留置物灭失或者毁损的，留置权人应当承担民事责任。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjVUODY%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E7%95%99%E7%BD%AE%E7%89%A9%E7%9A%84%E4%BF%9D%E7%AE%A1&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">留置物的保管</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No296_Z5T87"></a><span class="sect2Title">第八十七条&nbsp;&nbsp;&nbsp;</span><a name="No297_Z5T87K1"></a><span class="title">债权人与债务人应当在合同中约定，债权人留置财产后，债务人应当在不少于两个月的期限内履行债务。债权人与债务人在合同中未约定的，债权人留置债务人财产后，应当确定两个月以上的期限，通知债务人在该期限内履行债务。</span></p><p class="title"><a name="No298_Z5T87K2"></a>债务人逾期仍不履行的，债权人可以与债务人协议以留置物折价，也可以依法拍卖、变卖留置物。</p><p class="title"><a name="No299_Z5T87K3"></a>留置物折价或者拍卖、变卖后，其价款超过债权数额的部分归债务人所有，不足部分由债务人清偿。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjVUODc%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E7%95%99%E7%BD%AE%E6%9D%83%E7%9A%84%E5%AE%9E%E7%8E%B0&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">留置权的实现</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆司法解释</div>
+<div>
+	<a href="https://law.wkinfo.com.cn/document/show?aid=MTAwMDAyNjAzNTg%3D&bid=&collection=legislation&language=中文&tokens=571579bfb94e41474ca0602f85536f23&modules=&showType=0">最高人民法院关于适用《中华人民共和国担保法》若干问题的解释</a></div>
+<div>
+	第一百一十三条 &nbsp;债权人未按担保法第八十七条规定的期限通知债务人履行义务，直接变价处分留置物的，应当对此造成的损失承担赔偿责任。债权人与债务人按照担保法第八十七条的规定在合同中约定宽限期的，债权人可以不经通知，直接行使留置权。</div></div></span><br></br></div><p><a name="No300_Z5T88"></a><span class="sect2Title">第八十八条&nbsp;&nbsp;&nbsp;</span><a name="No301_Z5T88K1"></a><span class="title">留置权因下列原因消灭：</span></p><p class="title"><a name="No302_T88K1X1"></a>（一）债权消灭的；</p><p class="title"><a name="No303_T88K1X2"></a>（二）债务人另行提供担保并被债权人接受的。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjVUODg%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E7%95%99%E7%BD%AE%E6%9D%83%E7%9A%84%E6%B6%88%E7%81%AD&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">留置权的消灭</a><span style='color:#666666'></span>】</span><br></br></div><p class="title"><a name="No304_Z6"></a><span class="chapterTitle">第六章 定 金</span></p><p><a name="No305_Z6T89"></a><span class="sect2Title">第八十九条&nbsp;&nbsp;&nbsp;</span><a name="No306_Z6T89K1"></a><span class="title">当事人可以约定一方向对方给付定金作为债权的担保。债务人履行债务后，定金应当抵作价款或者收回。给付定金的一方不履行约定的债务的，无权要求返还定金；收受定金的一方不履行约定的债务的，应当双倍返还定金。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjZUODk%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E5%AE%9A%E9%87%91%E5%8F%8A%E5%85%B6%E6%B3%95%E5%BE%8B%E6%95%88%E5%8A%9B&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">定金及其法律效力</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆典型案例<br />
+	1.<a href="/case-analysis/detail/MkExMDAwMDk0NjM%3D?searchId=bb5bb3afa4bc486fa3280864f1786501&index=1&q=戴雪飞诉华新公司商品房订购协议定金纠纷案">戴雪飞诉华新公司商品房订购协议定金纠纷案</a>（《中华人民共和国最高人民法院公报》2006年第8期）</div>
+<div>
+	2.<a href="/judgment-documents/detail/MjAwMDA0NzYwMjI%3D?searchId=442deabdc06f4c6bb5d64bf93c1f76fb&index=7&q=桂民四终字第3号">南宁市亚西亚石材有限责任公司与唐雯定金纠纷上诉案</a>（广西壮族自治区高级人民法院民事判决书〔2004〕<span class="highlight highlight-selected">桂民四终字第3号</span>）</div></div></span><br></br></div><p><a name="No307_Z6T90"></a><span class="sect2Title">第九十条&nbsp;&nbsp;&nbsp;</span><a name="No308_Z6T90K1"></a><span class="title">定金应当以书面形式约定。当事人在定金合同中应当约定交付定金的期限。定金合同从实际交付定金之日起生效。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjZUOTA%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E5%AE%9A%E9%87%91%E7%9A%84%E6%88%90%E7%AB%8B&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">定金的成立</a><span style='color:#666666'></span>】</span><br></br><span class="reflink-first-span">【<span style='color: #666666;'>法条提示</span>】<div class='articlePrompt'><div>
+	◆典型案例</div>
+<div>
+	<a href="/judgment-documents/detail/MjAxMDAwMDYyNTk%3D">陈某与某实业有限公司商品房预售合同定金纠纷上诉案</a>（四川省成都市中级人民法院民事判决书〔2009〕成民终字第1905号）</div></div></span><br></br></div><p><a name="No309_Z6T91"></a><span class="sect2Title">第九十一条&nbsp;&nbsp;&nbsp;</span><a name="No310_Z6T91K1"></a><span class="title">定金的数额由当事人约定，但不得超过主合同标的额的百分之二十。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjZUOTE%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E5%AE%9A%E9%87%91%E7%9A%84%E6%95%B0%E9%A2%9D&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">定金的数额</a><span style='color:#666666'></span>】</span><br></br></div><p class="title"><a name="No311_Z7"></a><span class="chapterTitle">第七章 附 则</span></p><p><a name="No312_Z7T92"></a><span class="sect2Title">第九十二条&nbsp;&nbsp;&nbsp;</span><a name="No313_Z7T92K1"></a><span class="title">本法所称不动产是指土地以及房屋、林木等地上定着物。</span></p><p class="title"><a name="No314_Z7T92K2"></a>本法所称动产是指不动产以外的物。</p><div class="reflink" id="MTAwMDAxNDE5MTZfWjdUOTI%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E5%8A%A8%E4%BA%A7%E4%B8%8E%E4%B8%8D%E5%8A%A8%E4%BA%A7%E7%9A%84%E5%AE%9A%E4%B9%89&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">动产与不动产的定义</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No315_Z7T93"></a><span class="sect2Title">第九十三条&nbsp;&nbsp;&nbsp;</span><a name="No316_Z7T93K1"></a><span class="title">本法所称保证合同、抵押合同、质押合同、定金合同可以是单独订立的书面合同，包括当事人之间的具有担保性质的信函、传真等，也可以是主合同中的担保条款。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjdUOTM%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8B%85%E4%BF%9D%E5%90%88%E5%90%8C%E7%9A%84%E8%A1%A8%E7%8E%B0%E5%BD%A2%E5%BC%8F&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">担保合同的表现形式</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No317_Z7T94"></a><span class="sect2Title">第九十四条&nbsp;&nbsp;&nbsp;</span><a name="No318_Z7T94K1"></a><span class="title">抵押物、质物、留置物折价或者变卖，应当参照市场价格。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjdUOTQ%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%8B%85%E4%BF%9D%E7%89%A9%E6%8A%98%E4%BB%B7%E6%88%96%E5%8F%98%E5%8D%96%E7%9A%84%E4%BB%B7%E6%A0%BC%E7%A1%AE%E5%AE%9A&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">担保物折价或变卖的价格确定</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No319_Z7T95"></a><span class="sect2Title">第九十五条&nbsp;&nbsp;&nbsp;</span><a name="No320_Z7T95K1"></a><span class="title">海商法等法律对担保有特别规定的，依照其规定。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjdUOTU%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%9C%AC%E6%B3%95%E9%80%82%E7%94%A8%E7%9A%84%E4%BE%8B%E5%A4%96&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">本法适用的例外</a><span style='color:#666666'></span>】</span><br></br></div><p><a name="No321_Z7T96"></a><span class="sect2Title">第九十六条&nbsp;&nbsp;&nbsp;</span><a name="No322_Z7T96K1"></a><span class="title">本法自１９９５年１０月１日起施行。</span></p><div class="reflink" id="MTAwMDAxNDE5MTZfWjdUOTY%3D"><span class="reflink-first-span">【<span style='color:#666666'>法条要点：</span>  <a href="https://law.wkinfo.com.cn/search/process?collection=legislation&sp.term=%E6%96%BD%E8%A1%8C%E6%97%B6%E9%97%B4&termField=body&accuracy=accuracy" target="_blank" style="margin-right: 5px;" class="contentlink">施行时间</a><span style='color:#666666'></span>】</span><br></br></div></p>
+<span id="attchmentContent"></span>
+    </div>
+    <span id="attchmentContent"></span>
+    <div class="clear"></div>
+    <p class="zw-downbg"></p>
+</div>
+<div id='qrCodeDiv' style='text-align:center'><img src='https://law.wkinfo.com.cn/qrcode/law/10/1000014/10000141916/10000141916_0_qrCode.jpg'/><p>扫一扫，手机阅读更方便</p></div></body>
+
+</html>

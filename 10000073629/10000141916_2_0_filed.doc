@@ -1,0 +1,2436 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+	xmlns:o="urn:schemas-microsoft-com:office:office"
+	xmlns:w="urn:schemas-microsoft-com:office:word"
+	xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+	xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 12">
+<meta name=Originator content="Microsoft Word 12">
+<style>
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,img,div {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	margin: 0 auto;
+}
+
+body {
+	font-size: 12px;
+	font-family: "微软雅黑";
+	background: #fff;
+}
+
+ul,ol {
+	list-style-type: none;
+}
+
+select,input,img,select {
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+	color: #474747;
+}
+
+a:hover,a:active,a:focus {
+	color: #103472;
+	text-decoration: underline;
+}
+
+.clear {
+	clear: both;
+}
+
+.body-bga {
+	background: url(../images/body-bg.gif) no-repeat center top;
+}
+
+.body-bgb {
+	background: url(../images/body-bg-a.gif) no-repeat center top;
+}
+
+.language {
+	width: 990px;
+	margin: 0 auto;
+	height: 120px;
+	position: relative;
+}
+
+.language a {
+	display: block;
+	width: 100px;
+	height: 31px;
+	background: url(../images/language-bg.gif) no-repeat;
+	text-align: center;
+	line-height: 25px;
+	position: absolute;
+	top: 34px;
+	right: 15px;
+}
+
+#box {
+	width: 445px;
+	padding-bottom: 40px;
+	margin: 0 auto;
+	margin-top: 138px;
+	background: url(../images/load-bg-01.gif) no-repeat left bottom;
+}
+
+.loadul {
+	float: right;
+	width: 385px;
+	position: relative;
+}
+
+.loadul li {
+	font-size: 18px;
+	color: #6a9a36;
+	margin-bottom: 10px;
+	height: 38px;
+	line-height: 30px;
+}
+
+.loadul li.login01 {
+	float: left;
+	width: 107px;
+	text-align: right;
+}
+
+.loadul li.login02 {
+	float: right;
+	width: 278px;
+	text-align: left;
+	background: url(../images/input-textbg01.gif) no-repeat;
+}
+
+.loadul li.login03 {
+	float: right;
+	width: 278px;
+	text-align: left;
+	background: url(../images/input-textbg02.gif) no-repeat;
+}
+
+.loadul li span {
+	margin-left: 18px;
+}
+
+.inputstyle01 {
+	border: none;
+	width: 218px;
+	height: 28px;
+	line-height: 28px;
+	padding: 0px 6px;
+	padding-left: 38px;
+	background: none;
+}
+
+.loadul li p {
+	color: #666;
+	margin-left: 108px;
+}
+
+.loadul li p a.forget {
+	color: #6a9a36;
+	font-size: 13px;
+	display: block;
+	position: absolute;
+	bottom: 10px;
+	right: 5px;
+	background: url(../images/light.gif) no-repeat center right;
+	padding-right: 20px;
+	margin-right: 5px;
+}
+
+.loadul li p.yanzheng {
+	font-size: 12px;
+	margin-left: 90px;
+}
+
+.loadul li p span .yanzhengma {
+	padding: 2px;
+	width: 80px;
+}
+
+.loadul li p span .inputbutt {
+	margin-left: -17px;
+}
+
+.inputbutt {
+	background: url(../images/butt.gif) no-repeat;
+	cursor: pointer;
+	width: 106px;
+	height: 32px;
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.top {
+	width: 990px;
+	height: 121px;
+	margin: 0 auto;
+	background: url(../images/top-bg.gif) no-repeat right bottom;
+	position: relative;
+}
+
+.top img {
+	margin-top: 28px;
+}
+
+.top p.gerenmess {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+.top p.gerenmess span {
+	margin-right: 15px;
+	margin-left: 8px;
+}
+
+.top p.gerenmess a {
+	margin: 0px 2px;
+}
+
+.top p.gerenmess a.namecloor {
+	color: #cb0b5e;
+}
+
+.menu {
+	width: 100%;
+	margin: 0 auto;
+	height: 113px;
+	background: url(../images/menu-bg.gif) repeat-x top;
+}
+
+.menu1 {
+	width: 100%;
+	height: 53px;
+	background: url(../images/menu-bg1.gif) repeat-x;
+}
+
+.menu2 {
+	width: 100%;
+	height: 60px;
+	background: url(../images/menu-bg2.gif) repeat-x;
+}
+
+.menu01 {
+	width: 970px;
+	padding: 0px 10px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.menu01 p a {
+	color: #c00d55;
+	text-decoration: underline;
+}
+
+.menu01 p span {
+	margin-right: 10px;
+}
+
+.menu02 {
+	position: absolute;
+	left: 0px;
+	top: 0px !important;
+	top: -1px;
+}
+
+p.ceng {
+	width: 168px;
+	height: 26px;
+	line-height: 25px;
+	text-align: center;
+	background: url(../images/ceng-bg.gif) no-repeat;
+	position: absolute;
+	right: 18px;
+	bottom: 0px;
+}
+
+p.ceng a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu02 li {
+	width: 93px;
+	height: 53px;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+
+.sou {
+	width: 448px;
+	padding: 7px 8px;
+	*padding: 0px 8px;
+	height: 28px;
+	line-height: 28px;
+	background: url(../images/sousuo-bg.gif) no-repeat;
+}
+
+.soubutt {
+	width: 59px;
+	height: 26px;
+	border: none;
+	background: url(../images/button-bg02.gif) no-repeat;
+	cursor: pointer;
+	color: #fff;
+}
+
+.content {
+	width: 996px;
+	margin: 0 auto;
+	background: url(../images/content-bg.gif) repeat-y;
+	position: relative;
+	bottom: 11px;
+}
+
+td.leftside {
+	padding: 15px 0px;
+}
+
+td.leftside h1 {
+	background: url(../images/left-sidebg01.gif) no-repeat 10px;
+	width: 183px;
+	height: 30px;
+	line-height: 24px;
+	font-size: 14px;
+	padding-left: 40px;
+}
+
+#leftside {
+	width: 220px;
+	float: left;
+	border-top: 4px solid #74ac3f;
+	border-right: 1px solid #c9c8c8;
+	border-left: 1px solid #c9c8c8;
+	padding: 15px 0px;
+}
+
+#leftside h1 {
+	background: url(../images/left-sidebg01.gif) no-repeat 4px;
+	width: 183px;
+	height: 30px;
+	line-height: 24px;
+	font-size: 14px;
+	padding-left: 40px;
+}
+
+#leftside .biaoqianyun {
+	width: 185px;
+	font-size: 16px;
+	margin: 0 auto;
+	margin-top: 5px;
+	text-indent: -4px;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+#leftside .biaoqianyun a {
+	margin: 6px 4px;
+}
+
+.colorstyle0 {
+	color: #da0e63;
+}
+
+.colorstyle1 {
+	color: #007fbd;
+}
+
+.colorstyle2 {
+	color: #007fbd;
+}
+
+.colorstyle3 {
+	color: black;
+}
+
+.colorstyle4 {
+	color: black;
+}
+
+.colorstyle5 {
+	
+}
+
+.colorstyle6 {
+	
+}
+
+.colorstyle7 {
+	color: #656668;
+	font-size: 12px;
+}
+
+.colorstyle8 {
+	color: #656668;
+	font-size: 12px;
+}
+
+.colorstyle9 {
+	color: #656668;
+	font-size: 12px;
+}
+
+#rightside {
+	float: right;
+	width: 740px;
+	padding-right: 14px;
+}
+
+.souend {
+	background: url(../images/sousuo.png) no-repeat left;
+	padding-left: 35px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.souend span {
+	color: #da0e63;
+}
+
+.daohang {
+	background: url(../images/rightside-bg.gif) no-repeat;
+	width: 720px;
+	margin: 0 auto;
+	height: 35px;
+	position: relative;
+	padding-left: 12px;
+	margin-top: 5px;
+}
+
+.daohang span {
+	margin: 0px 8px;
+}
+
+.daohang span a {
+	margin: 0px 5px;
+}
+
+.rightcon {
+	width: 700px;
+	margin: 0 auto;
+	line-height: 1.8;
+	padding: 5px 0px;
+}
+
+.rightcon p {
+	margin: 5px 0px;
+	color: #58595b;
+	text-align: justify;
+}
+
+.rightcon p span {
+	color: #da0e63;
+	font-weight: bold;
+}
+
+.rightcon b {
+	color: #da0e63;
+	font-weight: bold;
+}
+
+.rightcon h1 {
+	font-size: 14px;
+	color: #58595b;
+}
+
+.rightcon-a {
+	width: 50px;
+	float: left;
+	white-space: nowrap;
+}
+
+.rightcon-a span {
+	color: #006bb1;
+	position: relative;
+	top: 1px;
+	font-size: 14px;
+}
+
+.rightcon-b {
+	width: 640px;
+	float: right;
+}
+
+.rightcon-b h1 a {
+	color: #006bb1;
+}
+
+.rightcon-b p.blue {
+	color: #598f1f;
+}
+
+.downbg {
+	background: url(../images/content-bgbottom.gif) no-repeat bottom left;
+	height: 15px;
+	width: 990px;
+}
+
+.page {
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 10px;
+	text-align: right;
+}
+
+.page a {
+	color: #006bb1;
+	margin: 0 3px;
+}
+
+/*shuji*/
+.banner {
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	right: 6px;
+	width: 982px;
+	height: 134px;
+	margin-bottom: 20px;
+}
+
+.shujiul {
+	width: 720px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.shujiul li {
+	padding-bottom: 15px;
+}
+
+.shujiul li.shujili01 {
+	width: 155px;
+	float: left;
+	_height: 197px;
+	min-height: 197px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.shujiul li.shujili01 img {
+	width: 150px;
+	border: 1px solid #71a83f;
+}
+
+.shujiul li.shujili02 {
+	width: 550px;
+	float: right;
+	position: relative;
+	text-align: left;
+}
+
+.shujiul li p.shubiao {
+	width: 450px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.shujiul li.shujili02 p {
+	line-height: 1.8;
+	margin: 4px 0px;
+}
+
+a.EC {
+	white-space: nowrap;
+	width: 125px;
+	height: 31px;
+	line-height: 26px;
+	background: url(../images/book-qiebg.gif) no-repeat center;
+	text-align: center;
+	display: block;
+	position: absolute;
+	top: 2px;
+	right: 0px;
+}
+
+a.view {
+	white-space: nowrap;
+	width: 125px;
+	height: 31px;
+	line-height: 26px;
+	background: url(../images/book-qiebg.gif) no-repeat center;
+	text-align: center;
+	display: block;
+	float: right;
+}
+
+.bookscon {
+	width: 990px;
+	margin: 0 auto;
+	border: 0px solid #7bb643;
+	border-top: 0px solid #7bb643;
+	background: url(../images/bookbiaoti-bg.gif) repeat-x top;
+	_height: 300px;
+	min-height: 400px;
+}
+
+.bookscon h1.biao {
+	font-family: "微软雅黑";
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 12pt;
+	margin-top: 10px;
+	line-height: 1.5;
+	padding: 10px 0px;
+}
+
+.books-ce {
+	display: block;
+	margin-left: 20px;
+	background: url(../images/books-cea.png) no-repeat;
+	width: 145px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	position: absolute;
+	right: 370px;
+	top: 5px;
+}
+
+.bought {
+	display: block;
+	margin-left: 20px;
+	background: url(../images/lang.png) no-repeat;
+	width: 250px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	position: absolute;
+	right: 20px;
+	top: 5px;
+}
+
+/*zydz*/
+.zydzmenu {
+	width: 100%;
+	height: 44px;
+	background: url(../images/zydzmenu-bg.gif) repeat-x;
+}
+
+.zydzmenua {
+	width: 990px;
+	margin: 0 auto;
+	line-height: 35px;
+	position: relative;
+}
+
+.zydzmenu p {
+	margin-left: 20px;
+}
+
+.zydzmenu p.print {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.zydzmenu p span img {
+	padding: 10px 0px;
+}
+
+.zydzmenu p span {
+	margin: 0px 8px;
+}
+
+.zydz-cn {
+	width: 970px;
+	margin: 0 auto;
+	height: 31px;
+	line-height: 31px;
+	margin-left: -30px;
+}
+
+.zydz-cn a {
+	display: block;
+	width: 100px;
+	height: 31px;
+	text-align: center;
+	line-height: 25px;
+	background: url(../images/books-CE.png) no-repeat;
+	float: right;
+	margin: 0px 8px;
+}
+
+.zydz-cn a.ench {
+	display: block;
+	width: 145px;
+	height: 31px;
+	text-align: center;
+	line-height: 25px;
+	background: url(../images/books-cea.png) no-repeat;
+	float: right;
+	margin: 0px 8px;
+}
+
+* /
+
+.zydzul {
+	width: 990px;
+	margin: 0 auto;
+}
+
+.zydzul li {
+	font-size: 14px;
+	font-family: "微软雅黑"
+}
+
+.zydzul li p {
+	line-height: 1.8;
+}
+
+.zydzul li span {
+	margin-right: 15px;
+}
+
+.zydzul li.zydzlia {
+	width: 300px;
+	float: left;
+	padding: 20px;
+	font-family: "微软雅黑"
+}
+
+.zydzul li.zydzlib {
+	width: 610px;
+	float: right;
+	padding: 20px;
+	font-family: "微软雅黑"
+}
+
+.zhengwen {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 50px;
+	width: 938px;
+	margin: 0 auto; url (../images/zhengwen-bg.png) repeat-x;
+	border: 1px solid #7bb643;
+	font-size: 16px;
+	position: relative;
+}
+
+.yincang {
+	font-size: 12px;
+	font-weight: 200;
+	position: absolute;
+	top: 0px;
+	right: 25px;
+	padding-left: 25px;
+	background: url(../images/yincang.png) no-repeat center left;
+}
+
+.zydzula {
+	width: 920px;
+	margin: 0 auto;
+}
+
+.STYLE1,.news-title,.news-body,A
+.bluebold
+:link,td
+.bluebold,.treven,.trodd,a
+.contentlink
+:link,a
+.contentlink
+:hover,a.contentlink:visited,a.contentlink:active,#displaycontent .t1,#displaycontent .t2,p.doc-A,.doc-B,.commentarytitle,a.referencelink:link,a.referencelink:hover,a.link
+	{
+	font-family: "微软雅黑";
+}
+
+.docLinked {
+	margin-left: 30px;
+	font-size: 13px;
+	font-family: "微软雅黑";
+}
+
+.reflink {
+	margin-left: 20px;
+}
+
+.textLink {
+	padding-right: 50px;
+	font-size: 16px;
+}
+
+.news-title {
+	font-family: "微软雅黑";
+	font-size: 20px;
+	font-weight: bold;
+	color: #16679c;
+}
+
+.news-body {
+	font-size: 14px;
+}
+
+.news-body-zh {
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+
+.news-body-en {
+	font-family: "Arial";
+	font-size: 20px;
+}
+
+textarea {
+	resize: none;
+}
+
+.linkDoc {
+	color: #990000;
+	font-size: 13px;
+	font-family: "微软雅黑";
+}
+
+A.link:link {
+	color: blue;
+	font-size: 13px;
+}
+
+A.link:visited {
+	color: blue;
+	font-size: 13px;
+}
+
+A.link:active {
+	color: blue;
+	font-size: 13px;
+}
+
+A.link:hover {
+	color: blue;
+	font-size: 13px;
+}
+
+/**中英文切换样式
+*/
+A.languageswitch:link {
+	font-family: "微软雅黑";
+	text-decoration: none;
+	color: #2200C1;
+	font-weight: bold
+}
+
+A.languageswitch:visited {
+	font-family: "微软雅黑";
+	text-decoration: none;
+	color: #2200C1;
+	font-weight: bold
+}
+
+A.languageswitch:active {
+	font-family: "微软雅黑";
+	text-decoration: none;
+	color: #2200C1;
+	font-weight: bold
+}
+
+A.languageswitch:hover {
+	font-family: "微软雅黑";
+	text-decoration: none;
+	color: #2200C1;
+	font-weight: bold
+}
+
+a.contentlink:link {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: blue;
+	text-decoration: underline;
+}
+
+a.contentlink:visited {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: blue;
+	text-decoration: underline;
+}
+
+a.contentlink:active {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: blue;
+	text-decoration: underline;
+}
+
+a.contentlink:hover {
+	font-family: "微软雅黑";
+	text-decoration: none;
+	font-size: 14px;
+	background-color: #FFCCCC;
+	text-decoration: none;
+}
+
+a.referencelink:link {
+	font-family: "微软雅黑";
+	font-size: 13px;
+	text-decoration: none;
+}
+
+a.referencelink:visited {
+	font-family: "微软雅黑";
+	font-size: 13px;
+	text-decoration: none;
+}
+
+a.referencelink:active {
+	font-family: "微软雅黑";
+	font-size: 13px;
+	text-decoration: none;
+}
+
+a.referencelink:hover {
+	font-family: "微软雅黑";
+	font-size: 13px;
+	text-decoration: none;
+}
+
+/*标题链接
+*/
+a.titlelink:link {
+	color: blue;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+
+a.titlelink:hover {
+	font-size: 20px;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+
+.STYLE1 {
+	color: #FFFFff;
+	font-weight: bold;
+}
+
+.STYLE3 {
+	font-size: 14px
+}
+
+/*文档标题
+*/
+.doc-title {
+	font-size: 20px;
+	font-weight: bold;
+	color: #16679c;
+	font-family: "微软雅黑";
+}
+
+/* 文档标题(新)*/
+.doctitle {
+	background-image: url(../images/doc-bg.jpg);
+	font-size: 20px;
+	font-weight: bold;
+	color: #16679c;
+	font-family: "微软雅黑";
+	text-align: center;
+	padding: 20px;
+	background-repeat: repeat;
+}
+
+/*标题链接*/
+a.titlelink {
+	font-family: "微软雅黑";
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+a.titlelink:hover {
+	font-size: 20px;
+	color: #16679c;
+	font-family: "微软雅黑";
+}
+
+a.titlelink:visited {
+	font-size: 20px;
+	color: #16679c;
+	font-family: "微软雅黑";
+}
+
+a.titlelink:active {
+	font-size: 20px;
+	color: #16679c;
+	font-family: "微软雅黑";
+	text-decoration: underline;
+}
+
+.sect-title {
+	font-size: 13px;
+	font-family: "微软雅黑";
+}
+
+/*文档缩进
+*/
+.doc-A {
+	font-size: 14px;
+	font-family: "微软雅黑";
+	text-indent: 2em;
+}
+/*英文文档*/
+.doc-A-en {
+    font-size: 3.7mm;  /*五号字体*/
+    font-family: "Arial";
+    
+}
+.doc-A-en {
+    font-size: 3.7mm;
+    font-family: "Arial";
+}
+/*英文日期*/
+.promulgatedateen{
+    font-size: 3.7mm;
+    font-family: "Arial";
+    text-indent: 0em;
+}
+/*英文标题*/
+.promulgatetitleen {
+    font-size: 4.3mm;/*小四字体*/
+    font-family: "Arial";
+    text-indent: 0em;
+    font-weight: bold;
+}
+/*英文发文字号*/
+.promulgatesubtitleen {
+    font-size: 3.7mm;
+    font-family: "Arial";
+    text-indent: 0em;
+}
+/*文档加粗
+*/
+.doc-B {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/*show text
+*/
+#displaycontent {
+	height: 15px;
+	line-height: 15px;
+}
+
+#displaycontent .t1 {
+	text-align: left;
+}
+
+#promulgate .t1 p {
+	width: 30%;
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+}
+
+#displaycontent .t2 {
+	text-align: right;
+}
+
+/*相关链接
+*/
+p iframe {
+	margin: 0;
+	padding: 0;
+	height: 30px;
+}
+
+.doclinked iframe {
+	text-align: center;
+	line-height: 20px;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+
+#doclink iframe {
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+
+/*评述---块---标题
+*/
+.commentarytitle {
+	font-family: "微软雅黑";
+	color: black;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+}
+
+/*层级路径*/
+.bookname {
+	vertical-align: top;
+	height: 50px;
+	font-size: 12px;
+	width: 100%;
+}
+
+/*篇---标题
+*/
+.article-title {
+	font-size: 19px;
+	font-family: "微软雅黑";
+	text-align: center;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*章---标题
+*/
+.chapter-title {
+	font-size: 18px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
+
+/*节---标题
+*/
+.sect1-title {
+	text-indent: 0;
+	font-family: "微软雅黑";
+	font-size: 17px;
+	font-weight: bold;
+}
+
+/*条---标题
+*/
+.sect2-title {
+	text-indent: 0;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/*款---标题
+*/
+.sect3-title {
+	text-indent: 0;
+	font-family: "微软雅黑";
+	font-size: 13px;
+	font-weight: bold;
+}
+
+/*项---标题
+*/
+.sect4-title {
+	text-indent: 0;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/*目---标题
+*/
+.sect5-title {
+	text-indent: 0;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/*隐藏
+*/
+.dochiddenfield {
+	display: none;
+}
+
+/*case*/
+#casemeta {
+	width: 100%;
+}
+
+#casemeta .t1 {
+	width: 100px;
+}
+
+#casemetaprint .t1 {
+	width: 100px;
+}
+
+/*标题*/
+.cncasetitle {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.cncasesubtitle {
+	font-family: "微软雅黑";
+	font-size: 15px;
+	text-align: center;
+}
+
+/*法律法规元数据
+*/
+/*元数据名称
+*/
+#legislationmeta {
+	width: 100%;
+}
+
+#legislationmeta .t1 {
+	text-align: left;
+	font-size: 14px;
+	width: 400px;
+	font-size: 14px;
+}
+
+#legislationmeta .t2 {
+	text-align: left;
+	font-size: 14px;
+	width: 400px;
+	font-size: 14px;
+}
+
+#legislationmeta td {
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+
+/*标题*/
+.cntitle {
+	text-align: center;
+	margin: 10px;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+
+.cnsubtitle {
+	text-align: center;
+	margin: 10px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+
+/*法律法规----颁布标题
+*/
+.promulgatetitle {
+	text-align: center;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+
+/*颁布标题链接*/
+.promulgatetitle a:link {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.promulgatetitle a:visited {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.promulgatetitle a:active {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.promulgatetitle a:hover {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.promulgatesubtitle {
+	text-align: center;
+	margin: 10px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+
+/*	text-align: center;
+	font-size: 17px;
+	font-weight: bold;*/
+/*法律法规---颁布对象
+*/
+.promulgatepopulation {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	text-indent: 0;
+}
+
+/*颁布日期和主体
+*/
+.promulgatedate,.promulgatesignatory {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	font-size: 14px;
+}
+
+/*奇数行样式
+*/
+.trodd {
+	background-color: #ffffff;
+}
+
+/*偶数行样式
+*/
+.treven {
+	background-color: #ffffff;
+}
+
+#legislationdoublelanguagecontent {
+	margin-left: 35px;
+	width: 94%;
+}
+
+#legislationdoublelanguagecontent .t1 {
+	font-family: "微软雅黑";
+	width: 34%;
+	table-layout: fixed;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+#legislationdoublelanguagecontent .t2 {
+	font-family:"Arial";
+}
+
+#legislationdoublelanguagecontent td,#legislationdoublemeta td {
+	padding: 3px;
+}
+
+#legislationdoublemeta {
+	width: 100%;
+}
+
+/*法规双语元数据*/
+#legislationdoublemeta .t1 {
+	width: 34%;
+	table-layout: fixed;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+#legislationdoublemeta .t2 {
+	
+}
+
+sup {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+/*双语分割线
+*/
+.sepreatorline {
+	width: 1%;
+	padding: 0;
+	margin: 0;
+	background: white;
+}
+
+/*评述iframe容器*/
+#contentcontainer {
+	padding: 0;
+	margin-right: 0;
+	float: right;
+}
+
+/*评述正文内容*/
+#commentarycontent {
+	padding: 5px;
+	height: 600px;
+}
+
+/*左侧树*/
+#lefttree {
+	height: 600px;
+}
+
+/*评述iframe border*/
+#commentarycontainer iframe {
+	border: #8f8f8f 1px solid;
+}
+
+/*国际条约*/
+#doubletreatycontent .t1 {
+	width: 34%;
+}
+
+/*国际条约对照内容 */
+#doubletreatycontent .t2 {
+	
+}
+
+/*国际条约元数据*/
+#treatydoublemeta .t1 {
+	width: 34%;
+	table-layout: fixed;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+#treatydoublemeta .t2 {
+	
+}
+
+/*签署信息*/
+#cchcntreatysignset {
+	font-family: "微软雅黑";
+	width: 100%;
+	font-size: 13px;
+}
+
+#treatydoublemeta td,#doubletreatycontent td {
+	padding: 3px;
+}
+
+/* 检索关键字高亮样式 */
+.RedWord {
+	background: #CFB6FA;
+}
+
+/*块层级路径浏览页*/
+#showblockpath {
+	font-size: 12px;
+	font-family: "微软雅黑";
+	font-weight: normal;
+	width: 100%;
+	height: 60px;
+	padding: 0;
+	margin: 0;
+	padding: 0;
+}
+
+/*块层级路径打印页*/
+#showblockpathp {
+	font-size: 12px;
+	font-family: "微软雅黑";
+	font-weight: normal;
+	width: 649px;
+	height: 60px;
+	padding: 0;
+	margin: 0;
+}
+
+/*国际条约*/
+.treatytitle {
+	font-size: 16px;
+	font-family: "微软雅黑";
+	text-align: center;
+	font-weight: bold;
+}
+
+/*条*/
+.title {
+	text-indent: 2em;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+
+/*正文*/
+#showarticle p {
+	text-indent: 2em;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+
+/* butom 字体大小
+	*/
+.copycon p {
+	font-size: 20px;
+}
+
+.docLinked {
+	margin-left: 30px;
+	font-size: 13px;
+}
+.metaname{
+	text-indent: 2em;
+	font-size: 10.5pt;
+	font-weight:bold;	
+}
+.metavalue{
+	text-indent: 2em;
+	font-size: 10.5pt;
+}
+#legisDmetaTblCh{
+	font-family: "微软雅黑";
+}
+#legisDmetaTblEn{
+	font-family: "Arial";
+}
+#legisDoubleDmetaTbl .t1{width: auto;margin-left:0px}
+#legisDoubleDmetaTbl .t2{width: auto;margin-left:10px}
+.rowcontrastA{background-color: #F5F5F5;}
+
+.dz-left .biao{text-align:center;font-family: "微软雅黑";}
+.dz-right .biao{text-align:center;font-family: "Arial";}
+
+p[class='doc-A']{
+    font-size: 14px;
+    font-family: "微软雅黑";
+    text-indent: 2em;
+  }
+  span[class='doc-A']{
+	font-size: 16px;
+	font-family: "微软雅黑";
+	text-indent: 2em;
+	font-weight:bold;
+  }
+  span.doc-A{
+  font-family: "微软雅黑";
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+  }
+.legischmeata{
+	width:15%;
+}
+.legischmeataval{
+	width:35%;
+}
+.legisenmeataEn{
+	width:25%;
+}
+.legisenmeatavalEn{
+	width:25%;
+}
+
+  @page
+    {mso-page-border-surround-header:no;
+    mso-page-border-surround-footer:no;}
+@page Section1
+    {
+    margin:72.0pt 54.0pt 72.0pt 54.0pt ;
+    mso-header-margin:42.55pt;
+    mso-footer-margin:49.6pt;
+    mso-paper-source:0;
+    layout-grid:15.6pt;}
+div.clear
+    {page:Section1;}
+
+.doc-A-en table td {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+-->
+</style>
+</head>
+
+<body lang=ZH-CN
+	style='tab-interval: 21.0pt; text-justify-trim: punctuation;font-size:10.5pt;'>
+<img src="https://law.wkinfo.com.cn/images/logo1_zh.png"/>
+<div class="dz-left">
+<h3 class="biao"  style="display:none" >中华人民共和国担保法 </h3>
+</div>
+<div class="dz-right">
+<h3 class="biao"  style="display:none" >Security Law of the People's Republic of China </h3>
+</div>
+<div style="margin-top:10pt">
+<table cellpadding="0" cellspacing="0" id="legisDoubleDmetaTbl" border ="0">
+    <!--<tr>
+        <td class="t1">-->
+	        <!--<table cellpadding="0" cellspacing="0" id="legisDmetaTblCh" width="auto">-->
+               <tr>
+                    <td class="legischmeata"><span class="metaname" >发文机关</span></td> 
+                    <td class="legischmeataval"><span class="metavalue" >全国人民代表大会常务委员会</span></td>
+
+					<td class="legisenmeataEn"><span class="metaname" >Promulgation Authorities:</span></td>
+                    <td class="legisenmeatavalEn"><span class="metavalue" >Standing Committee of the National People's Congress</span></td>
+                </tr>
+                <tr>
+                    <td class="legischmeata"><span class="metaname" >发布日期</span></td>
+                    <td class="legischmeataval"><span class="metavalue" >1995.06.30</span></td> 
+					
+					 <td class="legisenmeataEn"><span class="metaname" >Promulgation Date:</span></td> 
+                    <td class="legisenmeatavalEn"><span class="metavalue" >1995.06.30</span></td>   
+                </tr>
+                <tr>
+                    <td class="legischmeata"><span class="metaname" >生效日期</span></td> 
+                    <td class="legischmeataval"><span class="metavalue" >1995.10.01</span></td>    
+
+					<td class="legisenmeataEn"><span class="metaname" >Effective Date:</span></td> 
+                    <td class="legisenmeatavalEn"><span class="metavalue" >1995.10.01</span></td>    
+                </tr>
+                <tr>
+                    <td class="legischmeata"><span class="metaname" >时效性</span></td> 
+                    <td class="legischmeataval"><span class="metavalue" >现行有效</span></td>   
+
+					<td class="legisenmeataEn"><span class="metaname">Validity Status:</span></td> 
+                    <td class="legisenmeatavalEn"><span class="metavalue" >valid</span></td> 
+                </tr>
+                <tr>
+                    <td class="legischmeata"><span class="metaname" >文号</span></td> 
+                    <td class="legischmeataval"><span class="metavalue" >主席令第五十号</span></td> 
+					
+					<td class="legisenmeataEn"><span class="metaname" >Document Number:</span></td> 
+                    <td class="legisenmeatavalEn"><span class="metavalue" ></span></td> 
+                </tr>
+            <!--</table>-->
+        <!--</td>-->
+        <!--<td  class="t2">-->
+	        <!--<table cellpadding="0" cellspacing="0" id="legisDmetaTblEn">
+                <tr>
+                    <td class="legisenmeata"><span class="metaname" >#!cchcnpromulgatingagencyidenshow!</span></td>
+                    <td class="legisenmeataval"><span class="metavalue" >#!cchcnpromulgatingagencyiden!</span></td>
+                </tr>
+                <tr>
+                    <td class="legisenmeata"><span class="metaname" >#!cchcnpromulgatingdateenshow!</span></td> 
+                    <td class="legisenmeataval"><span class="metavalue" >#!cchcnpromulgatingdateen!</span></td>   
+                </tr>
+                <tr>
+                    <td class="legisenmeata"><span class="metaname" >#!cchcneffectivedateenshow!</span></td> 
+                    <td class="legisenmeataval"><span class="metavalue" >#!cchcneffectivedateen!</span></td>    
+                </tr>
+                <tr>
+                    <td class="legisenmeata"><span class="metaname">#!cchcnvaliditystatusidenshow!</span></td> 
+                    <td class="legisenmeataval"><span class="metavalue" >#!cchcnvaliditystatusiden!</span></td>   
+                </tr>
+                -->
+            <!--</table>-->
+       <!-- </td>
+	</tr>-->
+	<tr>
+		<td>&nbsp;</td><td></td>
+	</tr>
+</table>
+</div>
+
+<div class="clear">
+<p class="zw-topbg"></p>
+<div class="faguicon">
+<table cellpadding="0" border="0" cellspacing="0" width="100%"  border="0" align="center" id="legislationdoublelanguagecontent">
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<p class="promulgatetitle">中华人民共和国担保法</p>
+<p class="promulgatesubtitle">主席令第五十号</p>
+<p class="doc-A">1995年6月30日第八届全国人民代表大会常务委员会第十四次会议通过，1995年6月30日中华人民共和国主席令第50号公布</p>
+</td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<p class="promulgatetitleen">Security Law of the People's Republic of China</p>
+<p class="doc-A-en">Adopted 30 June 1995 by the Fourteenth Session of the Standing Committee of the Eighth National People's Congress</p>
+</td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<span class="doc-A">第一章 总 则</span></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<span class="doc-A-en">CHAPTER I — GENERAL PRINCIPLES</span></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No23_Z1T1"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第一条</span>   <p class="doc-A">为促进资金融通和商品流通，保障债权的实现，发展社会主义市场经济，制定本法。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No4_Z1T1"></a><span class="doc-A-en">Article 1.</span>   <p class="doc-A-en">This Law is formulated in order to promote the accommodation of funds and circulation of commodities so as to ensure the satisfaction of creditors' claims as well as to advance the development of the socialist market economy.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No25_Z1T2"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第二条</span>   <p class="doc-A">在借贷、买卖、货物运输、加工承揽等经济活动中，债权人需要以担保方式保障其债权实现的，可以依照本法规定设定担保。</p><p class="doc-A">本法规定的担保方式为保证、抵押、质押、留置和定金。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No6_Z1T2"></a><span class="doc-A-en">Article 2.</span>   <p class="doc-A-en">In economic activities such as financial and commercial transactions, transportation of goods and contracted processing, if a creditor requires that the satisfaction of his/her claim be ensured by means of a security, he/she may make use of a security in accordance with the provisions of the Law.</p><p class="doc-A-en">Guarantees, mortgages, pledges and liens shall all be securities for the purposes of this Law.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No28_Z1T3"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第三条</span>   <p class="doc-A">担保活动应当遵循平等、自愿、公平、诚实信用的原则。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No9_Z1T3"></a><span class="doc-A-en">Article 3.</span>   <p class="doc-A-en">Securities shall be undertaken in compliance with the principles of equality, voluntariness, fairness, honesty and mutual trust.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No30_Z1T4"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第四条</span>   <p class="doc-A">第三人为债务人向债权人提供担保时，可以要求债务人提供反担保。</p><p class="doc-A">反担保适用本法担保的规定。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No11_Z1T4"></a><span class="doc-A-en">Article 4.</span>   <p class="doc-A-en">A third party who provides security to a creditor on behalf of a debtor may request that the debtor provide counter-security.</p><p class="doc-A-en">The stipulations of this Act shall also apply to counter-securities.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No33_Z1T5"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第五条</span>   <p class="doc-A">担保合同是主合同的从合同，主合同无效，担保合同无效。担保合同另有约定的，按照约定。</p><p class="doc-A">担保合同被确认无效后，债务人、担保人、债权人有过错的，应当根据其过错各自承担相应的民事责任。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No14_Z1T5"></a><span class="doc-A-en">Article 5.</span>   <p class="doc-A-en">A security contract is an ancillary contract to the principal contract. If the principal contract is void, the security contract is thereupon void. Where the security contract stipulates otherwise, those stipulations shall be complied with.</p><p class="doc-A-en">If a security contract is confirmed to be void and the debtor, creditor or person providing the security is at fault, that person shall be civilly liable in proportion to his/her fault.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<span class="doc-A">第二章 保 证</span></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<span class="doc-A-en">CHAPTER II — GUARANTEE</span></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<span class="doc-A">第一节 保证和保证人</span></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<span class="doc-A-en">Section 1 — Guarantee and Guarantor</span></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No38_Z2J1T6"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第六条</span>   <p class="doc-A">本法所称保证，是指保证人和债权人约定，当债务人不履行债务时，保证人按照约定履行债务或者承担责任的行为。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No19_Z2J1T6"></a><span class="doc-A-en">Article 6.</span>   <p class="doc-A-en">For the purposes of the Law, the term guarantee shall refer to the act of a guarantor, pursuant to an agreement between the guarantor and the creditor, in performing the obligations of or bearing liability for a debtor when that debtor fails to perform his/her obligations.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No40_Z2J1T7"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第七条</span>   <p class="doc-A">具有代为清偿债务能力的法人、其他组织或者公民，可以作保证人。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No21_Z2J1T7"></a><span class="doc-A-en">Article 7.</span>   <p class="doc-A-en">Corporations, other organisations or citizens who are able to perform the obligations of the debtor in a representative capacity may act as guarantors.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No42_Z2J1T8"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第八条</span>   <p class="doc-A">国家机关不得为保证人，但经国务院批准为使用外国政府或者国际经济组织贷款进行转贷的除外。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No23_Z2J1T8"></a><span class="doc-A-en">Article 8.</span>   <p class="doc-A-en">State organs shall not act as guarantors, except where loans from foreign governments or international economic organisations are used in the form of a sub-loan with the approval of the State Council.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No44_Z2J1T9"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第九条</span>   <p class="doc-A">学校、幼儿园、医院等以公益为目的的事业单位、社会团体不得为保证人。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No25_Z2J1T9"></a><span class="doc-A-en">Article 9.</span>   <p class="doc-A-en">Non-profit institutions and social welfare organisations, such as schools, kindergartens and hospitals, shall not act as guarantors.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No46_Z2J1T10"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第十条</span>   <p class="doc-A">企业法人的分支机构、职能部门不得为保证人。</p><p class="doc-A">企业法人的分支机构有法人书面授权的，可以在授权范围内提供保证。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No27_Z2J1T10"></a><span class="doc-A-en">Article 10.</span>   <p class="doc-A-en">Branch organisations and functional departments of enterprise corporations shall not act as guarantors.</p><p class="doc-A-en">Branch organisations of enterprise corporations may, with written authorisation from the parent corporation, provide a guarantee within the scope of the authorisation.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No49_Z2J1T11"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第十一条</span>   <p class="doc-A">任何单位和个人不得强令银行等金融机构或者企业为他人提供保证；银行等金融机构或者企业对强令其为他人提供保证的行为，有权拒绝。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No30_Z2J1T11"></a><span class="doc-A-en">Article 11.</span>   <p class="doc-A-en">No organisation or individual shall coerce an enterprise or a financial institution such as a bank to provide a guarantee for any party. The financial institution or enterprise has the right to refuse such coercion.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No51_Z2J1T12"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第十二条</span>   <p class="doc-A">同一债务有两个以上保证人的，保证人应当按照保证合同约定的保证份额，承担保证责任。没有约定保证份额的，保证人承担连带责任，债权人可以要求任何一个保证人承担全部保证责任，保证人都负有担保全部债权实现的义务。已经承担保证责任的保证人，有权向债务人追偿，或者要求承担连带责任的其他保证人清偿其应当承担的份额。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No32_Z2J1T12"></a><span class="doc-A-en">Article 12.</span>   <p class="doc-A-en">If there are more than two guarantors for one debt, the guarantors shall share liability in accordance with the amounts agreed in the guarantee contract. If there is no stipulation in the contract as to the amount of each guarantor's liability, the guarantors shall assume joint liability. The creditor may demand that one of the guarantors assume full guarantee liability and in that case any one of the guarantors may be liable to bear the obligation to do so. The guarantor who has assumed the guarantee liability is entitled to seek compensation from the debtor or demand other guarantors with whom he/she shares joint liability to pay their share of compensation.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<span class="doc-A">第二节 保证合同和保证方式</span></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<span class="doc-A-en">Section 2 — Guarantee Contract and Methods of Guarantee</span></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No54_Z2J2T13"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第十三条</span>   <p class="doc-A">保证人与债权人应当以书面形式订立保证合同。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No35_Z2J2T13"></a><span class="doc-A-en">Article 13.</span>   <p class="doc-A-en">A guarantor and the creditor shall enter into a guarantee contract in writing.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No56_Z2J2T14"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第十四条</span>   <p class="doc-A">保证人与债权人可以就单个主合同分别订立保证合同，也可以协议在最高债权额限度内就一定期间连续发生的借款合同或者某项商品交易合同订立一个保证合同。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No37_Z2J2T14"></a><span class="doc-A-en">Article 14.</span>   <p class="doc-A-en">A guarantor and the creditor may enter a separate guarantee contract for each individual principal contract, or negotiate a single guarantee contract which covers consecutive loan contracts within a certain time period or for certain commodity transactions and which is limited to a maximum debt amount.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No58_Z2J2T15"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第十五条</span>   <p class="doc-A">保证合同应当包括以下内容：</p><p class="doc-A">（一）被保证的主债权种类、数额；</p><p class="doc-A">（二）债务人履行债务的期限；</p><p class="doc-A">（三）保证的方式；</p><p class="doc-A">（四）保证担保的范围；</p><p class="doc-A">（五）保证的期间；</p><p class="doc-A">（六）双方认为需要约定的其他事项。</p><p class="doc-A">保证合同不完全具备前款规定内容的，可以补正。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No39_Z2J2T15"></a><span class="doc-A-en">Article 15.</span>   <p class="doc-A-en">A guarantee contract shall include the following information:</p><p class="doc-A-en">(1) the type and amount of the principal debt guaranteed;</p><p class="doc-A-en">(2) the time limit for the debtor to discharge the debt;</p><p class="doc-A-en">(3) the method of guarantee;</p><p class="doc-A-en">(4) the scope of the guarantee;</p><p class="doc-A-en">(5) the duration of the guarantee;</p><p class="doc-A-en">(6) other information deemed necessary by both signatories.</p><p class="doc-A-en">A guarantee contract which does not stipulates the abovementioned information in its entirety may be revised.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No67_Z2J2T16"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第十六条</span>   <p class="doc-A">保证的方式有：</p><p class="doc-A">（一）一般保证；</p><p class="doc-A">（二）连带责任保证。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No48_Z2J2T16"></a><span class="doc-A-en">Article 16.</span>   <p class="doc-A-en">The methods of guarantee are:</p><p class="doc-A-en">(1) ordinary guarantee;</p><p class="doc-A-en">(2) joint guarantee liability.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No71_Z2J2T17"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第十七条</span>   <p class="doc-A">当事人在保证合同中约定，债务人不能履行债务时，由保证人承担保证责任的，为一般保证。</p><p class="doc-A">一般保证的保证人在主合同纠纷未经审判或者仲裁，并就债务人财产依法强制执行仍不能履行债务前，对债权人可以拒绝承担保证责任。</p><p class="doc-A">有下列情形之一的，保证人不得行使前款规定的权利：</p><p class="doc-A">（一）债务人住所变更，致使债权人要求其履行债务发生重大困难的；</p><p class="doc-A">（二）人民法院受理债务人破产案件，中止执行程序的；</p><p class="doc-A">（三）保证人以书面形式放弃前款规定的权利的。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No52_Z2J2T17"></a><span class="doc-A-en">Article 17.</span>   <p class="doc-A-en">An ordinary guarantee refers to the act of the guarantor in assuming guarantee liability when the debtor fails to perform his/her obligations.</p><p class="doc-A-en">The guarantor under an ordinary guarantee may refuse to assume guarantee liability where the dispute over the principal contract has not yet undergone judicial or arbitration proceedings and where the debtor remains incapable of performing his/her obligations despite an enforcement order against his/her properties.</p><p class="doc-A-en">A guarantor shall not be permitted to exercise the rights stipulated in the previous paragraph in any of the following situations:</p><p class="doc-A-en">(1) the debtor changes residence, resulting in major difficulty for the creditor in requesting the debtor to discharge the debt;</p><p class="doc-A-en">(2) implementation procedures are suspended when bankruptcy proceedings are initiated against the debtor in the People's Court;</p><p class="doc-A-en">(3) the guarantor relinquishes, in writing, the rights stipulated in the previous paragraph.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No78_Z2J2T18"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第十八条</span>   <p class="doc-A">当事人在保证合同中约定保证人与债务人对债务承担连带责任的，为连带责任保证。</p><p class="doc-A">连带责任保证的债务人在主合同规定的债务履行期届满没有履行债务的，债权人可以要求债务人履行债务，也可以要求保证人在其保证范围内承担保证责任。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No59_Z2J2T18"></a><span class="doc-A-en">Article 18.</span>   <p class="doc-A-en">The term joint guarantee liability refers to the stipulation in the guarantee contract that the guarantor and the debtor shall assume joint liability for the debts.</p><p class="doc-A-en">When the time period for the performance of the debtor's obligations as provided in the principal contract expires and the debtor under joint guarantee liability fails to perform his/her obligations, the creditor may demand that the debtor perform his/her obligations, or demand that the guarantor assume guarantee liability within the scope of the guarantee.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No81_Z2J2T19"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第十九条</span>   <p class="doc-A">当事人对保证方式没有约定或者约定不明确的，按照连带责任保证承担保证责任。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No62_Z2J2T19"></a><span class="doc-A-en">Article 19.</span>   <p class="doc-A-en">Where the parties have made no arrangements on the method of guarantee or the arrangement is unclear, joint guarantee liability shall apply.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No83_Z2J2T20"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第二十条</span>   <p class="doc-A">一般保证和连带责任保证的保证人享有债务人的抗辩权。债务人放弃对债务的抗辩权的，保证人仍有权抗辩。</p><p class="doc-A">抗辩权是指债权人行使债权时，债务人根据法定事由，对抗债权人行使请求权的权利。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No64_Z2J2T20"></a><span class="doc-A-en">Article 20.</span>   <p class="doc-A-en">A guarantor under either ordinary guarantee or joint guarantee liability is entitled to the debtor's right of counter plea. Even where the debtor reliquishes the right of counter plea, the guarantor retains the right of counter plea.</p><p class="doc-A-en">The right to counter plea refers to the debtor's right, with lawful excuse, to counter the creditor's claim when the creditor exercises his/her right to claim for the debt.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<span class="doc-A">第三节 保证责任</span></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<span class="doc-A-en">Section 3 — Guarantee Liabilities</span></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No87_Z2J3T21"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第二十一条</span>   <p class="doc-A">保证担保的范围包括主债权及利息、违约金、损害赔偿金和实现债权的费用。保证合同另有约定的，按照约定。</p><p class="doc-A">当事人对保证担保的范围没有约定或者约定不明确的，保证人应当对全部债务承担责任。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No68_Z2J3T21"></a><span class="doc-A-en">Article 21.</span>   <p class="doc-A-en">The scope of the guarantee shall include the principal debt and interest, fines for default, compensation for loss and expenses incurred in satisfying the creditor's claim. Where the guarantee contract stipulates otherwise, those stipulations shall be complied with.</p><p class="doc-A-en">Where the parties to the guarantee have made no arrangement on the scope of the guarantee or the arrangement is unclear, the guarantor shall assume liability for the entire debt.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No90_Z2J3T22"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第二十二条</span>   <p class="doc-A">保证期间，债权人依法将主债权转让给第三人的，保证人在原保证担保的范围内继续承担保证责任。保证合同另有约定的，按照约定。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No71_Z2J3T22"></a><span class="doc-A-en">Article 22.</span>   <p class="doc-A-en">If during the guarantee period, the creditor transfers the principal claim to a third party in accordance with the law, the guarantor shall continue to assume guarantee liabilities within the scope of the original guarantee. Where the guarantee contract stipulates otherwise, those stipulations shall be complied with.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No92_Z2J3T23"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第二十三条</span>   <p class="doc-A">保证期间，债权人许可债务人转让债务的，应当取得保证人书面同意，保证人对未经其同意转让的债务，不再承担保证责任。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No73_Z2J3T23"></a><span class="doc-A-en">Article 23.</span>   <p class="doc-A-en">During the duration of the guarantee, there the debtor purports to transfer the debt with the approval of the creditor, written approval from the guarantor must be obtained. The guarantor no longer bears guarantee liability for the debt transferred without his/her written approval.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No94_Z2J3T24"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第二十四条</span>   <p class="doc-A">债权人与债务人协议变更主合同的，应当取得保证人书面同意，未经保证人书面同意的，保证人不再承担保证责任。保证合同另有约定的，按照约定。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No75_Z2J3T24"></a><span class="doc-A-en">Article 24.</span>   <p class="doc-A-en">When the creditor and the debtor agree to modify the principal contract, they shall seek written approval from the guarantor. Without such an approval, the guarantor no longer bears guarantee liability. Where the guarantee contract stipulates otherwise, those stipulations shall be complied with.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No96_Z2J3T25"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第二十五条</span>   <p class="doc-A">一般保证的保证人与债权人未约定保证期间的，保证期间为主债务履行期届满之日起六个月。</p><p class="doc-A">在合同约定的保证期间和前款规定的保证期间，债权人未对债务人提起诉讼或者申请仲裁的，保证人免除保证责任；债权人已提起诉讼或者申请仲裁的，保证期间适用诉讼时效中断的规定。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No77_Z2J3T25"></a><span class="doc-A-en">Article 25.</span>   <p class="doc-A-en">Where no stipulation has been made as to the duration of an ordinary guarantee in the agreement between the guarantor and the creditor, the duration of the guarantee shall be six months following the date of expiration of the principal debt.</p><p class="doc-A-en">If, within the duration of the guarantee as stipulated in the guarantee contract or as prescribed in the previous paragraph, the creditor fails to initiate a lawsuit or arbitration proceedings, the guarantor shall be exempted from guarantee liability. Where the creditor has filed a lawsuit or commenced arbitration proceedings, the rules which were suspended due to the bringing of such proceedings shall apply to the guarantee period.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No99_Z2J3T26"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第二十六条</span>   <p class="doc-A">连带责任保证的保证人与债权人未约定保证期间的，债权人有权自主债务履行期届满之日起六个月内要求保证人承担保证责任。</p><p class="doc-A">在合同约定的保证期间和前款规定的保证期间，债权人未要求保证人承担保证责任的，保证人免除保证责任。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No80_Z2J3T26"></a><span class="doc-A-en">Article 26.</span>   <p class="doc-A-en">Where no agreement as to the duration of the guarantee has been made between a creditor and a guarantor with joint guarantee liability, the creditor, within six months of the expiration of the principal debt, is entitled to demand that the guarantor discharge the debt.</p><p class="doc-A-en">If, within the duration of the guarantee as stipulated in the guarantee contract or as prescribed in the previous paragraph, the creditor fails to demand that the guarantor bears his/her guarantee liability, the guarantor is exempted from guarantee liability.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No102_Z2J3T27"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第二十七条</span>   <p class="doc-A">保证人依照本法第十四条规定就连续发生的债权作保证，未约定保证期间的，保证人可以随时书面通知债权人终止保证合同，但保证人对于通知到债权人前所发生的债权，承担保证责任。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No83_Z2J3T27"></a><span class="doc-A-en">Article 27.</span>   <p class="doc-A-en">Where the guarantor guarantees consecutive debts, as stipulated in Article 14 of this Act, and no agreement has been made as to the duration of the guarantee, the guarantor may notify the creditor in writing at any time of the termination of the guarantee contract. However, the guarantor remains liable for claims arising before written notification is received by the creditor.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No104_Z2J3T28"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第二十八条</span>   <p class="doc-A">同一债权既有保证又有物的担保的，保证人对物的担保以外的债权承担保证责任。</p><p class="doc-A">债权人放弃物的担保的，保证人在债权人放弃权利的范围内免除保证责任。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No85_Z2J3T28"></a><span class="doc-A-en">Article 28.</span>   <p class="doc-A-en">Where a claim is secured by both a guarantee and tangible security, the guarantor assumes liability for that proportion of the debt which is not covered by the tangible security.</p><p class="doc-A-en">Where the creditor relinquishes the tangible security, the guarantor is exempt from liability for all that lies within the scope of rights relinquished by the creditor.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No107_Z2J3T29"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第二十九条</span>   <p class="doc-A">企业法人的分支机构未经法人书面授权或者超出授权范围与债权人订立保证合同的，该合同无效或者超出授权范围的部分无效，债权人和企业法人有过错的，应当根据其过错各自承担相应的民事责任；债权人无过错的，由企业法人承担民事责任。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No88_Z2J3T29"></a><span class="doc-A-en">Article 29.</span>   <p class="doc-A-en">Where branch organisations of an enterprise corporation enter into guarantee contracts with the creditor without written authorisation from the parent enterprise corporation, or exceed the scope of authorisation given, the contract shall be invalid or that proportion of the contract which exceeds the authorisation shall be invalid.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No109_Z2J3T30"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第三十条</span>   <p class="doc-A">有下列情形之一的，保证人不承担民事责任：</p><p class="doc-A">（一）主合同当事人双方串通，骗取保证人提供保证的；</p><p class="doc-A">（二）主合同债权人采取欺诈、胁迫等手段，使保证人在违背真实意思的情况下提供保证的。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No90_Z2J3T30"></a><span class="doc-A-en">Article 30.</span>   <p class="doc-A-en">The guarantor shall assume no civil liability in the following situations:</p><p class="doc-A-en">(1) where the parties to the principal contract collude to defraud the prospective guarantor into putting up the guarantee;</p><p class="doc-A-en">(2) where the principal contract creditor induces the guarantor, by means of fraud or duress, to put up the guarantee against his/her real intentions.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No113_Z2J3T31"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第三十一条</span>   <p class="doc-A">保证人承担保证责任后，有权向债务人追偿。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No94_Z2J3T31"></a><span class="doc-A-en">Article 31.</span>   <p class="doc-A-en">The guarantor after performing its obligations under the guarantee is entitled to seek compensation from the debtor.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No115_Z2J3T32"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第三十二条</span>   <p class="doc-A">人民法院受理债务人破产案件后，债权人未申报债权的，保证人可以参加破产财产分配，预先行使追偿权。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No96_Z2J3T32"></a><span class="doc-A-en">Article 32.</span>   <p class="doc-A-en">Where a debtor's bankruptcy case is heard in the People's Court and the creditor fails to make his/her claim to the debt, the guarantor may make a claim against the bankrupt properties in advance of exercising his/her right of compensation.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<span class="doc-A">第三章 抵 押</span></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<span class="doc-A-en">CHAPTER III — MORTGAGE</span></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<span class="doc-A">第一节 抵押和抵押物</span></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<span class="doc-A-en">Section 1 — Mortgage and Mortgaged Property</span></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No119_Z3J1T33"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第三十三条</span>   <p class="doc-A">本法所称抵押，是指债务人或者第三人不转移对本法第三十四条所列财产的占有，将该财产作为债权的担保。债务人不履行债务时，债权人有权依照本法规定以该财产折价或者以拍卖、变卖该财产的价款优先受偿。</p><p class="doc-A">前款规定的债务人或者第三人为抵押人，债权人为抵押权人，提供担保的财产为抵押物。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No100_Z3J1T33"></a><span class="doc-A-en">Article 33.</span>   <p class="doc-A-en">For the purposes of this Law, the term mortgage refers to the acts of a debtor, or a third party, who, without transferring possession, designates property listed in Article 34 of this Law as security against the claims of a creditor. Where the debtor fails to perform his/her obligations, the creditor is entitled to a preferential right of compensation in accordance with the relevant provisions of this Law. The creditor may be compensated through the transfer of the property, the value of which shall be decided through evaluation. Alternatively, the creditor may be compensated with the proceeds from auction or sale of the property.</p><p class="doc-A-en">The debtor or third party as referred to in the previous paragraph shall be the mortgagor. The creditor shall be the mortgagee. The property used as security shall be the mortgaged property.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No122_Z3J1T34"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第三十四条</span>   <p class="doc-A">下列财产可以抵押：</p><p class="doc-A">（一）抵押人所有的房屋和其他地上定着物；</p><p class="doc-A">（二）抵押人所有的机器、交通运输工具和其他财产；</p><p class="doc-A">（三）抵押人依法有权处分的国有的土地使用权、房屋和其他地上定着物；</p><p class="doc-A">（四）抵押人依法有权处分的国有的机器、交通运输工具和其他财产；</p><p class="doc-A">（五）抵押人依法承包并经发包方同意抵押的荒山、荒沟、荒丘、荒滩等荒地的土地使用权；</p><p class="doc-A">（六）依法可以抵押的其他财产。</p><p class="doc-A">抵押人可以将前款所列财产一并抵押。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No103_Z3J1T34"></a><span class="doc-A-en">Article 34.</span>   <p class="doc-A-en">The following categories of property may be mortgaged:</p><p class="doc-A-en">(1) buildings and other attachments to land owned by the mortgagor;</p><p class="doc-A-en">(2) machines, transport equipment and other property owned by the mortgagor;</p><p class="doc-A-en">(3) State-owned land use rights, buildings and other attachments to land which the mortgagor has the right to dispose of in accordance with the law;</p><p class="doc-A-en">(4) State-owned machines, transport equipment and other properties which the mortgagor has the right to dispose of in accordance with the law;</p><p class="doc-A-en">(5) land use rights pertaining to barren hills, dry river beds, shoals and other unused lands contracted out to the mortgagor with the approval of the party contracting out the abovementioned rights;</p><p class="doc-A-en">(6) other properties which may be mortgaged in accordance with the law.</p><p class="doc-A-en">The mortgagor may mortgage any combination of the properties listed in the previous paragraph.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No131_Z3J1T35"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第三十五条</span>   <p class="doc-A">抵押人所担保的债权不得超出其抵押物的价值。</p><p class="doc-A">财产抵押后，该财产的价值大于所担保债权的余额部分，可以再次抵押，但不得超出其余额部分。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No112_Z3J1T35"></a><span class="doc-A-en">Article 35.</span>   <p class="doc-A-en">The creditor's claim that is secured by the mortgage shall not exceed the value of the mortgaged property.</p><p class="doc-A-en">Where a property has been mortgaged, the value of the property that is in excess of the creditor's claim may also be the subject of a further mortgage. However, the amount of that mortgage shall not exceed the value of the amount originally in excess of the first mortgage.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No134_Z3J1T36"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第三十六条</span>   <p class="doc-A">以依法取得的国有土地上的房屋抵押的，该房屋占用范围内的国有土地使用权同时抵押。</p><p class="doc-A">以出让方式取得的国有土地使用权抵押的，应当将抵押时该国有土地上的房屋同时抵押。</p><p class="doc-A">乡（镇）、村企业的土地使用权不得单独抵押。以乡（镇）、村企业的厂房等建筑物抵押的，其占用范围内的土地使用权同时抵押。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No115_Z3J1T36"></a><span class="doc-A-en">Article 36.</span>   <p class="doc-A-en">Where legally acquired buildings on State-owned land are mortgaged, the land use rights pertaining to the land shall be mortgaged at the same time.</p><p class="doc-A-en">Where land use rights pertaining to State-owned land acquired through transfer are mortgaged, buildings on the land shall be mortgaged at the same time.</p><p class="doc-A-en">Land use rights pertaining to township and village enterprises shall not be mortgaged per se. Where the buildings of township and village enterprises are mortgaged, land use rights pertaining to associated lands shall be mortgaged at the same time.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No138_Z3J1T37"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第三十七条</span>   <p class="doc-A">下列财产不得抵押：</p><p class="doc-A">（一）土地所有权；</p><p class="doc-A">（二）耕地、宅基地、自留地、自留山等集体所有的土地使用权，但本法第三十四条第（五）项、第三十六条第三款规定的除外；</p><p class="doc-A">（三）学校、幼儿园、医院等以公益为目的的事业单位、社会团体的教育设施、医疗卫生设施和其他社会公益设施；</p><p class="doc-A">（四）所有权、使用权不明或者有争议的财产；</p><p class="doc-A">（五）依法被查封、扣押、监管的财产；</p><p class="doc-A">（六）依法不得抵押的其他财产。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No119_Z3J1T37"></a><span class="doc-A-en">Article 37.</span>   <p class="doc-A-en">The following categories of property shall not be mortgaged:</p><p class="doc-A-en">(1) ownership to land;</p><p class="doc-A-en">(2) land use rights pertaining to collectively owned lands such as farmlands, house sites and lands and hills allotted for personal needs except for those listed in item 5 of Article 34 and the third paragraph of Article 36;</p><p class="doc-A-en">(3) educational, medical and other public welfare facilities of non-profit organisations, such as schools, kindergartens, hospitals and other social organisations;</p><p class="doc-A-en">(4) property to which ownership is unspecified or in dispute;</p><p class="doc-A-en">(5) property which is legally sealed up, sequestered or controlled;</p><p class="doc-A-en">(6) other property which shall not be mortgaged in accordance with the law.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<span class="doc-A">第二节 抵押合同和抵押物登记</span></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<span class="doc-A-en">Section 2 — The Mortgage Contract and Registration of Mortgaged Property</span></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No147_Z3J2T38"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第三十八条</span>   <p class="doc-A">抵押人和抵押权人应当以书面形式订立抵押合同。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No128_Z3J2T38"></a><span class="doc-A-en">Article 38.</span>   <p class="doc-A-en">The mortgagor and the mortgagee shall enter into a mortgage contract in writing.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No149_Z3J2T39"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第三十九条</span>   <p class="doc-A">抵押合同应当包括以下内容：</p><p class="doc-A">（一）被担保的主债权种类、数额；</p><p class="doc-A">（二）债务人履行债务的期限；</p><p class="doc-A">（三）抵押物的名称、数量、质量、状况、所在地、所有权权属或者使用权权属；</p><p class="doc-A">（四）抵押担保的范围；</p><p class="doc-A">（五）当事人认为需要约定的其他事项。</p><p class="doc-A">抵押合同不完全具备前款规定内容的，可以补正。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No130_Z3J2T39"></a><span class="doc-A-en">Article 39.</span>   <p class="doc-A-en">The mortgage contract shall include the following information:</p><p class="doc-A-en">(1) the type and amount of the principal claim secured;</p><p class="doc-A-en">(2) the time limit within which the debtor must perform his/her obligations;</p><p class="doc-A-en">(3) the description, amount, quality, condition, location and ownership, or the ownership of use rights of the mortgaged property;</p><p class="doc-A-en">(4) the scope of the mortgage security;</p><p class="doc-A-en">(5) other matters deemed necessary by both the mortgagor and the mortgagee.</p><p class="doc-A-en">A mortgage contract which does not fully include the information as stipulated in the previous paragraph may be revised.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No157_Z3J2T40"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第四十条</span>   <p class="doc-A">订立抵押合同时，抵押权人和抵押人在合同中不得约定在债务履行期届满抵押权人未受清偿时，抵押物的所有权转移为债权人所有。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No138_Z3J2T40"></a><span class="doc-A-en">Article 40.</span>   <p class="doc-A-en">When entering into a mortgage contract, the mortgagee and the mortgagor shall not be permitted to stipulate in the contract that legal ownership of the mortgaged property be transferred to the creditor where the time limit for the performance of the mortgagor's obligations has expired but the mortgagor has not yet performed those obligations.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No159_Z3J2T41"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第四十一条</span>   <p class="doc-A">当事人以本法第四十二条规定的财产抵押的，应当办理抵押物登记，抵押合同自登记之日起生效。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No140_Z3J2T41"></a><span class="doc-A-en">Article 41.</span>   <p class="doc-A-en">The parties to the mortgage must register mortgaged property which is listed in Article 42; the mortgage contract takes effect upon registration.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No161_Z3J2T42"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第四十二条</span>   <p class="doc-A">办理抵押物登记的部门如下：</p><p class="doc-A">（一）以无地上定着物的土地使用权抵押的，为核发土地使用权证书的土地管理部门；</p><p class="doc-A">（二）以城市房地产或者乡（镇）、村企业的厂房等建筑物抵押的，为县级以上地方人民政府规定的部门；</p><p class="doc-A">（三）以林木抵押的，为县级以上林木主管部门；</p><p class="doc-A">（四）以航空器、船舶、车辆抵押的，为运输工具的登记部门；</p><p class="doc-A">（五）以企业的设备和其他动产抵押的，为财产所在地的工商行政管理部门。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No142_Z3J2T42"></a><span class="doc-A-en">Article 42.</span>   <p class="doc-A-en">The administrative authorities in charge of the registration of mortgaged property are as follows:</p><p class="doc-A-en">(1) where land use rights pertaining to land with no attachments are mortgaged, registration shall be administered by the land administration departments responsible for verification and issuing of land use right certificates;</p><p class="doc-A-en">(2) where urban real estate or buildings of township and village enterprises are mortgaged, registration shall be administered by departments designated by local governments at county level and above;</p><p class="doc-A-en">(3) where forestry trees are mortgaged, the registration shall be administered by the forestry administration departments at county level and above;</p><p class="doc-A-en">(4) where aircraft, ships and vehicles are mortgaged, the registration shall be administered by departments in charge of the registration of means of transport;</p><p class="doc-A-en">(5) where equipment and other movable property is mortgaged, the registration shall be administered by the local industrial and commercial administration departments.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No168_Z3J2T43"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第四十三条</span>   <p class="doc-A">当事人以其他财产抵押的，可以自愿办理抵押物登记，抵押合同自签订之日起生效。</p><p class="doc-A">当事人未办理抵押物登记的，不得对抗第三人。当事人办理抵押物登记的，登记部门为抵押人所在地的公证部门。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No149_Z3J2T43"></a><span class="doc-A-en">Article 43.</span>   <p class="doc-A-en">Where other types of property are mortgaged, the parties involved may voluntarily register the mortgaged property. The mortgage contract takes effect on registration.</p><p class="doc-A-en">If the parties have not registered such mortgaged property, their interests shall be defeasible by the claims of third parties. When the parties register such mortgaged property, the registration shall be administered by local public notaries.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No171_Z3J2T44"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第四十四条</span>   <p class="doc-A">办理抵押物登记，应当向登记部门提供下列文件或者其复印件：</p><p class="doc-A">（一）主合同和抵押合同；</p><p class="doc-A">（二）抵押物的所有权或者使用权证书。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No152_Z3J2T44"></a><span class="doc-A-en">Article 44.</span>   <p class="doc-A-en">In registering the mortgaged property, the following documents or duplicates thereof shall be presented:</p><p class="doc-A-en">(1) the principal contract and the mortgage contract;</p><p class="doc-A-en">(2) certificates of ownership of use rights pertaining to the mortgaged property.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No175_Z3J2T45"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第四十五条</span>   <p class="doc-A">登记部门登记的资料，应当允许查阅、抄录或者复印。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No156_Z3J2T45"></a><span class="doc-A-en">Article 45.</span>   <p class="doc-A-en">Registration information held in the relevant departments shall be open for searching, copying or photocopying.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<span class="doc-A">第三节 抵押的效力</span></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<span class="doc-A-en">Section 3 — Effect of Mortgage</span></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No178_Z3J3T46"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第四十六条</span>   <p class="doc-A">抵押担保的范围包括主债权及利息、违约金、损害赔偿金和实现抵押权的费用。抵押合同另有约定的，按照约定。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No159_Z3J3T46"></a><span class="doc-A-en">Article 46.</span>   <p class="doc-A-en">The scope of the mortgage security includes the principal debt and interest, fines for default, compensation for loss and expenses incurred in the satisfaction of the creditor's claim. Where the mortgage contract stipulates otherwise, those stipulations shall be complied with.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No180_Z3J3T47"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第四十七条</span>   <p class="doc-A">债务履行期届满，债务人不履行债务致使抵押物被人民法院依法扣押的，自扣押之日起抵押权人有权收取由抵押物分离的天然孳息以及抵押人就抵押物可以收取的法定孳息。抵押权人未将扣押抵押物的事实通知应当清偿法定孳息的义务人的，抵押权的效力不及于该孳息。</p><p class="doc-A">前款孳息应当先充抵收取孳息的费用。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No161_Z3J3T47"></a><span class="doc-A-en">Article 47.</span>   <p class="doc-A-en">Where a debtor fails to pay the debt within the time limit for the performance of the obligation resulting in the sequestration of the mortgaged property by the People's Court, the mortgagee, as from the date of the sequestration, has the power to claim the naturally and legally accruing income that the mortgagor may collect from the mortgaged property. Where the mortgagee fails to notify the person bearing the obligation to pay the legally accruing income in respect of the sequestered property, the rights of the mortgagee shall not extend to claiming such income.</p><p class="doc-A-en">The income referred to in the previous paragraph shall be first employed to meet expenses incurred in claiming the income.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No183_Z3J3T48"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第四十八条</span>   <p class="doc-A">抵押人将已出租的财产抵押的，应当书面告知承租人，原租赁合同继续有效。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No164_Z3J3T48"></a><span class="doc-A-en">Article 48.</span>   <p class="doc-A-en">Where a party purports to mortgage a leased property, the party shall notify the lessee in writing of the mortgage and the original lease agreement shall remain valid.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No185_Z3J3T49"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第四十九条</span>   <p class="doc-A">抵押期间，抵押人转让已办理登记的抵押物的，应当通知抵押权人并告知受让人转让物已经抵押的情况；抵押人未通知抵押权人或者未告知受让人的，转让行为无效。</p><p class="doc-A">转让抵押物的价款明显低于其价值的，抵押权人可以要求抵押人提供相应的担保；抵押人不提供的，不得转让抵押物。</p><p class="doc-A">抵押人转让抵押物所得的价款，应当向抵押权人提前清偿所担保的债权或者向与抵押权人约定的第三人提存。超过债权数额的部分，归抵押人所有，不足部分由债务人清偿。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No166_Z3J3T49"></a><span class="doc-A-en">Article 49.</span>   <p class="doc-A-en">Where the mortgagor transfers the mortgaged property within the mortgage period, the mortgagor shall notify the mortgagee of the transfer and shall notify the transferee that the transferred property is encumbered by a mortgage. Where the mortgagor fails to notify the mortgagee or the transferee, the transfer shall be invalid.</p><p class="doc-A-en">Where the purchase price of the mortgaged property to be transferred is clearly lower than the property's current value, the mortgagee may request that the mortgagor provide a corresponding security; where the mortgagor fails to provide the requested security, the mortgaged property shall not be transferred.</p><p class="doc-A-en">The purchase price received by the mortgagor from the transfer of the mortgaged property shall be utilised to pay the mortgage debt in advance or, upon agreement with the mortgagee, be deposited with a third party. That part in excess of the creditor's claim shall be retained by the mortgagor. If the purchase price is insufficient to satisfy the creditor's claim, the debtor shall pay the shortfall.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No189_Z3J3T50"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第五十条</span>   <p class="doc-A">抵押权不得与债权分离而单独转让或者作为其他债权的担保。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No170_Z3J3T50"></a><span class="doc-A-en">Article 50.</span>   <p class="doc-A-en">Mortgagee rights shall not be transferred separately from the creditor's claim or be employed as security for other claims.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No191_Z3J3T51"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第五十一条</span>   <p class="doc-A">抵押人的行为足以使抵押物价值减少的，抵押权人有权要求抵押人停止其行为。抵押物价值减少时，抵押权人有权要求抵押人恢复抵押物的价值，或者提供与减少的价值相当的担保。</p><p class="doc-A">抵押人对抵押物价值减少无过错的，抵押权人只能在抵押人因损害而得到的赔偿范围内要求提供担保。抵押物价值未减少的部分，仍作为债权的担保。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No172_Z3J3T51"></a><span class="doc-A-en">Article 51.</span>   <p class="doc-A-en">Should the mortgagor engage in acts likely to result in a reduction in value of the mortgaged property, the mortgagee has the power to request that the mortgagor cease such acts. Where the value of the mortgaged property is reduced, the mortgagee is entitled to request that the mortgagor restore the value of the mortgaged property or provide security equal to the value reduced.</p><p class="doc-A-en">Where the reduction in value of the mortgaged property is not caused by fault on the part of the mortgagor, the mortgagee may only demand a security within the scope of the compensation received by the mortgagor for the loss. That part of the mortgaged property which has not suffered a reduction in value shall remain as security for the creditor's claim.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No194_Z3J3T52"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第五十二条</span>   <p class="doc-A">抵押权与其担保的债权同时存在，债权消灭的，抵押权也消灭。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No175_Z3J3T52"></a><span class="doc-A-en">Article 52.</span>   <p class="doc-A-en">The rights of the mortgagee and the claims of the creditor secured by the mortgage shall co-exist. Where the claims of the creditor cease to exist, the rights of the mortgagee shall thereupon cease to exist.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<span class="doc-A">第四节 抵押权的实现</span></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<span class="doc-A-en">Section 4 — Satisfaction of Mortgagee's Rights</span></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No197_Z3J4T53"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第五十三条</span>   <p class="doc-A">债务履行期届满抵押权人未受清偿的，可以与抵押人协议以抵押物折价或者以拍卖、变卖该抵押物所得的价款受偿；协议不成的，抵押权人可以向人民法院提起诉讼。</p><p class="doc-A">抵押物折价或者拍卖、变卖后，其价款超过债权数额的部分归抵押人所有，不足部分由债务人清偿。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No178_Z3J4T53"></a><span class="doc-A-en">Article 53.</span>   <p class="doc-A-en">Where the time limit for performance of the debtor's obligation expires, the mortgagee's claim may be satisfied, upon agreement with the mortgagor, through transfer of title to the mortgagee. The value of the title shall be decided through evaluation of the property. Alternatively, the claim may be satisfied with proceeds acquired through auction or sale of the mortgaged property. Where the mortgagor and the mortgagee fail to reach agreement on such matters, the mortgagee may initiate court proceedings with the People's Court.</p><p class="doc-A-en">Should there be a difference between the evaluation or the proceeds from auction or sale of the mortgaged property and the amount of the creditor's claim, any excess shall be retained by the mortgagor and any shortfall due shall be paid by the mortgagor.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No200_Z3J4T54"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第五十四条</span>   <p class="doc-A">同一财产向两个以上债权人抵押的，拍卖、变卖抵押物所得的价款按照以下规定清偿：</p><p class="doc-A">（一）抵押合同以登记生效的，按照抵押物登记的先后顺序清偿；顺序相同的，按照债权比例清偿；</p><p class="doc-A">（二）抵押合同自签订之日起生效的，该抵押物已登记的，按照本条第（一）项规定清偿；未登记的，按照合同生效时间的先后顺序清偿，顺序相同的，按照债权比例清偿。抵押物已登记的先于未登记的受偿。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No181_Z3J4T54"></a><span class="doc-A-en">Article 54.</span>   <p class="doc-A-en">Where the same property is mortgaged to two or more creditors, the proceeds from the auction or sale of the mortgaged property shall be used to settle claims in accordance with the following stipulations:</p><p class="doc-A-en">(1) where the mortgage contracts take effect upon registration, payments will be made in order of registration. Where the mortgages in question were registered at the same time, the payments will be made in proportion to each creditor's claim;</p><p class="doc-A-en">(2) where the mortgage contracts take effect from the date of signature and the mortgaged property is registered, the payments will be made in accordance with the procedures as provided in Part 1 of this Article; where the mortgaged property is not registered, the priority of payment shall be determined in order of the effective date of the respective contracts. Where the respective contracts take effect on the same date, the payments will be made in proportion to the corresponding creditor's claim. Registered mortgage contracts shall have priority over those not registered.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No204_Z3J4T55"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第五十五条</span>   <p class="doc-A">城市房地产抵押合同签订后，土地上新增的房屋不属于抵押物。需要拍卖该抵押的房地产时，可以依法将该土地上新增的房屋与抵押物一同拍卖，但对拍卖新增房屋所得，抵押权人无权优先受偿。</p><p class="doc-A">依照本法规定以承包的荒地的土地使用权抵押的，或者以乡（镇）、村企业的厂房等建筑物占用范围内的土地使用权抵押的，在实现抵押权后，未经法定程序不得改变土地集体所有和土地用途。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No185_Z3J4T55"></a><span class="doc-A-en">Article 55.</span>   <p class="doc-A-en">Buildings constructed on urban land after a mortgage contract over the land has been concluded do not come within the mortgage contract. Where it becomes necessary to auction the mortgaged land, the newly constructed buildings may be auctioned along with the mortgaged property in accordance with the law. The mortgagee shall not be entitled to preferential rights compensation in respect of the proceeds of auction of those buildings.</p><p class="doc-A-en">Where land use rights pertaining to contracted unused land or to land occupied by buildings of township and village enterprises are mortgaged in accordance with this Law, the collective ownership and the usage of the land shall not be altered after the realisation of rights under the mortgage without undergoing legal procedures.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No207_Z3J4T56"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第五十六条</span>   <p class="doc-A">拍卖划拨的国有土地使用权所得的价款，在依法缴纳相当于应缴纳的土地使用权出让金的款额后，抵押权人有优先受偿权。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No188_Z3J4T56"></a><span class="doc-A-en">Article 56.</span>   <p class="doc-A-en">A mortgagee has preferential rights of compensation in respect of the proceeds from the auction of land use rights or State-owned land allocated by the State, once the corresponding payment of the transfer fee for the land use rights has been made in accordance with the law.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No209_Z3J4T57"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第五十七条</span>   <p class="doc-A">为债务人抵押担保的第三人，在抵押权人实现抵押权后，有权向债务人追偿。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No190_Z3J4T57"></a><span class="doc-A-en">Article 57.</span>   <p class="doc-A-en">A third party which secures the debtor's mortgage is entitled to seek compensation from the debtor following the realisation of the mortgagee's rights under the mortgage.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No211_Z3J4T58"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第五十八条</span>   <p class="doc-A">抵押权因抵押物灭失而消灭。因灭失所得的赔偿金，应当作为抵押财产。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No192_Z3J4T58"></a><span class="doc-A-en">Article 58.</span>   <p class="doc-A-en">The rights of the mortgagee cease to exist when the mortgaged property ceases to exist. Compensation received for the loss consequently suffered shall be treated as mortgaged assets.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<span class="doc-A">第五节 最高额抵押</span></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<span class="doc-A-en">Section 5 — Maximum Claim Mortgage</span></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No214_Z3J5T59"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第五十九条</span>   <p class="doc-A">本法所称最高额抵押，是指抵押人与抵押权人协议，在最高债权额限度内，以抵押物对一定期间内连续发生的债权作担保。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No195_Z3J5T59"></a><span class="doc-A-en">Article 59.</span>   <p class="doc-A-en">A maximum claim mortgage in this Law refers to an arrangement under which the mortgagor and the mortgagee agree to use mortgaged property to secure a series of creditor's claims within a certain period and up to a certain maximum amount.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No216_Z3J5T60"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第六十条</span>   <p class="doc-A">借款合同可以附最高额抵押合同。</p><p class="doc-A">债权人与债务人就某项商品在一定期间内连续发生交易而签订的合同，可以附最高额抵押合同。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No197_Z3J5T60"></a><span class="doc-A-en">Article 60.</span>   <p class="doc-A-en">A loan contract may have a maximum claim mortgage contract attached.</p><p class="doc-A-en">A contract which covers consecutive transactions between the creditor and the debtor involving a particular commodity during a certain time period may have ancillary maximum claim mortgage contracts attached.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No219_Z3J5T61"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第六十一条</span>   <p class="doc-A">最高额抵押的主合同债权不得转让。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No200_Z3J5T61"></a><span class="doc-A-en">Article 61.</span>   <p class="doc-A-en">The creditor's rights in the principal contract of the maximum claim mortgage shall not be transferred.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No221_Z3J5T62"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第六十二条</span>   <p class="doc-A">最高额抵押除适用本节规定外，适用本章其他规定。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No202_Z3J5T62"></a><span class="doc-A-en">Article 62.</span>   <p class="doc-A-en">The provisions of other parts of this Chapter, as well as the provisions of this Section, shall apply to maximum claim mortgages.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<span class="doc-A">第四章 质 押</span></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<span class="doc-A-en">CHAPTER IV — PLEDGE</span></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<span class="doc-A">第一节 动产质押</span></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<span class="doc-A-en">Section 1 — Pledge of Movable Property</span></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No225_Z4J1T63"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第六十三条</span>   <p class="doc-A">本法所称动产质押，是指债务人或者第三人将其动产移交债权人占有，将该动产作为债权的担保。债务人不履行债务时，债权人有权依照本法规定以该动产折价或者以拍卖、变卖该动产的价款优先受偿。</p><p class="doc-A">前款规定的债务人或者第三人为出质人，债权人为质权人，移交的动产为质物。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No206_Z4J1T63"></a><span class="doc-A-en">Article 63.</span>   <p class="doc-A-en">The term pledge in this Law refers to the act of a debtor or a third party in transferring possession of movable property to the creditor as security for the creditor's claim. Where the debtor fails to perform his/her obligations, the creditor is entitled to, in accordance with the procedures stipulated in this Law, obtain ownership of the movable property or to be compensated preferentially with the proceeds of auction or sale of the property.</p><p class="doc-A-en">The debtor or third party as referred to in the previous paragraph shall be the pledgor. The creditor shall be the pledgee. The movable property, possession of which has been transferred, shall be the pledged property.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No228_Z4J1T64"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第六十四条</span>   <p class="doc-A">出质人和质权人应当以书面形式订立质押合同。</p><p class="doc-A">质押合同自质物移交于质权人占有时生效。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No209_Z4J1T64"></a><span class="doc-A-en">Article 64.</span>   <p class="doc-A-en">The pledgor and the pledgee shall enter into a written pledge contract.</p><p class="doc-A-en">The pledge contract takes effect from the date that possession of the pledged property is transferred to the pledgee.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No231_Z4J1T65"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第六十五条</span>   <p class="doc-A">质押合同应当包括以下内容：</p><p class="doc-A">（一）被担保的主债权种类、数额；</p><p class="doc-A">（二）债务人履行债务的期限；</p><p class="doc-A">（三）质物的名称、数量、质量、状况；</p><p class="doc-A">（四）质押担保的范围；</p><p class="doc-A">（五）质物移交的时间；</p><p class="doc-A">（六）当事人认为需要约定的其他事项。</p><p class="doc-A">质押合同不完全具备前款规定内容的，可以补正。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No212_Z4J1T65"></a><span class="doc-A-en">Article 65.</span>   <p class="doc-A-en">The pledge contract shall include the following information:</p><p class="doc-A-en">(1) the type and amount of the principal creditor's claim;</p><p class="doc-A-en">(2) the time limit for the debtor to perform his/her obligations;</p><p class="doc-A-en">(3) the description, amount, quality and condition of the pledged assets;</p><p class="doc-A-en">(4) the scope of the pledge;</p><p class="doc-A-en">(5) the time for the transfer of the pledge assets;</p><p class="doc-A-en">(6) other information deemed necessary by both the pledgor and the pledgee.</p><p class="doc-A-en">Pledge contracts which do not include the abovementioned information in its entirety may be revised.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No240_Z4J1T66"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第六十六条</span>   <p class="doc-A">出质人和质权人在合同中不得约定在债务履行期届满质权人未受清偿时，质物的所有权转移为质权人所有。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No221_Z4J1T66"></a><span class="doc-A-en">Article 66.</span>   <p class="doc-A-en">A pledgor and pledgee in a pledge contract shall not make provision for the transfer of ownership of the pledged assets to the pledgee where the time limit for the performance of the debtor's obligations has expired and the creditor's claim has not been satisfied.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No242_Z4J1T67"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第六十七条</span>   <p class="doc-A">质押担保的范围包括主债权及利息、违约金、损害赔偿金、质物保管费用和实现质权的费用。质押合同另有约定的，按照约定。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No223_Z4J1T67"></a><span class="doc-A-en">Article 67.</span>   <p class="doc-A-en">The scope of the pledge includes the principal creditor's claim and interest, fines for default, compensation for loss, expenses incurred in the storage of pledged assets and expenses incurred in the satisfaction of claims under the pledge. Where the pledge contract stipulates otherwise, those stipulations shall be complied with.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No244_Z4J1T68"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第六十八条</span>   <p class="doc-A">质权人有权收取质物所生的孳息。质押合同另有约定的，按照约定。</p><p class="doc-A">前款孳息应当先充抵收取孳息的费用。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No225_Z4J1T68"></a><span class="doc-A-en">Article 68.</span>   <p class="doc-A-en">A pledgee is entitled to the derivatives of the pledged property. Where the pledge contract stipulates otherwise, those stipulations shall be complied with.</p><p class="doc-A-en">The derivatives referred to in the previous paragraph shall first be employed in meeting expenses for the collection of the derivatives.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No247_Z4J1T69"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第六十九条</span>   <p class="doc-A">质权人负有妥善保管质物的义务。因保管不善致使质物灭失或者毁损的，质权人应当承担民事责任。</p><p class="doc-A">质权人不能妥善保管质物可能致使其灭失或者毁损的，出质人可以要求质权人将质物提存，或者要求提前清偿债权而返还质物。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No228_Z4J1T69"></a><span class="doc-A-en">Article 69.</span>   <p class="doc-A-en">A pledgee has the responsibility to take due care of the pledged property. The Pledgee shall be civilly liable for damage caused to or for loss of the pledged property resulting from lack of due care.</p><p class="doc-A-en">Where the pledgee fails to take due care of the pledged property and, as a consequence, damage to, or loss of, the pledged property occurs, the pledgor may request to withdraw the pledged property from the pledgee or request to perform his/her obligations before the expiration of the time limit so as to have the pledged property restored to his/her possession.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No250_Z4J1T70"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第七十条</span>   <p class="doc-A">质物有损坏或者价值明显减少的可能，足以危害质权人权利的，质权人可以要求出质人提供相应的担保。出质人不提供的，质权人可以拍卖或者变卖质物，并与出质人协议将拍卖或者变卖所得的价款用于提前清偿所担保的债权或者向与出质人约定的第三人提存。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No231_Z4J1T70"></a><span class="doc-A-en">Article 70.</span>   <p class="doc-A-en">Where there is a possibility of damage to, or reduction in value of, the pledged property which is serious enough to jeopardise the rights of the pledgee, the pledgee may request that the pledgor provide supplementary security. Where the pledgor fails to provide such security, the pledgee has the power, subject to agreement with the pledgor, to auction or sell off the pledged property and pay the creditor's claim in advance with the proceeds thereof, or deposit the proceeds with a third party, with the consent of the pledgee.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No252_Z4J1T71"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第七十一条</span>   <p class="doc-A">债务履行期届满债务人履行债务的，或者出质人提前清偿所担保的债权的，质权人应当返还质物。</p><p class="doc-A">债务履行期届满质权人未受清偿的，可以与出质人协议以质物折价，也可以依法拍卖、变卖质物。</p><p class="doc-A">质物折价或者拍卖、变卖后，其价款超过债权数额的部分归出质人所有，不足部分由债务人清偿。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No233_Z4J1T71"></a><span class="doc-A-en">Article 71.</span>   <p class="doc-A-en">Where the debtor has performed his/her obligations and the time limit for the performance of those obligations expires, or where the pledgor settles the creditor's secured claims prior to the expiration of the time limit, the pledgee shall restore the pledged property to the pledgor.</p><p class="doc-A-en">Where the time limit for performance of the debtor's obligations has expired and the claim of the pledgee has not been settled, the pledged assets may be converted to value by the pledgee with the consent of the pledgor. Alternatively, the pledgee may receive payment with the proceeds acquired through auction or sale of the pledged property.</p><p class="doc-A-en">Should there be a difference between the evaluated price of the pledged property, or proceeds from auction or sale of the property, and the creditor's claim, any excess shall be retained by the pledgor and any shortfall shall be paid by the debtor.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No256_Z4J1T72"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第七十二条</span>   <p class="doc-A">为债务人质押担保的第三人，在质权人实现质权后，有权向债务人追偿。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No237_Z4J1T72"></a><span class="doc-A-en">Article 72.</span>   <p class="doc-A-en">A third party who provides pledge for a debtor has the power to seek compensation from the debtor after settlement of the pledgee's claim.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No258_Z4J1T73"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第七十三条</span>   <p class="doc-A">质权因质物灭失而消灭。因灭失所得的赔偿金，应当作为出质财产。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No239_Z4J1T73"></a><span class="doc-A-en">Article 73.</span>   <p class="doc-A-en">The pledgee's rights cease to exist upon the loss of the pledged assets. The indemnity for the loss shall become the pledged property.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No260_Z4J1T74"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第七十四条</span>   <p class="doc-A">质权与其担保的债权同时存在，债权消灭的，质权也消灭。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No241_Z4J1T74"></a><span class="doc-A-en">Article 74.</span>   <p class="doc-A-en">The rights of the pledgee and the claim of the creditor secured by the pledge shall co-exist. Should the claim of the creditor cease to exist, the rights of the pledgee shall thereupon cease to exist.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<span class="doc-A">第二节 权利质押</span></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<span class="doc-A-en">Section 2 — Pledge of Titles</span></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No263_Z4J2T75"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第七十五条</span>   <p class="doc-A">下列权利可以质押：</p><p class="doc-A">（一）汇票、支票、本票、债券、存款单、仓单、提单；</p><p class="doc-A">（二）依法可以转让的股份、股票；</p><p class="doc-A">（三）依法可以转让的商标专用权，专利权、著作权中的财产权；</p><p class="doc-A">（四）依法可以质押的其他权利。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No244_Z4J2T75"></a><span class="doc-A-en">Article 75.</span>   <p class="doc-A-en">The following titles can be used for pledge:</p><p class="doc-A-en">(1) bills of exchange, cheques, promissory notes, securities, deposit receipts, warehouse receipts, bills of lading;</p><p class="doc-A-en">(2) legally transferable shares and share certificates;</p><p class="doc-A-en">(3) legally transferable exclusive trademark rights, patent rights, copyright and other intellectual property rights;</p><p class="doc-A-en">(4) other rights that can be pledged according to the law.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No269_Z4J2T76"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第七十六条</span>   <p class="doc-A">以汇票、支票、本票、债券、存款单、仓单、提单出质的，应当在合同约定的期限内将权利凭证交付质权人。质押合同自权利凭证交付之日起生效。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No250_Z4J2T76"></a><span class="doc-A-en">Article 76.</span>   <p class="doc-A-en">Where bills of exchange, cheques, promissory notes, securities, deposit receipts, warehouse receipts and/or bills of lading are pledged, the documents of title shall be transferred to the pledgee within the term agreed in the pledge contract. The pledge contract takes effect from the date of the transfer of title documents.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No271_Z4J2T77"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第七十七条</span>   <p class="doc-A">以载明兑现或者提货日期的汇票、支票、本票、债券、存款单、仓单、提单出质的，汇票、支票、本票、债券、存款单、仓单、提单兑现或者提货日期先于债务履行期的，质权人可以在债务履行期届满前兑现或者提货，并与出质人协议将兑现的价款或者提取的货物用于提前清偿所担保的债权或者向与出质人约定的第三人提存。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No252_Z4J2T77"></a><span class="doc-A-en">Article 77.</span>   <p class="doc-A-en">Where bills of exchange, cheques, promissory notes, securities, deposit receipts, warehouse receipts and bills of lading that bear redemption or delivery dates are pledged and the redemption or delivery dates of the abovementioned titles are due prior to the expiration of the time limit for repayment of the debt, the pledgee may redeem or take delivery of the goods prior to the expiration of the time limit for repayment of the debt. Furthermore, upon agreement with the pledgor, the pledgee may employ the money redeemed or the goods taken delivery of to satisfy in advance his/her claim as a creditor, or deposit the money or goods with a third party.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No273_Z4J2T78"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第七十八条</span>   <p class="doc-A">以依法可以转让的股票出质的，出质人与质权人应当订立书面合同，并向证券登记机构办理出质登记。质押合同自登记之日起生效。</p><p class="doc-A">股票出质后，不得转让，但经出质人与质权人协商同意的可以转让。出质人转让股票所得的价款应当向质权人提前清偿所担保的债权或者向与质权人约定的第三人提存。</p><p class="doc-A">以有限责任公司的股份出质的，适用公司法股份转让的有关规定。质押合同自股份出质记载于股东名册之日起生效。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No254_Z4J2T78"></a><span class="doc-A-en">Article 78.</span>   <p class="doc-A-en">Where legally transferable share certificates are pledged, the pledgor and the pledgee shall enter into a written pledge contract and register the pledge with the securities registration authorities. The pledge contract takes effect from the date of registration.</p><p class="doc-A-en">Upon being pledged, shares shall not be transferred again, except in the case where there is an agreement between the pledgee and pledgor in this regard. The proceeds acquired by the pledgor from the transfer of the pledged shares shall be employed to satisfy in advance the secured claim of the creditor or shall be deposited with a third party upon agreement with the pledgor.</p><p class="doc-A-en">The pledge of limited liability company shares shall be subject to the relevant provisions of the Company Law relating to share transfer. The pledge contract shall take effect from the date on which the pledge of shares is recorded in the stock ledger.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No277_Z4J2T79"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第七十九条</span>   <p class="doc-A">以依法可以转让的商标专用权，专利权、著作权中的财产权出质的，出质人与质权人应当订立书面合同，并向其管理部门办理出质登记。质押合同自登记之日起生效。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No258_Z4J2T79"></a><span class="doc-A-en">Article 79.</span>   <p class="doc-A-en">Where legally transferable trademarks, patents or copyright privileges are pledged, the pledgor and the pledgee shall enter into a written pledge contract and register the pledge with the relevant administrative authorities. The pledge contract shall take effect from the date of registration.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No279_Z4J2T80"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第八十条</span>   <p class="doc-A">本法第七十九条规定的权利出质后，出质人不得转让或者许可他人使用，但经出质人与质权人协商同意的可以转让或者许可他人使用。出质人所得的转让费、许可费应当向质权人提前清偿所担保的债权或者向与质权人约定的第三人提存。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No260_Z4J2T80"></a><span class="doc-A-en">Article 80.</span>   <p class="doc-A-en">Where the rights described in Article 79 are pledged, the pledgor shall not transfer or grant permission to other parties to exercise the abovementioned rights, except in the case where there is an agreement between the pledgor and the pledgee to this effect. Transfer fees and licence fees acquired by the pledgor shall be employed to satisfy in advance the secured claims of the creditor or be deposited with a third party upon agreement with the pledgee.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No281_Z4J2T81"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第八十一条</span>   <p class="doc-A">权利质押除适用本节规定外，适用本章第一节的规定。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No262_Z4J2T81"></a><span class="doc-A-en">Article 81.</span>   <p class="doc-A-en">In addition to the provisions of this Section, the pledge of titles shall also be subject to the provisions in Section 1 of Chapter IV.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<span class="doc-A">第五章 留 置</span></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<span class="doc-A-en">CHAPTER V — LIEN</span></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No284_Z5T82"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第八十二条</span>   <p class="doc-A">本法所称留置，是指依照本法第八十四条的规定，债权人按照合同约定占有债务人的动产，债务人不按照合同约定的期限履行债务的，债权人有权依照本法规定留置该财产，以该财产折价或者以拍卖、变卖该财产的价款优先受偿。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No265_Z5T82"></a><span class="doc-A-en">Article 82.</span>   <p class="doc-A-en">The term lien in this Law refers to the acts of the creditor, pursuant to the provisions of Article 84 of this Act, in obtaining ownership of the debtor's movable property as stipulated by contract. Where the debtor fails to perform his/her obligations within the agreed time limit, the creditor may take a lien over the relevant property. The creditor may convert the property to value or is entitled to be compensated preferentially from the proceeds acquired from auction or sale of the property in accordance with the provisions of this Law.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No286_Z5T83"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第八十三条</span>   <p class="doc-A">留置担保的范围包括主债权及利息、违约金、损害赔偿金、留置物保管费用和实现留置权的费用。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No267_Z5T83"></a><span class="doc-A-en">Article 83.</span>   <p class="doc-A-en">The scope of the lien covers the principal debt and interest, fines for default, compensation for loss, expenses incurred in storage of the property subject to the lien and expenses incurred in exercising rights under the lien.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No288_Z5T84"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第八十四条</span>   <p class="doc-A">因保管合同、运输合同、加工承揽合同发生的债权，债务人不履行债务的，债权人有留置权。</p><p class="doc-A">法律规定可以留置的其他合同，适用前款规定。</p><p class="doc-A">当事人可以在合同中约定不得留置的物。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No269_Z5T84"></a><span class="doc-A-en">Article 84.</span>   <p class="doc-A-en">Where the debtor fails to perform obligations in respect of debts incurred during the execution of storage contracts, transport contracts and contract processing, the creditor is entitled to take a lien over relevant property.</p><p class="doc-A-en">Other contracts under which a creditor may legally take a lien are also subject to the provisions of the previous paragraph.</p><p class="doc-A-en">The parties may specify in the contract the categories of items over which a lien may not be taken.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No292_Z5T85"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第八十五条</span>   <p class="doc-A">留置的财产为可分物的，留置物的价值应当相当于债务的金额。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No273_Z5T85"></a><span class="doc-A-en">Article 85.</span>   <p class="doc-A-en">Where the properties in question are divisible items, the value of the proportion of the properties over which a lien has been taken shall be equal to the size of the debt.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No294_Z5T86"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第八十六条</span>   <p class="doc-A">留置权人负有妥善保管留置物的义务。因保管不善致使留置物灭失或者毁损的，留置权人应当承担民事责任。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No275_Z5T86"></a><span class="doc-A-en">Article 86.</span>   <p class="doc-A-en">A party who is entitled to take a lien has the obligation to take due care of the property over which a lien is taken. The party entitled to a lien shall bear civil liability for the damage caused to or for loss of the property over which a lien has been taken caused by lack of due care.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No296_Z5T87"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第八十七条</span>   <p class="doc-A">债权人与债务人应当在合同中约定，债权人留置财产后，债务人应当在不少于两个月的期限内履行债务。债权人与债务人在合同中未约定的，债权人留置债务人财产后，应当确定两个月以上的期限，通知债务人在该期限内履行债务。</p><p class="doc-A">债务人逾期仍不履行的，债权人可以与债务人协议以留置物折价，也可以依法拍卖、变卖留置物。</p><p class="doc-A">留置物折价或者拍卖、变卖后，其价款超过债权数额的部分归债务人所有，不足部分由债务人清偿。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No277_Z5T87"></a><span class="doc-A-en">Article 87.</span>   <p class="doc-A-en">The creditor and the debtor shall stipulate in the contract that after the creditor take a lien over the property, the debtor shall perform his/her obligations within no less than two months. Where there are no such stipulations in the contract between the creditor and the debtor, the creditor shall, after taking a lien over the property, set a time limit of no less than two months for the debtor to perform his/her obligations and the debtor shall be so notified.</p><p class="doc-A-en">Where the debtor fails to perform his/her obligations within the specified time limit, the creditor may, upon agreement with the debtor, convert the property to value or be compensated with the proceeds acquired from auction or sale of the property in accordance with the law.</p><p class="doc-A-en">Should there be a difference between the price determined by converting the property to value, or proceeds from auction or sale of the property and the size of the debt, any excess shall be retained by the debtor and any shortfall shall be paid by the debtor.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No300_Z5T88"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第八十八条</span>   <p class="doc-A">留置权因下列原因消灭：</p><p class="doc-A">（一）债权消灭的；</p><p class="doc-A">（二）债务人另行提供担保并被债权人接受的。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No281_Z5T88"></a><span class="doc-A-en">Article 88.</span>   <p class="doc-A-en">The right to take a lien shall cease to exist under the following two circumstances:</p><p class="doc-A-en">(1) if the claim of the creditor ceases to exist;</p><p class="doc-A-en">(2) if the debtor provides alternative security which is accepted by the creditor.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<span class="doc-A">第六章 定 金</span></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<span class="doc-A-en">CHAPTER VI — DEPOSIT</span></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No305_Z6T89"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第八十九条</span>   <p class="doc-A">当事人可以约定一方向对方给付定金作为债权的担保。债务人履行债务后，定金应当抵作价款或者收回。给付定金的一方不履行约定的债务的，无权要求返还定金；收受定金的一方不履行约定的债务的，应当双倍返还定金。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No286_Z6T89"></a><span class="doc-A-en">Article 89.</span>   <p class="doc-A-en">The parties may agree to stipulate that one party provides a deposit to the other party as security for the claim of the creditor. Once the debtor has performed his/her obligations, the deposit shall be set off against the purchase price or be refunded. Where the party who provided the deposit fails to perform his/her obligations, the deposit shall not be refunded. Where the party who received the deposit fails to perform the obligations stipulated in the contract, an amount double the size of the deposit shall be refunded.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No307_Z6T90"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第九十条</span>   <p class="doc-A">定金应当以书面形式约定。当事人在定金合同中应当约定交付定金的期限。定金合同从实际交付定金之日起生效。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No288_Z6T90"></a><span class="doc-A-en">Article 90.</span>   <p class="doc-A-en">A deposit shall be stipulated in a written contract. The parties shall set a time limit in the deposit contract for the delivery of the deposit. The contract takes effect from the date of the actual delivery of the deposit.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No309_Z6T91"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第九十一条</span>   <p class="doc-A">定金的数额由当事人约定，但不得超过主合同标的额的百分之二十。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No290_Z6T91"></a><span class="doc-A-en">Article 91.</span>   <p class="doc-A-en">The size of a deposit shall be decided by the parties and shall not exceed 20% of the value of the subject matter of the principal contract.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<span class="doc-A">第七章 附 则</span></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<span class="doc-A-en">CHAPTER VII — SUPPLEMENTARY PROVISIONS</span></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No312_Z7T92"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第九十二条</span>   <p class="doc-A">本法所称不动产是指土地以及房屋、林木等地上定着物。</p><p class="doc-A">本法所称动产是指不动产以外的物。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No293_Z7T92"></a><span class="doc-A-en">Article 92.</span>   <p class="doc-A-en">The term immovable property in this Law refers to land and attachments to land such as buildings and forestry trees.</p><p class="doc-A-en">Movable property in this Law refers to property other than immovable property.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No315_Z7T93"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第九十三条</span>   <p class="doc-A">本法所称保证合同、抵押合同、质押合同、定金合同可以是单独订立的书面合同，包括当事人之间的具有担保性质的信函、传真等，也可以是主合同中的担保条款。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No296_Z7T93"></a><span class="doc-A-en">Article 93.</span>   <p class="doc-A-en">Terms such as guarantee contract, mortgage contract, pledge contract and deposit contract used in this Law may refer to letters and facsimile messages between the parties which relate to the security or the security provisions within a principal contract.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No317_Z7T94"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第九十四条</span>   <p class="doc-A">抵押物、质物、留置物折价或者变卖，应当参照市场价格。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No298_Z7T94"></a><span class="doc-A-en">Article 94.</span>   <p class="doc-A-en">The conversion to value or sale of property subject to a mortgage, pledge or lien shall be made with reference of market prices.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1">
+<a name="No319_Z7T95"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第九十五条</span>   <p class="doc-A">海商法等法律对担保有特别规定的，依照其规定。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No300_Z7T95"></a><span class="doc-A-en">Article 95.</span>   <p class="doc-A-en">Where laws such as Maritime Law have special stipulations relating to securities, those special stipulations shall be complied with when those laws apply.</p></td>
+</tr>
+<tr class="rowcontrastB" >
+<td valign="top" class="t1">
+<a name="No321_Z7T96"></a><span class="legisChTiaoIndent"></span><span class="doc-A">第九十六条</span>   <p class="doc-A">本法自１９９５年１０月１日起施行。</p></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2">
+<a name="No302_Z7T96"></a><span class="doc-A-en">Article 96.</span>   <p class="doc-A-en">This Law shall take effect from 1 October 1995.</p></td>
+</tr>
+<tr class="rowcontrastA" >
+<td valign="top" class="t1"><span class="attchmentContent"></span></td>
+<td class="sepreatorline"></td>
+<td valign="top" class="t2"><span class="attchmentContentEn"></span></td></tr>
+</table>
+
+</div>
+<span id="attchmentContent"></span>
+<div class="clear"></div>
+<p class="zw-downbg"></p>
+</div>
+<div id='qrCodeDiv' style='text-align:center'><img src='https://law.wkinfo.com.cn/qrcode/law/10/1000014/10000141916/10000141916_2_qrCode.jpg'/><p>扫一扫，手机阅读更方便</p></div></body>
+
+</html>

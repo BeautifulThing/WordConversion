@@ -3,17 +3,15 @@ package com.kland.entrance.service.impl;
 
 import com.kland.common.util.AsposeUtils;
 import com.kland.common.util.ConversionUtils;
-import com.kland.entrance.service.IWordService;
+import com.kland.entrance.service.IWordChangeService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.io.File;
-import java.util.Arrays;
-import java.util.stream.Stream;
 
 @Slf4j
 @Service
-public class WordServiceImpl implements IWordService {
+public class WordServiceImpl implements IWordChangeService {
     @Override
     public boolean conversionHtmlToWord(String sourcePath, String targetPath) {
         /*
@@ -58,7 +56,7 @@ public class WordServiceImpl implements IWordService {
         File file = new File(sourcePath);
         if (file.isDirectory()) {
             String [] fileList = file.list();
-            Stream<String> stream = Arrays.stream(fileList);
+            // Stream<String> stream = Arrays.stream(fileList);
             if(2 > fileList.length){
                 for (String fileName : fileList) {
                     if(fileName.length() > 5){
