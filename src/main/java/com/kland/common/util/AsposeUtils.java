@@ -5,12 +5,9 @@ import com.aspose.words.*;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.asm.FieldVisitor;
 
 import java.io.*;
 import java.util.Date;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 @Slf4j
 public class AsposeUtils {
@@ -54,64 +51,55 @@ public class AsposeUtils {
         DocumentBuilder builder = null;
         boolean isEnglish = false;
         try {
+            long start = System.currentTimeMillis();
             String content = FileUtils.readFileToString(new File(srcFilePath), "UTF-8");
             if(content.contains("logo1_en")){
                 isEnglish = true;
             }
             content = content.replaceAll("<xml><w:WordDocument><w:View>Normal</w:View></w:WordDocument></xml>", "");
             content = content.replaceAll("<img[^<]*?logo1[^<]*?/>", "");
-            // content = content.replaceAll("<img[^<]*?qrCode[^<]*?/>", "");
-            log.info("文件内容信息: {}" ,content);
-
-
-            /** 正则匹配*/
-            String regex ="/(?i)<img[^<]+src\\s*=\\s*['\"]([^'\">]+)['\"][^>]*>/";
-            Pattern compile = Pattern.compile(regex);
-            Matcher matcher = compile.matcher(content);
-            // System.out.println(matcher.find());
-            if (matcher.find()) {
-                System.out.println("Found value: " + matcher.group(1) );
-            }
-
+            // log.info("文件内容信息: {}" ,content);
             document = new Document();
             builder = new DocumentBuilder(document);
             builder.insertHtml(content);
 
-
-            // document.getRange().replace(ControlChar.SPACE_CHAR, ControlChar.LF);
             PageSetup pageSetup = builder.getPageSetup();
             pageSetup.setPaperSize(PaperSize.A4);
             pageSetup.setOrientation(Orientation.PORTRAIT);
-            pageSetup.setVerticalAlignment(PageVerticalAlignment.TOP);
-            pageSetup.setLeftMargin(42);
-            pageSetup.setRightMargin(42);
-
-
-            document.getFirstSection().getBody().getChildNodes(NodeType.PARAGRAPH, true).getCount();
+            pageSetup.setVerticalAlignment(PageVerticalAlignment.CENTER);
+            // 72 90
 
             ParagraphCollection paragraphs = document.getFirstSection().getBody().getParagraphs();
             for (Paragraph paragraph : paragraphs) {
-                // builder.write(ControlChar.LF);
-                
                 ParagraphFormat paragraphFormat = paragraph.getParagraphFormat();
                 // paragraphFormat.setFirstLineIndent(24.0d);
                 // paragraphFormat.setLineSpacing(18.0d);
                 // paragraphFormat.setLineSpacingRule(2);
-
-                paragraphFormat.setFirstLineIndent(24);
-                paragraphFormat.setLineSpacing(1.0);
+                // paragraphFormat.setFirstLineIndent(24);
+                paragraphFormat.setLeftIndent(0);
+                paragraphFormat.setSpaceBeforeAuto(true);
+                paragraphFormat.setSpaceAfterAuto(true);
             }
-
 
             TableCollection tables = document.getFirstSection().getBody().getTables();
-            builder.getCellFormat().setVerticalAlignment(CellVerticalAlignment.CENTER);
             for (Table table : tables) {
-                table.setLeftIndent(0.0d);
+                RowCollection rows = table.getRows();
+                for (Row row : rows) {
+                    CellCollection cells = row.getCells();
+                    for (Cell cell : cells) {
+                        cell.getParagraphs().forEach(paragraph -> {
+                            ParagraphFormat paragraphFormat = paragraph.getParagraphFormat();
+                            paragraphFormat.setSpaceBeforeAuto(true);
+                            paragraphFormat.setSpaceAfterAuto(true);
+                        });
+                    }
+                }
             }
-            
             /* 设置页眉**/
             builder.moveToHeaderFooter(HeaderFooterType.HEADER_PRIMARY);
-            builder.getParagraphFormat().getTabStops().add(410,TabAlignment.RIGHT,TabLeader.NONE);
+            // builder.getCurrentParagraph().getParagraphFormat().getBorders().getBottom().setLineStyle(LineStyle.SINGLE);
+            // builder.getCurrentParagraph().getParagraphFormat().getBorders().getBottom().setLineWidth(1.0);
+            builder.getCurrentParagraph().getParagraphFormat().getTabStops().add(410,TabAlignment.RIGHT,TabLeader.NONE);
             File imgFile = null;
             if(isEnglish){
                 imgFile = new File("src/main/resources/static/img/logo1_en.png");
@@ -119,9 +107,8 @@ public class AsposeUtils {
                 imgFile = new File("src/main/resources/static/img/logo1_zh_taa.png");
             }
             InputStream is=new FileInputStream(imgFile);
-            builder.insertImage(is,328,28);
+            builder.insertImage(is,286,18);
             builder.write(ControlChar.TAB);
-
 
             /* 设置页脚-页码**/
             builder.moveToHeaderFooter(HeaderFooterType.FOOTER_PRIMARY);
@@ -129,7 +116,6 @@ public class AsposeUtils {
             builder.insertField("PAGE", "");
             builder.write("/");
             builder.insertField("NUMPAGES", "");
-
 
             File targetFile = new File(outFilePath);
             if(targetFile.exists()) {
@@ -141,6 +127,8 @@ public class AsposeUtils {
             // IO封装输出流
             os = new FileOutputStream(targetFile);
             document.save(os, SaveFormat.DOC);
+            long end = System.currentTimeMillis();
+            log.info("执行转换所花时间: {} 秒!",(start - end) % 60);
             return true;
         } catch (FileNotFoundException e) {
             e.printStackTrace();
