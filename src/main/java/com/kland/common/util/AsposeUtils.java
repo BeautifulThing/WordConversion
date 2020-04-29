@@ -2,15 +2,25 @@ package com.kland.common.util;
 
 
 import com.aspose.words.*;
+import com.kland.common.config.CustomGlobal;
+import com.kland.common.entity.CustomGlobalBean;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 
 import java.io.*;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 @Slf4j
 public class AsposeUtils {
+    @Autowired
+    private CustomGlobal customGlobal;
     /**
      * Aspose
      * @return
@@ -29,20 +39,20 @@ public class AsposeUtils {
         return flag;
     }
 
-    public static boolean htmlToDoc(String srcFilePath, String outFilePath){
+    public static boolean htmlToDoc(String srcFilePath, String outFilePath, CustomGlobalBean customGlobalBean){
         File fileIn = new File(srcFilePath);
         if(!fileIn.exists()){
             return false;
         }
         if(StringUtils.isNoneBlank(outFilePath)){
-            return executeChange(srcFilePath,outFilePath);
+            return executeChange(srcFilePath,outFilePath,customGlobalBean);
         }else{
             outFilePath = resultOutFilePath();
-            return executeChange(srcFilePath,outFilePath);
+            return executeChange(srcFilePath,outFilePath,customGlobalBean);
         }
     }
 
-    private static boolean executeChange(String srcFilePath, String outFilePath) {
+    private static boolean executeChange(String srcFilePath, String outFilePath,CustomGlobalBean customGlobalBean) {
         if(!getLicense()){
             return false;
         }
@@ -56,9 +66,12 @@ public class AsposeUtils {
             if(content.contains("logo1_en")){
                 isEnglish = true;
             }
+
             content = content.replaceAll("<xml><w:WordDocument><w:View>Normal</w:View></w:WordDocument></xml>", "");
             content = content.replaceAll("<img[^<]*?logo1[^<]*?/>", "");
-            // log.info("文件内容信息: {}" ,content);
+            content = handlePicture(content,"",customGlobalBean);
+            log.info(content);
+
             document = new Document();
             builder = new DocumentBuilder(document);
             builder.insertHtml(content);
@@ -67,14 +80,10 @@ public class AsposeUtils {
             pageSetup.setPaperSize(PaperSize.A4);
             pageSetup.setOrientation(Orientation.PORTRAIT);
             pageSetup.setVerticalAlignment(PageVerticalAlignment.CENTER);
-            // 72 90
 
             ParagraphCollection paragraphs = document.getFirstSection().getBody().getParagraphs();
             for (Paragraph paragraph : paragraphs) {
                 ParagraphFormat paragraphFormat = paragraph.getParagraphFormat();
-                // paragraphFormat.setFirstLineIndent(24.0d);
-                // paragraphFormat.setLineSpacing(18.0d);
-                // paragraphFormat.setLineSpacingRule(2);
                 // paragraphFormat.setFirstLineIndent(24);
                 paragraphFormat.setLeftIndent(0);
                 paragraphFormat.setSpaceBeforeAuto(true);
@@ -95,16 +104,15 @@ public class AsposeUtils {
                     }
                 }
             }
+
             /* 设置页眉**/
             builder.moveToHeaderFooter(HeaderFooterType.HEADER_PRIMARY);
-            // builder.getCurrentParagraph().getParagraphFormat().getBorders().getBottom().setLineStyle(LineStyle.SINGLE);
-            // builder.getCurrentParagraph().getParagraphFormat().getBorders().getBottom().setLineWidth(1.0);
             builder.getCurrentParagraph().getParagraphFormat().getTabStops().add(410,TabAlignment.RIGHT,TabLeader.NONE);
             File imgFile = null;
             if(isEnglish){
                 imgFile = new File("src/main/resources/static/img/logo1_en.png");
             }else{
-                imgFile = new File("src/main/resources/static/img/logo1_zh_taa.png");
+                imgFile = new File("src/main/resources/static/img/logo1_zh.png");
             }
             InputStream is=new FileInputStream(imgFile);
             builder.insertImage(is,286,18);
@@ -128,7 +136,7 @@ public class AsposeUtils {
             os = new FileOutputStream(targetFile);
             document.save(os, SaveFormat.DOC);
             long end = System.currentTimeMillis();
-            log.info("执行转换所花时间: {} 秒!",(start - end) % 60);
+            log.info("共耗时: {} 秒!",(start - end) /  1000.0);
             return true;
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -145,6 +153,48 @@ public class AsposeUtils {
         }
         return false;
     }
+
+
+    public static String handlePicture(String content,String dirPrefix,CustomGlobalBean customGlobalBean){
+        if(StringUtils.isBlank(content)){
+            return "";
+        }
+        Matcher matcher = Pattern.compile("(?i)<img[^<]+src\\s*=\\s*['\"]([^'\">]+)['\"][^>]*>").matcher(content);
+        Map<String,Object> imgAttrMap = new HashMap();
+        String path = "";
+        while (matcher.find()) {
+            String imgSrcAddress = dirPrefix + matcher.group(1);
+            /*
+            Matcher heigthMatcher = Pattern.compile("height[\\s]*:[\\s]*(\\d+)(px)").matcher(matcher.group(0));
+            while (heigthMatcher.find()) {
+                imgAttrMap.put("height",Integer.parseInt(heigthMatcher.group(1)) / 2);
+            }
+            Matcher widthMatcher = Pattern.compile("width[\\s]*:[\\s]*(\\d+)(px)").matcher(matcher.group(0));
+            while (heigthMatcher.find()) {
+                imgAttrMap.put("width",Integer.parseInt(widthMatcher.group(1)) / 2);
+            }
+            */
+            path = imgSrcAddress;
+            if(imgSrcAddress.startsWith("/") && !imgSrcAddress.contains(customGlobalBean.getAppDomain())){
+                path = customGlobalBean.getAppDomain() + imgSrcAddress;
+            }else{
+                String replaceStr = "http[s]?://" + customGlobalBean.getAppDomain();
+                if (imgSrcAddress.contains(":80")) {
+                    replaceStr += ":80";
+                }
+                content = imgSrcAddress.replaceAll(replaceStr, customGlobalBean.getWordBasePath());
+            }
+            imgAttrMap.put("path",path);
+        }
+
+        for (String key : imgAttrMap.keySet()) {
+            // content.replaceFirst(imgAttrMap.get(key).toString().replace("(","\\(").replace(")","\\)"),key,))
+            // content = content.replaceFirst(imgAttrMap.get(key).toString().replace("(","\\(").replace(")","\\)"),key);
+        }
+        return content;
+    }
+
+
 
     static String resultOutFilePath () {
         return "D:/OutFilePath/auto-" + new Date().getTime() + "-" + ((int) Math.random() * 100000) + ".doc";

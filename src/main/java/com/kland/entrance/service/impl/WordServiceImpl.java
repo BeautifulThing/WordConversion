@@ -1,10 +1,12 @@
 
 package com.kland.entrance.service.impl;
 
+import com.kland.common.config.CustomGlobal;
 import com.kland.common.util.AsposeUtils;
 import com.kland.common.util.ConversionUtils;
 import com.kland.entrance.service.IWordChangeService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.File;
@@ -12,6 +14,8 @@ import java.io.File;
 @Slf4j
 @Service
 public class WordServiceImpl implements IWordChangeService {
+    @Autowired
+    CustomGlobal customGlobal;
     @Override
     public boolean conversionHtmlToWord(String sourcePath, String targetPath) {
         /*
@@ -60,9 +64,9 @@ public class WordServiceImpl implements IWordChangeService {
             if(2 > fileList.length){
                 for (String fileName : fileList) {
                     if(fileName.length() > 5){
-                        if(".doc" == (fileName.subSequence(fileName.length() - 4, fileName.length()))){
+                        if((".html") == (fileName.subSequence(fileName.length() - 4, fileName.length()))){
                             try {
-                                return AsposeUtils.htmlToDoc(sourcePath, targetPath);
+                                return AsposeUtils.htmlToDoc(sourcePath, targetPath,customGlobal.getCustomGlobalBean());
                             } catch (Exception e) {
                                 e.printStackTrace();
                                 log.error("conversion error "+ e.getMessage(),e);
@@ -74,7 +78,7 @@ public class WordServiceImpl implements IWordChangeService {
                 log.info("more than {} files",fileList.length);
             }
         }else{
-            return AsposeUtils.htmlToDoc(sourcePath,targetPath);
+            return AsposeUtils.htmlToDoc(sourcePath,targetPath,customGlobal.getCustomGlobalBean());
         }
         return false;
     }

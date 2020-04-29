@@ -9,3 +9,13 @@ logging:
 spring:
   mvc:
     static-path-pattern: /**
+
+
+app:
+  domain: .*\.(wkinfo|wkpro)\.com\.cn
+  name: WordChange
+word:
+  base:
+    path: E\:/share/resources
+  logo:
+    name: logo_taa.png

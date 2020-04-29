@@ -1,6 +1,7 @@
 package com.kland.entrance.controller;
 
 import com.kland.common.config.ServerConfig;
+import com.kland.common.entity.CustomGlobalBean;
 import com.kland.entrance.service.IWordChangeService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
@@ -8,6 +9,7 @@ import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -20,6 +22,11 @@ public class WordChangeController {
     private ServerConfig serverConfig;
     @Autowired
     private IWordChangeService wordChangeService;
+
+//    @Value("${app.domain}")
+//    private String appDomain;
+//    @Value("${word.base.path}")
+//    private String wordBasePath;
 
     /**
      * Docx4j html转换word
@@ -55,6 +62,10 @@ public class WordChangeController {
             @ApiImplicitParam(name="outFilePath",value = "文件输出位置",paramType = "query")
     })
     public void changeHtmlToWord(String inputFilePath, String outFilePath){
+        CustomGlobalBean globalBean = new CustomGlobalBean();
+        log.info("全局属性[APPDomain]: {}" + globalBean.getAppDomain());
+        log.info("全局属性[WordBasePath]: {}" + globalBean.getWordBasePath());
+
         log.info("获取服务器路径: " + serverConfig.getUrl());
         log.info("文件输入路径" + inputFilePath);
         log.info("文件输出路径:" + outFilePath);
