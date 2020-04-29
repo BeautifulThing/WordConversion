@@ -160,7 +160,9 @@ public class AsposeUtils {
             return "";
         }
         Matcher matcher = Pattern.compile("(?i)<img[^<]+src\\s*=\\s*['\"]([^'\">]+)['\"][^>]*>").matcher(content);
+        Map<String,Object> imgMap = new HashMap<>();
         Map<String,Object> imgAttrMap = new HashMap();
+        Integer i = 0;
         String path = "";
         while (matcher.find()) {
             String imgSrcAddress = dirPrefix + matcher.group(1);
@@ -174,6 +176,7 @@ public class AsposeUtils {
                 imgAttrMap.put("width",Integer.parseInt(widthMatcher.group(1)) / 2);
             }
             */
+
             path = imgSrcAddress;
             if(imgSrcAddress.startsWith("/") && !imgSrcAddress.contains(customGlobalBean.getAppDomain())){
                 path = customGlobalBean.getAppDomain() + imgSrcAddress;
@@ -182,14 +185,17 @@ public class AsposeUtils {
                 if (imgSrcAddress.contains(":80")) {
                     replaceStr += ":80";
                 }
-                content = imgSrcAddress.replaceAll(replaceStr, customGlobalBean.getWordBasePath());
+                path = imgSrcAddress.replaceAll(replaceStr, customGlobalBean.getWordBasePath());
             }
+            i++;
             imgAttrMap.put("path",path);
+            imgMap.put("#*#*" + i +"#*#*",matcher.group(0));
         }
+        System.out.println("First Content : " + content);
 
-        for (String key : imgAttrMap.keySet()) {
-            // content.replaceFirst(imgAttrMap.get(key).toString().replace("(","\\(").replace(")","\\)"),key,))
-            // content = content.replaceFirst(imgAttrMap.get(key).toString().replace("(","\\(").replace(")","\\)"),key);
+        for (String key : imgMap.keySet()) {
+            content = content.replaceFirst(imgMap.get(key).toString().replace("(","\\(").replace(")","\\)"),imgMap.get(key).toString());
+            System.out.println("Second Content : " + content);
         }
         return content;
     }
