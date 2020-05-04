@@ -103,6 +103,15 @@
 			<systemPath>${project.basedir}/lib/aspose-words-18.5.0718-jdk16.jar</systemPath>
 		</dependency>
 
+
+		<dependency>
+			<groupId>org.zefer</groupId>
+			<artifactId>pd4ml</artifactId>
+			<scope>system</scope>
+			<version>1.0.0</version>
+			<systemPath>${project.basedir}/lib/pd4ml.jar</systemPath>
+		</dependency>
+
 	</dependencies>
 
 	<build>

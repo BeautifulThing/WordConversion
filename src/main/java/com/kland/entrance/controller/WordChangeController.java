@@ -9,7 +9,6 @@ import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -70,5 +69,17 @@ public class WordChangeController {
         log.info("文件输入路径" + inputFilePath);
         log.info("文件输出路径:" + outFilePath);
         wordChangeService.changeHtmlToWord(inputFilePath,outFilePath);
+    }
+
+
+    @RequestMapping(value ="/changeHtmlToPdf", method= RequestMethod.GET)
+    @ApiOperation(value = "使用: PD4ML Html转化成 Word")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name="inputFilePath",value = "文件输入路径",paramType = "query",required = true),
+            @ApiImplicitParam(name="outFilePath",value = "文件输出位置",paramType = "query"),
+            @ApiImplicitParam(name="showType",value = "显示类型",paramType = "query",required = true)
+    })
+    public void changeHtmlToPdf(String inputFilePath, String outFilePath,Integer showType){
+        wordChangeService.changeHtmlToPdf(inputFilePath,outFilePath,showType);
     }
 }

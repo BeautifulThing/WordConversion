@@ -68,7 +68,7 @@
     <!-- 组件的日志输出：name：找到组件的父级包名，level：输出级别 -->
     <logger name="org.springframework" level="WARN"/>
     <!-- 表示 >=DEBUG 级别的日志的输出方式 -->
-    <root level="DEBUG">
+    <root level="INFO">
         <!-- 控制台输出 -->
         <appender-ref ref="STDOUT"/>
         <!-- 文件输出 -->
