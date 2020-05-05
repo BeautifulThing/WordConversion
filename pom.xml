@@ -112,6 +112,15 @@
 			<systemPath>${project.basedir}/lib/pd4ml.jar</systemPath>
 		</dependency>
 
+		<dependency>
+			<groupId>css2parser</groupId>
+			<artifactId>ss_css2</artifactId>
+			<scope>system</scope>
+			<version>0.9.3</version>
+			<systemPath>${project.basedir}/lib/ss_css2.jar</systemPath>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>

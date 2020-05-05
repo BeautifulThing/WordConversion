@@ -2,13 +2,11 @@ package com.kland.common.util;
 
 
 import com.aspose.words.*;
-import com.kland.common.config.CustomGlobal;
 import com.kland.common.entity.CustomGlobalBean;
 import com.kland.common.other.ReplaceAndInsertImage;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.io.*;
 import java.util.Date;
@@ -19,8 +17,6 @@ import java.util.regex.Pattern;
 
 @Slf4j
 public class AsposeUtils {
-    @Autowired
-    private CustomGlobal customGlobal;
     public static boolean getLicense() {
         boolean flag = false;
         License asposeLicense = null;
@@ -55,8 +51,8 @@ public class AsposeUtils {
         OutputStream os = null;
         Document document = null;
         DocumentBuilder builder = null;
-        Map<String,Object> pictureListMap = new LinkedHashMap<>();
         boolean isEnglish = false;
+        Map<String,Object> pictureListMap = new LinkedHashMap<>();
         String logoName = "";
         try {
             long start = System.currentTimeMillis();
@@ -66,8 +62,7 @@ public class AsposeUtils {
             }
             content = content.replaceAll("<xml><w:WordDocument><w:View>Normal</w:View></w:WordDocument></xml>", "");
             content = content.replaceAll("<img[^<]*?logo1[^<]*?/>", "");
-
-            content = getPicture(pictureListMap,content,"",customGlobalBean);
+            content = handlePicture(pictureListMap,content,"",customGlobalBean);
             document = new Document();
             builder = new DocumentBuilder(document);
             builder.insertHtml(content);
@@ -80,6 +75,7 @@ public class AsposeUtils {
             pageSetup.setBottomMargin(72);
             pageSetup.setLeftMargin(54);
             pageSetup.setRightMargin(54);
+            pageSetup.setHeaderDistance(40);
 
             handleParagraph(document);
             settingPageValue(builder,isEnglish,pictureListMap,null,content);
@@ -150,7 +146,7 @@ public class AsposeUtils {
      * @param customGlobalBean
      * @return
      */
-    static String getPicture(Map<String,Object> pictureListMap,String content,String dirPrefix,CustomGlobalBean customGlobalBean){
+    static String handlePicture(Map<String,Object> pictureListMap,String content,String dirPrefix,CustomGlobalBean customGlobalBean){
         if(StringUtils.isBlank(content)){
             return "";
         }
@@ -161,7 +157,6 @@ public class AsposeUtils {
         String path = "";
         while (matcher.find()) {
             String imgSrcAddress = dirPrefix + matcher.group(1);
-
             /*
             Matcher heigthMatcher = Pattern.compile("height[\\s]*:[\\s]*(\\d+)(px)").matcher(matcher.group(0));
             while (heigthMatcher.find()) {
@@ -172,7 +167,6 @@ public class AsposeUtils {
                 imgAttrMap.put("width",Integer.parseInt(widthMatcher.group(1)) / 2);
             }
             */
-
             path = imgSrcAddress;
             if(imgSrcAddress.startsWith("/") && !imgSrcAddress.contains(customGlobalBean.getAppDomain())){
                 path = customGlobalBean.getAppDomain() + imgSrcAddress;
@@ -191,7 +185,6 @@ public class AsposeUtils {
         for (String key : imgMap.keySet()) {
             content = content.replaceFirst(imgMap.get(key).toString().replace("(","\\(").replace(")","\\)"),key);
         }
-        log.info("content ==>" + content);
         return content;
     }
 
@@ -211,8 +204,7 @@ public class AsposeUtils {
         }else{
             imgFile = new File("src/main/resources/static/img/logo1_zh.png");
         }
-        InputStream is = new FileInputStream(imgFile);
-        builder.insertImage(is,286,18);
+        builder.insertImage(new FileInputStream(imgFile),286,18);
         builder.write(ControlChar.TAB);
 
         /* 设置页脚-页码**/
@@ -240,18 +232,24 @@ public class AsposeUtils {
             try {
                 is = new FileInputStream(imgFile);
                 if (imgFile.exists()) {
-
                     document.getRange().replace(Pattern.compile(regex), new ReplaceAndInsertImage((String) image.get("path")), false);
                 }
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             } catch (Exception e) {
                 e.printStackTrace();
+            }finally {
+                if(null != is){
+                    try {
+                        is.close();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
             }
         }
         return true;
     }
-
 
     static String resultOutFilePath () {
         return "D:/OutFilePath/auto-" + new Date().getTime() + "-" + ((int) Math.random() * 100000) + ".doc";

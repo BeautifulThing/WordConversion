@@ -22,11 +22,6 @@ public class WordChangeController {
     @Autowired
     private IWordChangeService wordChangeService;
 
-//    @Value("${app.domain}")
-//    private String appDomain;
-//    @Value("${word.base.path}")
-//    private String wordBasePath;
-
     /**
      * Docx4j html转换word
      * @param inputFilePath
@@ -77,7 +72,7 @@ public class WordChangeController {
     @ApiImplicitParams({
             @ApiImplicitParam(name="inputFilePath",value = "文件输入路径",paramType = "query",required = true),
             @ApiImplicitParam(name="outFilePath",value = "文件输出位置",paramType = "query"),
-            @ApiImplicitParam(name="showType",value = "显示类型",paramType = "query",required = true)
+            @ApiImplicitParam(name="showType",value = "显示类型",paramType = "query",required = true,defaultValue ="0")
     })
     public void changeHtmlToPdf(String inputFilePath, String outFilePath,Integer showType){
         wordChangeService.changeHtmlToPdf(inputFilePath,outFilePath,showType);
