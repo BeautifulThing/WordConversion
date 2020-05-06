@@ -22,27 +22,6 @@ public class WordChangeController {
     @Autowired
     private IWordChangeService wordChangeService;
 
-    /**
-     * Docx4j html转换word
-     * @param inputFilePath
-     * @param outFilePath
-     */
-    /*
-    @RequestMapping(value ="/conversionHtmlToWord", method= RequestMethod.GET)
-    @ApiOperation(value = "使用: Docx4j Html转化成Word")
-    @ApiImplicitParams({
-            @ApiImplicitParam(name="inputFilePath",value = "文件输入路径",paramType = "query",required = true),
-            @ApiImplicitParam(name="outFilePath",value = "文件输出位置",paramType = "query")
-    })
-    public void conversionHtmlToWord(String inputFilePath, String outFilePath){
-        log.info("获取服务器路径: " + serverConfig.getUrl());
-        log.info("文件输入路径" + inputFilePath);
-        log.info("文件输出路径:" + outFilePath);
-        inputFilePath = serverConfig.getUrl() + "/" + inputFilePath;
-        wordService.conversionHtmlToWord(inputFilePath,outFilePath);
-    }
-    */
-
 
     /**
      * Aspose Word html转换word
@@ -67,6 +46,7 @@ public class WordChangeController {
     }
 
 
+    /*
     @RequestMapping(value ="/changeHtmlToPdf", method= RequestMethod.GET)
     @ApiOperation(value = "使用: PD4ML Html转化成 Word")
     @ApiImplicitParams({
@@ -77,4 +57,5 @@ public class WordChangeController {
     public void changeHtmlToPdf(String inputFilePath, String outFilePath,Integer showType){
         wordChangeService.changeHtmlToPdf(inputFilePath,outFilePath,showType);
     }
+    */
 }

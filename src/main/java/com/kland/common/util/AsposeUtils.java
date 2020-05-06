@@ -63,6 +63,7 @@ public class AsposeUtils {
             content = content.replaceAll("<xml><w:WordDocument><w:View>Normal</w:View></w:WordDocument></xml>", "");
             content = content.replaceAll("<img[^<]*?logo1[^<]*?/>", "");
             content = handlePicture(pictureListMap,content,"",customGlobalBean);
+
             document = new Document();
             builder = new DocumentBuilder(document);
             builder.insertHtml(content);
@@ -76,7 +77,6 @@ public class AsposeUtils {
             pageSetup.setLeftMargin(54);
             pageSetup.setRightMargin(54);
             pageSetup.setHeaderDistance(40);
-
             handleParagraph(document);
             settingPageValue(builder,isEnglish,pictureListMap,null,content);
             File targetFile = new File(outFilePath);
@@ -157,6 +157,7 @@ public class AsposeUtils {
         String path = "";
         while (matcher.find()) {
             String imgSrcAddress = dirPrefix + matcher.group(1);
+
             /*
             Matcher heigthMatcher = Pattern.compile("height[\\s]*:[\\s]*(\\d+)(px)").matcher(matcher.group(0));
             while (heigthMatcher.find()) {
@@ -167,6 +168,7 @@ public class AsposeUtils {
                 imgAttrMap.put("width",Integer.parseInt(widthMatcher.group(1)) / 2);
             }
             */
+
             path = imgSrcAddress;
             if(imgSrcAddress.startsWith("/") && !imgSrcAddress.contains(customGlobalBean.getAppDomain())){
                 path = customGlobalBean.getAppDomain() + imgSrcAddress;
@@ -232,6 +234,7 @@ public class AsposeUtils {
             try {
                 is = new FileInputStream(imgFile);
                 if (imgFile.exists()) {
+                    // 替换文档中Img(本地图片文件来源配置路径)
                     document.getRange().replace(Pattern.compile(regex), new ReplaceAndInsertImage((String) image.get("path")), false);
                 }
             } catch (FileNotFoundException e) {

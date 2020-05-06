@@ -16,7 +16,5 @@ class WordConversionApplicationTests {
 		String bunth = "#*#*0#*#*";
 		String s = bunth.replaceAll("[#*]+'+1+'+[#*]+", "");
 		System.out.println(s);
-
 	}
-
 }

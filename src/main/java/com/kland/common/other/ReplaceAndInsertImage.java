@@ -2,6 +2,8 @@ package com.kland.common.other;
 
 import com.aspose.words.*;
 
+import java.io.FileInputStream;
+
 public class ReplaceAndInsertImage implements IReplacingCallback {
     private String url;
 
@@ -24,7 +26,7 @@ public class ReplaceAndInsertImage implements IReplacingCallback {
         DocumentBuilder builder = new DocumentBuilder(document);
         // 将光标移动到指定节点
         builder.moveTo(node);
-        builder.insertImage(url);
+        builder.insertImage(new FileInputStream(url));
         return ReplaceAction.REPLACE;
     }
 }
