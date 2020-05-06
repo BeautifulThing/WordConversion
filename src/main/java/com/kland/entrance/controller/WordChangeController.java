@@ -38,7 +38,6 @@ public class WordChangeController {
         CustomGlobalBean globalBean = new CustomGlobalBean();
         log.info("全局属性[APPDomain]: {}" + globalBean.getAppDomain());
         log.info("全局属性[WordBasePath]: {}" + globalBean.getWordBasePath());
-
         log.info("获取服务器路径: " + serverConfig.getUrl());
         log.info("文件输入路径" + inputFilePath);
         log.info("文件输出路径:" + outFilePath);
