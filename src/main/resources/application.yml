@@ -18,3 +18,10 @@ word:
     path: E\:/share/resources
   logo:
     name: logo_taa.png
+library:
+  location: 江城武汉加油
+  books:
+    - name: 天才基本法
+    - description: 二十二岁的林朝夕在父亲确诊阿尔茨海默病这天，得知自己暗恋多年的校园男神裴之即将出国深造的消息——对方考取的学校，恰是父亲当年为她放弃的那所。
+    - name: 了不起的我
+    - description: 如何养成一个新习惯？如何让心智变得更成熟？如何拥有高质量的关系？ 如何走出人生的艰难时刻？
