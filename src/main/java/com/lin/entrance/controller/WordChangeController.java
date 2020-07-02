@@ -60,4 +60,20 @@ public class WordChangeController {
     public void changeHtmlToPdf(String inputFilePath, String outFilePath,Integer showType){
         wordChangeService.changeHtmlToPdf(inputFilePath,outFilePath,showType);
     }
+
+
+    /**
+     * Aspose Word pdf转换word
+     * @param inputFilePath
+     * @param outFilePath
+     */
+    @RequestMapping(value ="/changePdfToWord", method= RequestMethod.GET)
+    @ApiOperation(value = "使用: Aspose PDF转化成 Word")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name="inputFilePath",value = "文件输入路径",paramType = "query",required = true),
+            @ApiImplicitParam(name="outFilePath",value = "文件输出位置",paramType = "query",required = true),
+    })
+    public void changePdfToWord(String inputFilePath, String outFilePath) throws Exception {
+        wordChangeService.changePdfToWord(inputFilePath,outFilePath);
+    }
 }

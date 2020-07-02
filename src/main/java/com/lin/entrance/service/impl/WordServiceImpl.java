@@ -3,7 +3,8 @@ package com.lin.entrance.service.impl;
 
 
 import com.lin.common.config.CustomGlobal;
-import com.lin.common.util.AsposeUtils;
+import com.lin.common.util.AsposePdfUtils;
+import com.lin.common.util.AsposeWordUtils;
 import com.lin.entrance.service.IWordChangeService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
@@ -35,7 +36,7 @@ public class WordServiceImpl implements IWordChangeService {
                     if(fileName.length() > 5){
                         if((".doc") == (fileName.subSequence(fileName.length() - 4, fileName.length()))){
                             try {
-                                return AsposeUtils.htmlToDoc(sourcePath, targetPath,customGlobal.getCustomGlobalBean());
+                                return AsposeWordUtils.htmlToDoc(sourcePath, targetPath,customGlobal.getCustomGlobalBean());
                             } catch (Exception e) {
                                 e.printStackTrace();
                                 log.error("conversion error "+ e.getMessage(),e);
@@ -47,7 +48,7 @@ public class WordServiceImpl implements IWordChangeService {
                 log.info("more than {} files",fileList.length);
             }
         }else{
-            return AsposeUtils.htmlToDoc(sourcePath,targetPath,customGlobal.getCustomGlobalBean());
+            return AsposeWordUtils.htmlToDoc(sourcePath,targetPath,customGlobal.getCustomGlobalBean());
         }
         return false;
     }
@@ -99,5 +100,10 @@ public class WordServiceImpl implements IWordChangeService {
             }
         }
         return false;
+    }
+
+    @Override
+    public boolean changePdfToWord(String inputFilePath, String outFilePath) throws Exception {
+       return AsposePdfUtils.pdfToWord(inputFilePath,outFilePath);
     }
 }

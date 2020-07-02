@@ -21,7 +21,7 @@ public class SwaggerAppConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(getApiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.kland.entrance"))
+                .apis(RequestHandlerSelectors.basePackage("com.lin.entrance"))
                 .paths(PathSelectors.any())
                 .build();
     }
