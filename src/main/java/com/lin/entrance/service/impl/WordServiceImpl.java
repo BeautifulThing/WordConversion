@@ -28,31 +28,8 @@ public class WordServiceImpl implements IWordChangeService {
     CustomGlobal customGlobal;
     @Override
     public boolean changeHtmlToWord(String sourcePath, String targetPath) {
-        File file = new File(sourcePath);
-        if (file.isDirectory()) {
-            String [] fileList = file.list();
-            if(2 > fileList.length){
-                for (String fileName : fileList) {
-                    if(fileName.length() > 5){
-                        if((".doc") == (fileName.subSequence(fileName.length() - 4, fileName.length()))){
-                            try {
-                                return AsposeWordUtils.htmlToDoc(sourcePath, targetPath,customGlobal.getCustomGlobalBean());
-                            } catch (Exception e) {
-                                e.printStackTrace();
-                                log.error("conversion error "+ e.getMessage(),e);
-                            }
-                        }
-                    }
-                }
-            }else{
-                log.info("more than {} files",fileList.length);
-            }
-        }else{
-            return AsposeWordUtils.htmlToDoc(sourcePath,targetPath,customGlobal.getCustomGlobalBean());
-        }
-        return false;
+        return AsposeWordUtils.htmlToDoc(sourcePath,targetPath,customGlobal.getCustomGlobalBean());
     }
-
 
     @Override
     public boolean changeHtmlToPdf(String inputFilePath, String outFilePath, Integer showType) {
@@ -106,4 +83,5 @@ public class WordServiceImpl implements IWordChangeService {
     public boolean changePdfToWord(String inputFilePath, String outFilePath) throws Exception {
        return AsposePdfUtils.pdfToWord(inputFilePath,outFilePath);
     }
+
 }
